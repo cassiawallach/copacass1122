@@ -9,31 +9,31 @@
         <value>Vehicle Interest</value>
     </caseValues>
     <fields>
-        <label><!-- Customer --></label>
+        <label></label>
         <name>Customer__c</name>
     </fields>
     <fields>
-        <label><!-- Email --></label>
+        <label></label>
         <name>Email__c</name>
     </fields>
     <fields>
-        <label><!-- Exterior Color --></label>
+        <label></label>
         <name>Exterior_Color__c</name>
     </fields>
     <fields>
-        <label><!-- Manual Transmission --></label>
+        <label></label>
         <name>Manual_Transmission__c</name>
     </fields>
     <fields>
-        <label><!-- Sunroof --></label>
+        <label></label>
         <name>Sunroof__c</name>
     </fields>
     <fields>
-        <label><!-- Type --></label>
+        <label></label>
         <name>Type__c</name>
     </fields>
     <fields>
-        <label><!-- 4 Wheel Drive --></label>
+        <label></label>
         <name>X4_Wheel_Drive__c</name>
     </fields>
     <startsWith>Consonant</startsWith>
