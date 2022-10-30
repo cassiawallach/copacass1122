@@ -142,6 +142,18 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>Custom_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Custom_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Customer__c</fields>
+        <fields>Email__c</fields>
+        <fields>Type__c</fields>
+        <fields>Exterior_Color__c</fields>
+        <fields>Manual_Transmission__c</fields>
+        <fields>X4_Wheel_Drive__c</fields>
+        <fields>Sunroof__c</fields>
+        <label>Custom Compact Layout</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -224,6 +236,19 @@
         <type>Checkbox</type>
     </fields>
     <label>Vehicle Interest</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Customer__c</columns>
+        <columns>Email__c</columns>
+        <columns>Type__c</columns>
+        <columns>Exterior_Color__c</columns>
+        <columns>Manual_Transmission__c</columns>
+        <columns>X4_Wheel_Drive__c</columns>
+        <columns>Sunroof__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Records</label>
+    </listViews>
     <nameField>
         <displayFormat>VI-{000}</displayFormat>
         <label>Vehicle Interest</label>

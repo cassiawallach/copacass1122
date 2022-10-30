@@ -17150,6 +17150,9 @@
         <layout>VehicleUserAssignment-Vehicle User Assignment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Vehicle_Interest__c-Vehicle_Interest Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Visit-Visit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -19967,6 +19970,10 @@
         <recordType>copado__User_Story__c.copado__Utility</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Vehicle_Interest__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>copado__Account_Summary</tab>
         <visibility>DefaultOn</visibility>
