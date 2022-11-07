@@ -154,6 +154,16 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
         <fullName>External_ID__c</fullName>
         <externalId>true</externalId>
         <label>External ID</label>
@@ -177,6 +187,55 @@
         <trackTrending>false</trackTrending>
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Service_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Service Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Service_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Service Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>HVAC</fullName>
+                    <default>false</default>
+                    <label>HVAC</label>
+                </value>
+                <value>
+                    <fullName>Roof</fullName>
+                    <default>false</default>
+                    <label>Roof</label>
+                </value>
+                <value>
+                    <fullName>Floor</fullName>
+                    <default>false</default>
+                    <label>Floor</label>
+                </value>
+                <value>
+                    <fullName>Cosmetic</fullName>
+                    <default>false</default>
+                    <label>Cosmetic</label>
+                </value>
+                <value>
+                    <fullName>Plumbing</fullName>
+                    <default>false</default>
+                    <label>Plumbing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <label>Service</label>
     <nameField>
