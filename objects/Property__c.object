@@ -128,16 +128,22 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Property_Record_Page</content>
         <formFactor>Large</formFactor>
-        <type>Default</type>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Property_Record_Page</content>
         <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
@@ -246,6 +252,11 @@
     <label>Property</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>Selling_Agent__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Building__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
@@ -255,6 +266,91 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Properties</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Building</fullName>
+        <active>true</active>
+        <label>Building</label>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Commercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Condo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>House</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multiunit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>House</fullName>
+        <active>true</active>
+        <label>House</label>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Commercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Condo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>House</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multiunit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Unit</fullName>
+        <active>true</active>
+        <label>Unit</label>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Commercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Condo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>House</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multiunit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
