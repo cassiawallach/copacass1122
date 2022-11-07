@@ -17154,7 +17154,19 @@
         <layout>ProfileSkillUser-Skill User Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Property__c-Property Layout</layout>
+        <layout>Property__c-Building Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Property__c-Building Layout</layout>
+        <recordType>Property__c.Building</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Property__c-House Layout</layout>
+        <recordType>Property__c.House</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Property__c-Unit Layout</layout>
+        <recordType>Property__c.Unit</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuickText-Quick Text Layout</layout>
@@ -19975,6 +19987,21 @@
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Property__c.Building</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Property__c.House</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Property__c.Unit</recordType>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
