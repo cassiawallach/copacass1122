@@ -1,85 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <layoutSections>
-        <customLabel>false</customLabel>
-        <detailHeading>false</detailHeading>
-        <editHeading>true</editHeading>
-        <label>Information</label>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Name</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>Property__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Service_Date__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Service_Type__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Description__c</field>
-            </layoutItems>
-        </layoutColumns>
-        <layoutColumns/>
-        <style>TwoColumnsTopToBottom</style>
-    </layoutSections>
-    <layoutSections>
-        <customLabel>false</customLabel>
-        <detailHeading>false</detailHeading>
-        <editHeading>true</editHeading>
-        <label>System Information</label>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>CreatedById</field>
-            </layoutItems>
-        </layoutColumns>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>LastModifiedById</field>
-            </layoutItems>
-        </layoutColumns>
-        <style>TwoColumnsTopToBottom</style>
-    </layoutSections>
-    <layoutSections>
-        <customLabel>false</customLabel>
-        <detailHeading>false</detailHeading>
-        <editHeading>true</editHeading>
-        <layoutColumns/>
-        <layoutColumns/>
-        <layoutColumns/>
-        <style>CustomLinks</style>
-    </layoutSections>
-    <relatedLists>
-        <fields>TASK.SUBJECT</fields>
-        <fields>TASK.WHO_NAME</fields>
-        <fields>ACTIVITY.TASK</fields>
-        <fields>TASK.DUE_DATE</fields>
-        <fields>TASK.STATUS</fields>
-        <fields>TASK.PRIORITY</fields>
-        <fields>CORE.USERS.FULL_NAME</fields>
-        <relatedList>RelatedActivityList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>TASK.SUBJECT</fields>
-        <fields>TASK.WHO_NAME</fields>
-        <fields>ACTIVITY.TASK</fields>
-        <fields>TASK.DUE_DATE</fields>
-        <fields>CORE.USERS.FULL_NAME</fields>
-        <fields>TASK.LAST_UPDATE</fields>
-        <relatedList>RelatedHistoryList</relatedList>
-    </relatedLists>
-    <showEmailCheckbox>false</showEmailCheckbox>
-    <showHighlightsPanel>false</showHighlightsPanel>
-    <showInteractionLogPanel>false</showInteractionLogPanel>
-    <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
-    <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
-</Layout>
+Layout: 
+  "@attributes": 
+    xmlns: "http://soap.sforce.com/2006/04/metadata"
+  excludeButtons: Submit
+  layoutSections: 
+    - customLabel: false
+      detailHeading: false
+      editHeading: true
+      label: Information
+      layoutColumns: 
+        - layoutItems: 
+            - behavior: Readonly
+              field: Name
+            - behavior: Required
+              field: Property__c
+            - behavior: Edit
+              field: Service_Date__c
+        - layoutItems: 
+            - behavior: Required
+              field: Property__c
+            - behavior: Edit
+              field: Service_Type__c
+      style: TwoColumnsTopToBottom
+    - customLabel: true
+      detailHeading: false
+      editHeading: false
+      label: "New Section"
+      layoutColumns: 
+        layoutItems: 
+          behavior: Edit
+          field: Description__c
+      style: OneColumn
+    - customLabel: false
+      detailHeading: true
+      editHeading: true
+      label: "System Information"
+      layoutColumns: 
+        - layoutItems: 
+            behavior: Readonly
+            field: CreatedById
+        - layoutItems: 
+            behavior: Readonly
+            field: LastModifiedById
+      style: TwoColumnsTopToBottom
+    - customLabel: true
+      detailHeading: false
+      editHeading: true
+      label: "Custom Links"
+      layoutColumns: 
+      style: CustomLinks
+  relatedLists: 
+    - fields: 
+        - "TASK.SUBJECT"
+        - "TASK.WHO_NAME"
+        - "ACTIVITY.TASK"
+        - "TASK.DUE_DATE"
+        - "TASK.STATUS"
+        - "TASK.PRIORITY"
+        - "CORE.USERS.FULL_NAME"
+      relatedList: RelatedActivityList
+    - fields: 
+        - "TASK.SUBJECT"
+        - "TASK.WHO_NAME"
+        - "ACTIVITY.TASK"
+        - "TASK.DUE_DATE"
+        - "CORE.USERS.FULL_NAME"
+        - "TASK.LAST_UPDATE"
+      relatedList: RelatedHistoryList
+  showEmailCheckbox: false
+  showHighlightsPanel: false
+  showInteractionLogPanel: false
+  showRunAssignmentRulesCheckbox: false
+  showSubmitAndAttachButton: false
+  summaryLayout: 
+    masterLabel: 00hDN000000UzB5
+    sizeX: 4
+    sizeY: 0
+    summaryLayoutStyle: Default
