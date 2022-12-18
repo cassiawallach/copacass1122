@@ -7881,6 +7881,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Brokerage__c.Website__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>BusinessBrand.OrgId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -21419,6 +21424,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManagePartners</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManagePasswordPolicies</name>
     </userPermissions>
     <userPermissions>
@@ -21572,6 +21581,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SendSitRequests</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ShareFilesWithNetworks</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
