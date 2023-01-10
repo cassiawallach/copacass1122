@@ -14,9 +14,13 @@ public class AccountAutomations {
 
   }
 
-  public static Account setDefaultSite(Account a){
+  public static Account setDefaultBillingAddress(Account a){
 
-    a.Site = 'Single location'; 
+    a.billingstreet = 'Basauri, 6'; 
+
+    a.billingstate = 'Madrid'; 
+
+    a.billingpostalcode ='28023'; 
 
     return a;
 
@@ -24,11 +28,11 @@ public class AccountAutomations {
 
   public static Account setDefaultShippingAddress(Account a){
 
-    a.shippingstreet = '2318 Amity Street'; 
+    a.shippingstreet = 'Basauri, 6'; 
 
-    a.shippingstate = 'San Diego';
+    a.shippingstate = 'Madrid';
 
-    a.shippingpostalcode ='60607';
+    a.shippingpostalcode ='28023';
 
     return a;
 
@@ -36,7 +40,7 @@ public class AccountAutomations {
 
   public static Account setDefaultPhone(Account a) {
 
-    a.Phone='1112223333';
+    a.Phone='688456789';
 
     return a;
 
@@ -44,7 +48,7 @@ public class AccountAutomations {
 
   public static Account setDefaultURL(Account a) {
 
-    a.website = 'www.copa.gov'; 
+    a.website = 'www.copa.do'; 
 
     return a;
 
