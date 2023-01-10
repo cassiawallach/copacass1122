@@ -14,9 +14,13 @@ public class AccountAutomations {
 
   }
 
-  public static Account setDefaultSite(Account a){
+  public static Account setDefaultBillingAddress(Account a){
 
-    a.Site = 'Single location'; 
+    a.billingstreet = 'Basauri, 6'; 
+
+    a.billingstate = 'Madrid'; 
+
+    a.billingpostalcode ='28023'; 
 
     return a;
 
@@ -36,7 +40,7 @@ public class AccountAutomations {
 
   public static Account setDefaultPhone(Account a) {
 
-    a.Phone='9999999';
+    a.Phone='688456789';
 
     return a;
 

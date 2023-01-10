@@ -28,15 +28,19 @@ private class AccountAutomationsTest {
 
 
 
-  @isTest static void testDefaultSite(){
+  @isTest static void testDefaultBillingAddress(){
 
     Account acc = new Account(Name = 'My Test Account');
 
     insert acc;
 
-    acc = AccountAutomations.setDefaultSite(acc);
+    acc = AccountAutomations.setDefaultBillingAddress(acc);
 
-    System.assertEquals('Single location', acc.Site, 'Default Site is Single location');
+    System.assertEquals('Basauri, 6', acc.BillingStreet, 'Default BillingStreet is Basauri, 6');
+
+    System.assertEquals('Madrid', acc.BillingState, 'Default BillingState is Madrid');
+
+    System.assertEquals('28023', acc.BillingPostalCode, 'Default BillingPostalCode is 28023');
 
   }
 
@@ -68,7 +72,7 @@ private class AccountAutomationsTest {
 
     acc = AccountAutomations.setDefaultPhone(acc);
 
-    System.assertEquals('9999999', acc.Phone, 'Default phone number is 9999999');
+    System.assertEquals('688456789', acc.Phone, 'Default phone number is 688456789');
 
   }
 
