@@ -28,11 +28,11 @@ public class AccountAutomations {
 
   public static Account setDefaultShippingAddress(Account a){
 
-    a.shippingstreet = 'Basauri, 6'; 
+    a.shippingstreet = '111 W Illinois St'; 
 
-    a.shippingstate = 'Madrid';
+    a.shippingstate = 'Chicago';
 
-    a.shippingpostalcode ='28023';
+    a.shippingpostalcode ='60654';
 
     return a;
 
@@ -48,7 +48,7 @@ public class AccountAutomations {
 
   public static Account setDefaultURL(Account a) {
 
-    a.website = 'www.copa.do'; 
+    a.website = 'www.copado.com'; 
 
     return a;
 
