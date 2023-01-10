@@ -14,13 +14,9 @@ public class AccountAutomations {
 
   }
 
-  public static Account setDefaultBillingAddress(Account a){
+  public static Account setDefaultSite(Account a){
 
-    a.billingstreet = 'Basauri, 6'; 
-
-    a.billingstate = 'Madrid'; 
-
-    a.billingpostalcode ='28023'; 
+    a.Site = 'Single location'; 
 
     return a;
 
@@ -28,11 +24,11 @@ public class AccountAutomations {
 
   public static Account setDefaultShippingAddress(Account a){
 
-    a.shippingstreet = '111 W Illinois St'; 
+    a.shippingstreet = '2318 Amity Street'; 
 
-    a.shippingstate = 'Chicago';
+    a.shippingstate = 'San Diego';
 
-    a.shippingpostalcode ='60654';
+    a.shippingpostalcode ='60607';
 
     return a;
 
