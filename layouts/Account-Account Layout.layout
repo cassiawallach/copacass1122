@@ -23,10 +23,6 @@
                 <behavior>Edit</behavior>
                 <field>Test_Account_Field_7__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Percent_Field__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
