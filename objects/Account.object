@@ -286,6 +286,16 @@
         <type>Hierarchy</type>
     </fields>
     <fields>
+        <fullName>Percent_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>Percent Field</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
         <fullName>Phone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
