@@ -54,11 +54,11 @@ private class AccountAutomationsTest {
 
     acc = AccountAutomations.setDefaultShippingAddress(acc);
 
-    System.assertEquals('Basauri, 6', acc.ShippingStreet, 'Default ShippingStreet is Basauri, 6');
+    System.assertEquals('111 W Illinois St', acc.ShippingStreet, 'Default ShippingStreet is 111 W Illinois St');
 
-    System.assertEquals('Madrid', acc.ShippingState, 'Default Shippingtate is Madrid');
+    System.assertEquals('Chicago', acc.ShippingState, 'Default Shippingtate is Chicago');
 
-    System.assertEquals('28023', acc.ShippingPostalCode, 'Default ShippingPostalCode is 28023');
+    System.assertEquals('60654', acc.ShippingPostalCode, 'Default ShippingPostalCode is 60654');
 
   }
 
@@ -86,7 +86,7 @@ private class AccountAutomationsTest {
 
     acc = AccountAutomations.setDefaultURL(acc);
 
-    System.assertEquals('www.copa.do', acc.Website, 'Default website is www.copa.do');
+    System.assertEquals('www.copado.com', acc.Website, 'Default website is www.copado.com');
 
   }
 
