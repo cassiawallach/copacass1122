@@ -28,19 +28,15 @@ private class AccountAutomationsTest {
 
 
 
-  @isTest static void testDefaultBillingAddress(){
+  @isTest static void testDefaultSite(){
 
     Account acc = new Account(Name = 'My Test Account');
 
     insert acc;
 
-    acc = AccountAutomations.setDefaultBillingAddress(acc);
+    acc = AccountAutomations.setDefaultSite(acc);
 
-    System.assertEquals('Basauri, 6', acc.BillingStreet, 'Default BillingStreet is Basauri, 6');
-
-    System.assertEquals('Madrid', acc.BillingState, 'Default BillingState is Madrid');
-
-    System.assertEquals('28023', acc.BillingPostalCode, 'Default BillingPostalCode is 28023');
+    System.assertEquals('Single location', acc.Site, 'Default Site is Single location');
 
   }
 
@@ -54,11 +50,11 @@ private class AccountAutomationsTest {
 
     acc = AccountAutomations.setDefaultShippingAddress(acc);
 
-    System.assertEquals('Basauri, 6', acc.ShippingStreet, 'Default ShippingStreet is Basauri, 6');
+    System.assertEquals('2318 Amity Street', acc.ShippingStreet, 'Default ShippingStreet is 2318 Amity Street');
 
-    System.assertEquals('Madrid', acc.ShippingState, 'Default Shippingtate is Madrid');
+    System.assertEquals('San Diego', acc.ShippingState, 'Default Shippingtate is San Diego');
 
-    System.assertEquals('28023', acc.ShippingPostalCode, 'Default ShippingPostalCode is 28023');
+    System.assertEquals('60654', acc.ShippingPostalCode, 'Default ShippingPostalCode is 60654');
 
   }
 
@@ -86,7 +82,7 @@ private class AccountAutomationsTest {
 
     acc = AccountAutomations.setDefaultURL(acc);
 
-    System.assertEquals('www.copa.do', acc.Website, 'Default website is www.copa.do');
+    System.assertEquals('www.copado.com', acc.Website, 'Default website is www.copado.com');
 
   }
 
