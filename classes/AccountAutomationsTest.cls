@@ -50,9 +50,9 @@ private class AccountAutomationsTest {
 
     acc = AccountAutomations.setDefaultShippingAddress(acc);
 
-    System.assertEquals('111 W Illinois St', acc.ShippingStreet, 'Default ShippingStreet is 111 W Illinois St');
+    System.assertEquals('2318 Amity Street', acc.ShippingStreet, 'Default ShippingStreet is 2318 Amity Street');
 
-    System.assertEquals('Chicago', acc.ShippingState, 'Default Shippingtate is Chicago');
+    System.assertEquals('San Diego', acc.ShippingState, 'Default Shippingtate is San Diego');
 
     System.assertEquals('60654', acc.ShippingPostalCode, 'Default ShippingPostalCode is 60654');
 
@@ -68,7 +68,7 @@ private class AccountAutomationsTest {
 
     acc = AccountAutomations.setDefaultPhone(acc);
 
-    System.assertEquals('9999999', acc.Phone, 'Default phone number is 9999999');
+    System.assertEquals('688456789', acc.Phone, 'Default phone number is 688456789');
 
   }
 

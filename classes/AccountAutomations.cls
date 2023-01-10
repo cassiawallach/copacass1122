@@ -24,11 +24,11 @@ public class AccountAutomations {
 
   public static Account setDefaultShippingAddress(Account a){
 
-    a.shippingstreet = '111 W Illinois St'; 
+    a.shippingstreet = '2318 Amity Street'; 
 
-    a.shippingstate = 'Chicago';
+    a.shippingstate = 'San Diego';
 
-    a.shippingpostalcode ='60654';
+    a.shippingpostalcode ='60607';
 
     return a;
 
@@ -36,7 +36,7 @@ public class AccountAutomations {
 
   public static Account setDefaultPhone(Account a) {
 
-    a.Phone='9999999';
+    a.Phone='688456789';
 
     return a;
 
