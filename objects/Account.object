@@ -367,14 +367,29 @@
         <label>New This Week</label>
     </listViews>
     <recordTypes>
+        <fullName>Customer</fullName>
+        <active>true</active>
+        <label>Customer</label>
+    </recordTypes>
+    <recordTypes>
         <fullName>Customer_Account</fullName>
         <active>true</active>
         <label>Customer Account</label>
     </recordTypes>
     <recordTypes>
+        <fullName>Partner</fullName>
+        <active>true</active>
+        <label>Partner</label>
+    </recordTypes>
+    <recordTypes>
         <fullName>Partner_Account</fullName>
         <active>true</active>
         <label>Partner Account</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Prospect</fullName>
+        <active>true</active>
+        <label>Prospect</label>
     </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
