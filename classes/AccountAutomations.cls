@@ -24,9 +24,9 @@ public class AccountAutomations {
 
   public static Account setDefaultShippingAddress(Account a){
 
-    a.shippingstreet = '2318 Amity Street'; 
+    a.shippingstreet = '14 N Sangamon Street'; 
 
-    a.shippingstate = 'San Diego';
+    a.shippingstate = 'Chicago';
 
     a.shippingpostalcode ='60607';
 
@@ -36,7 +36,7 @@ public class AccountAutomations {
 
   public static Account setDefaultPhone(Account a) {
 
-    a.Phone='688456789';
+    a.Phone='8582165994';
 
     return a;
 
