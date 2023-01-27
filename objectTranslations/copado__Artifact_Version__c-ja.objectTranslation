@@ -4,6 +4,55 @@
         <plural>false</plural>
         <value><!-- Package Version --></value>
     </caseValues>
+    <fieldSets>
+        <label><!-- SFDX Extension Fields --></label>
+        <name>cmcSf__SFDX_Extension_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SFDX Package Version Lightning Page --></label>
+        <name>cmcSf__SFDX_PackageVersion_CustomFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Ancestor Id --></label>
+        <name>cmcSf__Ancestor_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ancestor Version --></label>
+        <name>cmcSf__Ancestor_Version__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calculate and store the code coverage percentage by running the Apex tests included in this package version. --></help>
+        <label><!-- Code Coverage --></label>
+        <name>cmcSf__Code_Coverage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if this is a password protected package version --></help>
+        <label><!-- Has Installation Key --></label>
+        <name>cmcSf__Has_Installation_Key__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the Apex class implementing InstallHandler which will be executed in the subscriber org after the managed package is installed or upgraded. --></help>
+        <label><!-- Post Install Script --></label>
+        <name>cmcSf__Post_Install_Script__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Install URL --></label>
+        <name>cmcSf__Post_Install_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release Notes URL --></label>
+        <name>cmcSf__Release_Notes_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if validation was skipped during package version generation. --></help>
+        <label><!-- Skip Validation --></label>
+        <name>cmcSf__Skip_Validation__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the Apex class implementing UninstallHandler which will be executed in the subscriber org before the managed package is uninstalled. --></help>
+        <label><!-- Uninstall Script --></label>
+        <name>cmcSf__Uninstall_Script__c</name>
+    </fields>
     <fields>
         <label><!-- Package --></label>
         <name>copado__Artifact__c</name>

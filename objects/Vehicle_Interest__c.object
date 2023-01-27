@@ -256,7 +256,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Vehicle Interest</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

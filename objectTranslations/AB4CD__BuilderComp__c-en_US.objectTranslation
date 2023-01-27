@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Payload --></label>
+        <name>AB4CD__Payload__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference --></label>
+        <name>AB4CD__Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>AB4CD__Type__c</name>
+        <picklistValues>
+            <masterLabel>LC</masterLabel>
+            <translation><!-- LC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VF</masterLabel>
+            <translation><!-- VF --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

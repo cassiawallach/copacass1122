@@ -1,0 +1,33 @@
+{
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "demoPassDataLWCOStoFC",
+    "OmniProcessElement": [
+        "demoOS_OSFC_English_Element_SetValues1.json",
+        "demoOS_OSFC_English_Element_Step1.json",
+        "demoOS_OSFC_English_Element_TextBlock2.json",
+        "demoOS_OSFC_English_Element_LineBreak1.json",
+        "demoOS_OSFC_English_Element_FlexCard1.json",
+        "demoOS_OSFC_English_Element_TextBlock1.json",
+        "demoOS_OSFC_English_Element_LineBreak2.json",
+        "demoOS_OSFC_English_Element_FlexCard2.json",
+        "demoOS_OSFC_English_Element_FlexCard3.json",
+        "demoOS_OSFC_English_Element_TextBlock3.json",
+        "demoOS_OSFC_English_Element_LineBreak3.json",
+        "demoOS_OSFC_English_Element_FlexCard4.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "demoOS_OSFC_English_PropertySetConfig.json",
+    "SubType": "OSFC",
+    "Type": "demoOS",
+    "UniqueName": "demoOS_OSFC_English_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/demoOS/OSFC/English",
+    "WebComponentKey": "f1208796-e914-5a2b-e848-467b080e822e"
+}

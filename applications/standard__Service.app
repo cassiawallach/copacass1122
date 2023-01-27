@@ -15,5 +15,6 @@
     <tabs>standard-Solution</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Knowledge__kav</tabs>
     <uiType>Aloha</uiType>
 </CustomApplication>

@@ -144,4 +144,44 @@
         <name>copadoconnect__Copado_Connect</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>cmcSf__CMC_SFDX</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>copadovsm__Value_Stream_Maps</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>REM_Console</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>AB4CD__ABCD_Universal_Builder</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Copado_Monitoring_Center</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>omnistudio__Vlocity_Digital_Studio</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>customerportal</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__PreconfiguredLightningServiceConsole</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Default Help Center</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>customeraccountportal</name>
+        <type>Network</type>
+    </appMenuItems>
 </AppMenu>

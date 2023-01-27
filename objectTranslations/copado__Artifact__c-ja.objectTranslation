@@ -4,6 +4,19 @@
         <plural>false</plural>
         <value><!-- Package --></value>
     </caseValues>
+    <fieldSets>
+        <label><!-- SFDX Package Lightning Page --></label>
+        <name>cmcSf__SFDX_Package_CustomFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Is Org Dependent --></label>
+        <name>cmcSf__IsOrgDependent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this to specify the path for creating the package. This path should be available in sfdx-project.json of your repository. --></help>
+        <label><!-- Package Path --></label>
+        <name>cmcSf__PackagePath__c</name>
+    </fields>
     <fields>
         <help>これは、マスターブランチにある、アーティファクトを保存できるリポジトリです。</help>
         <label><!-- Package Repository --></label>

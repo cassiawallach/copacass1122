@@ -1,0 +1,39 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "TextBlock1",
+    "OmniProcessId": {
+        "Name": "demoPassDataLWCOStoFC",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/demoOS/OSFC/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Step1",
+        "OmniProcessId": {
+            "Name": "demoPassDataLWCOStoFC",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/demoOS/OSFC/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/demoOS/OSFC/English/Step1",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Step1",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock1",
+        "sanitize": false,
+        "show": null,
+        "text": "<h2>Property: record-id</h2>\n<h4><span style=\"color: #236fa1;\">Pass the&nbsp;<span class=\"guilabel taxonomy_source_doc-tag taxonomy_industry_cmt-tag taxonomy_industry_energy-tag taxonomy_industry_government-tag taxonomy_industry_health-tag taxonomy_industry_insurance-tag taxonomy_industry_media-tag taxonomy_industry_platform-tag taxonomy_industry_cmt-tag taxonomy_industry_energy-tag taxonomy_industry_government-tag taxonomy_industry_health-tag taxonomy_industry_insurance-tag taxonomy_industry_media-tag taxonomy_industry_platform-tag taxonomy_industry_cmt-tag taxonomy_industry_energy-tag taxonomy_industry_government-tag taxonomy_industry_health-tag taxonomy_industry_insurance-tag taxonomy_industry_media-tag taxonomy_industry_platform-tag taxonomy_industry_cmt-tag taxonomy_industry_energy-tag taxonomy_industry_government-tag taxonomy_industry_health-tag taxonomy_industry_insurance-tag taxonomy_industry_media-tag taxonomy_industry_platform-tag\">recordId</span> from the OmniScript to the FlexCard.</span></h4>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/demoOS/OSFC/English/TextBlock1"
+}

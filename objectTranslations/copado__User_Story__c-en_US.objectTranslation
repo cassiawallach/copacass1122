@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fieldSets>
+        <label><!-- Add Test Classes --></label>
+        <name>cmcSf__Add_Test_Classes</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Pipeline Based Package Distribution --></label>
+        <name>cmcSf__PipelineBasedPackageDistribution</name>
+    </fieldSets>
+    <fieldSets>
         <label><!-- Bundle --></label>
         <name>copado__Bundle</name>
     </fieldSets>
@@ -64,6 +72,51 @@
         <label><!-- Work Manager Relations --></label>
         <name>copado__Work_Manager_Relations</name>
     </fieldSets>
+    <fields>
+        <label><!-- Deployment Status --></label>
+        <name>Deployment_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- DigitSec Scan Result --></label>
+        <name>DigitSec_Scan_Result__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DigitSec Security Scan --></label>
+        <name>DigitSec_Security_Scan__c</name>
+        <relationshipLabel><!-- User Stories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Jira Key --></label>
+        <name>Jira_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- View in Jira --></label>
+        <name>Jira_Link_formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apex Test Level --></label>
+        <name>cmcSf__Apex_Test_Level__c</name>
+    </fields>
     <fields>
         <label><!-- Acceptance Criteria Status --></label>
         <name>copado__Acceptance_Criteria_Status__c</name>
@@ -720,14 +773,6 @@
             <translation><!-- Approved --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Awaiting Approval</masterLabel>
-            <translation><!-- Awaiting Approval --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Backburner</masterLabel>
-            <translation><!-- Backburner --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Backlog</masterLabel>
             <translation><!-- Backlog --></translation>
         </picklistValues>
@@ -746,6 +791,18 @@
         <picklistValues>
             <masterLabel>In Progress</masterLabel>
             <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Release</masterLabel>
+            <translation><!-- Ready for Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for UAT</masterLabel>
+            <translation><!-- Ready for UAT --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Ready for testing</masterLabel>
@@ -887,6 +944,10 @@
         <errorMessage><!-- Enter a value between 0 to 100 to specify the Progress in percentage. --></errorMessage>
         <name>copado__User_Story_Progress_Range_Validation</name>
     </validationRules>
+    <webLinks>
+        <label><!-- DigitSec_S4_Security_Scan --></label>
+        <name>DigitSec_S4_Security_Scan</name>
+    </webLinks>
     <webLinks>
         <label><!-- Add_Apex_Tests --></label>
         <name>copado__Add_Apex_Tests</name>

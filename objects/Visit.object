@@ -196,6 +196,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>ServiceResourceId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Status</fullName>
         <trackHistory>false</trackHistory>
     </fields>

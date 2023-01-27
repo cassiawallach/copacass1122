@@ -1,0 +1,53 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetValues1",
+    "OmniProcessId": {
+        "Name": "demoPassDataLWCOStoFC",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/demoOS/OSFC/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "ContextId": "001Dn0000066Fc5IAE",
+            "accountsList": [
+                {
+                    "BillingCity": "Wakanda City",
+                    "BillingCountry": "Wakanda",
+                    "Id": "73989123456",
+                    "Name": "Dora Milaje",
+                    "Phone": "221-77-122-10-99"
+                },
+                {
+                    "BillingCity": "Athens",
+                    "BillingCountry": "Greece",
+                    "Id": "93849829473D",
+                    "Name": "Helen of Troy",
+                    "Phone": "30-21-0325-9000"
+                }
+            ],
+            "parentObj": {
+                "Id": "001Dn0000066Fc5IAE",
+                "PostalCode": "90048"
+            }
+        },
+        "label": "SetValues1",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/demoOS/OSFC/English/SetValues1"
+}

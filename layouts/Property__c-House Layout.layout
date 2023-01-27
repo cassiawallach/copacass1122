@@ -15,10 +15,6 @@
                 <behavior>Edit</behavior>
                 <field>Type__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Property_LatLong__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
