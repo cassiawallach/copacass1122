@@ -11,16 +11,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <filterOperator>=</filterOperator>
-        <filterValue>Cases:AccountId</filterValue>
-        <globalKey>b7b5bbb7-05e4-4155-b7a4-0e21470d3612</globalKey>
-        <inputFieldName>Id</inputFieldName>
-        <inputObjectName>Account</inputObjectName>
-        <inputObjectQuerySequence>2.0</inputObjectQuerySequence>
+        <globalKey>87021486-ef86-4b86-a242-20cf0aff5e1f</globalKey>
+        <inputFieldName>Cases:CaseNumber</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>getCases</name>
-        <outputCreationSequence>0.0</outputCreationSequence>
-        <outputFieldName>Account</outputFieldName>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>CaseNumber</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -28,7 +25,80 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>36858415-8130-4ff6-b790-51fea3a7a22d</globalKey>
+        <globalKey>4057ae89-79d3-4f9d-9f43-331b44d3212e</globalKey>
+        <inputFieldName>Cases:CreatedDate</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>getCases</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Created</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>AccountId</filterValue>
+        <globalKey>72c6c8f1-31d8-43ff-90b2-0ec6eb38921d</globalKey>
+        <inputFieldName>AccountId</inputFieldName>
+        <inputObjectName>Case</inputObjectName>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>getCases</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Cases</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>bfed54e9-6e97-40e5-b99e-97f5921bc001</globalKey>
+        <inputFieldName>Cases:Id</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>getCases</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>CaseId</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>c0235b1b-4e27-4cfe-a255-a9e11ed756d4</globalKey>
+        <inputFieldName>Cases:omnistudio__InteractionNotes__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>getCases</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Notes</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>9151f50a-33dd-4e6a-b2ea-9d19a5d07637</globalKey>
+        <inputFieldName>Cases:Description</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>getCases</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Description</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>e939b20a-f5d3-4a68-9f53-a971d75e4a9c</globalKey>
         <inputFieldName>Cases:Origin</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
@@ -42,7 +112,7 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>6342d37c-8e61-4f6e-9dc8-2cad9fbcb0e7</globalKey>
+        <globalKey>8622d803-6f31-47d1-b989-c2cfb101f570</globalKey>
         <inputFieldName>Cases:Status</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
@@ -60,7 +130,7 @@
         <formulaExpression>COUNTQUERY ( &quot;SELECT COUNT() FROM Case WHERE AccountId = &apos;{0}&apos;&quot; , AccountId )</formulaExpression>
         <formulaResultPath>Cases.Total</formulaResultPath>
         <formulaSequence>1.0</formulaSequence>
-        <globalKey>88d192bc-64c1-4481-8df5-5a489396b6d1</globalKey>
+        <globalKey>5c08b8f4-c330-4def-b10e-c43215d770ca</globalKey>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>getCases</name>
@@ -73,7 +143,7 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>ad50da7a-82dc-4865-ae5a-ebf37be082ce</globalKey>
+        <globalKey>0fb8a429-e6dc-4fa8-8604-a508f4d85c54</globalKey>
         <inputFieldName>Cases:Subject</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
@@ -87,7 +157,7 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>16933aea-6aa9-409a-9f84-137ba438362d</globalKey>
+        <globalKey>02a7ebaf-f21a-4d92-9411-d9638c99eaa6</globalKey>
         <inputFieldName>Cases.Total</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
@@ -101,7 +171,7 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>265e2723-39c8-4c9c-ba6a-42fe2f9875f2</globalKey>
+        <globalKey>f1a8bf6e-046b-4375-b905-ef00630b4e16</globalKey>
         <inputFieldName>Cases:Type</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
@@ -115,7 +185,7 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>084b24d4-870c-4947-b0b5-98c6f8022677</globalKey>
+        <globalKey>6c7bd049-9122-4476-8e0f-7340998065c2</globalKey>
         <inputFieldName>Cases:IsEscalated</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
@@ -129,44 +199,16 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>a8a9650d-6475-44ff-93e9-9229abf2c823</globalKey>
-        <inputFieldName>Cases:CaseNumber</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>getCases</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>CaseNumber</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>20868f8c-80b3-4d9a-a3a9-63a1f9d03b2f</globalKey>
-        <inputFieldName>Cases:CreatedDate</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>getCases</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Created</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
         <filterOperator>=</filterOperator>
-        <filterValue>AccountId</filterValue>
-        <globalKey>3dcdb62d-9871-430a-bcbf-0faf52262eff</globalKey>
-        <inputFieldName>AccountId</inputFieldName>
-        <inputObjectName>Case</inputObjectName>
-        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <filterValue>Cases:AccountId</filterValue>
+        <globalKey>6d8622f4-69a1-45fc-bf59-449f5db984a2</globalKey>
+        <inputFieldName>Id</inputFieldName>
+        <inputObjectName>Account</inputObjectName>
+        <inputObjectQuerySequence>2.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>getCases</name>
         <outputCreationSequence>0.0</outputCreationSequence>
-        <outputFieldName>Cases</outputFieldName>
+        <outputFieldName>Account</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -174,49 +216,7 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>bc2fd458-2300-427a-abf0-7052ca63765d</globalKey>
-        <inputFieldName>Cases:Id</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>getCases</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>CaseId</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>9bf9447d-34ed-457e-9f13-a36d50309caa</globalKey>
-        <inputFieldName>Cases:omnistudio__InteractionNotes__c</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>getCases</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Notes</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>7b949538-a9dd-4e9c-92c7-6eaed95ef382</globalKey>
-        <inputFieldName>Cases:Description</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>getCases</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Description</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>6f286f35-2b5b-458e-9c44-7b6d93706043</globalKey>
+        <globalKey>647ee580-32b1-48e3-9a66-a4d74f2e9a10</globalKey>
         <inputFieldName>Account:Id</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
@@ -230,7 +230,7 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>2a69df15-bbf0-4bf6-8847-50eaa6205712</globalKey>
+        <globalKey>e10a1055-3729-4095-9f52-511c6fe441db</globalKey>
         <inputFieldName>Account:BillingPostalCode</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
@@ -244,7 +244,7 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>d0dcaf73-c3f6-4c85-894b-4d215e19e32e</globalKey>
+        <globalKey>9f053be0-9750-4366-a9f0-7b45697debc6</globalKey>
         <inputFieldName>Cases:Priority</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
