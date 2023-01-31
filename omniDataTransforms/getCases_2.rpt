@@ -113,7 +113,7 @@
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
         <filterOperator>=</filterOperator>
-        <filterValue>Cases:AccountId</filterValue>
+        <filterValue>001DP00001o5W9jYAE</filterValue>
         <globalKey>getCasesCustom0jIDP000000CaTN2A0Item1</globalKey>
         <inputFieldName>Id</inputFieldName>
         <inputObjectName>Account</inputObjectName>
@@ -143,8 +143,8 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <formulaConverted>| &quot;SELECT/\/\/COUNT()/\/\/FROM/\/\/Case/\/\/WHERE/\/\/AccountId/\/\/=/\/\/&apos;{0}&apos;&quot; var:AccountId COUNTQUERY</formulaConverted>
-        <formulaExpression>COUNTQUERY ( &quot;SELECT COUNT() FROM Case WHERE AccountId = &apos;{0}&apos;&quot; , AccountId )</formulaExpression>
+        <formulaConverted>| &quot;SELECT/\/\/COUNT()/\/\/FROM/\/\/Case/\/\/WHERE/\/\/AccountId/\/\/=/\/\/&apos;001DP00001o5W9jYAE&apos;&quot; var:AccountId COUNTQUERY</formulaConverted>
+        <formulaExpression>COUNTQUERY ( &quot;SELECT COUNT() FROM Case WHERE AccountId = &apos;001DP00001o5W9jYAE&apos;&quot; , AccountId )</formulaExpression>
         <formulaResultPath>Cases.Total</formulaResultPath>
         <formulaSequence>1.0</formulaSequence>
         <globalKey>getCasesCustom0jIDP000000CaTN2A0Item2</globalKey>
@@ -257,10 +257,11 @@
     </omniDataTransformItem>
     <outputType>JSON</outputType>
     <previewJsonData>{
-  &quot;AccountId&quot; : &quot;0015w00002DUoxmAAD&quot;
+  &quot;AccountId&quot; : &quot;001DP00001o5W9jYAE&quot;
 }</previewJsonData>
     <processSuperBulk>false</processSuperBulk>
     <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <responseCacheType>1</responseCacheType>
     <rollbackOnError>false</rollbackOnError>
     <sourceObject>json</sourceObject>
     <sourceObjectDefault>false</sourceObjectDefault>
