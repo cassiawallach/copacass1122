@@ -354,7 +354,7 @@
     }, {
       "components" : [ {
         "componentAttributes" : {
-          "bgImage" : "background: rgb(0,0,0) url(/sfsites/c/file-asset/X360_F_467592556_ZWEXBysitotqf2elYGc?v=1) top center /cover",
+          "bgImage" : "background: rgb(0,0,0) url(/sfsites/c/file-asset/IMG_1561?v=1) center center /cover",
           "bgOverlayColor" : "rgba(0, 0, 0, 0.35)",
           "captionText" : "Limited time offer",
           "captionTextColor" : "rgb(255, 255, 255)",
