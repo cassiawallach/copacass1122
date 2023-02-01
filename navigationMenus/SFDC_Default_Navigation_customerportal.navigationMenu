@@ -11,4 +11,11 @@
         <target>Case</target>
         <type>SalesforceObject</type>
     </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Create Case</label>
+        <position>2</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>NewCase</target>
+        <type>GlobalAction</type>
+    </navigationMenuItem>
 </NavigationMenu>
