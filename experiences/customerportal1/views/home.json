@@ -98,46 +98,6 @@
     "regionName" : "sidebar",
     "type" : "region"
   }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "allowPrepopulatePrechatFields" : true,
-        "avatarImgURL" : "",
-        "codeSettingsName" : "VlocityChatBotJS",
-        "defaultMinimizedText" : "Chat with an Expert",
-        "displayHelpButton" : true,
-        "eswConfigurationJSON" : {
-          "baseCoreURL" : "https://copa-cass-11-22.my.salesforce.com",
-          "baseLiveAgentContentURL" : "https://c.la1-c1-ia7.salesforceliveagent.com/content",
-          "baseLiveAgentURL" : "https://d.la1-c1-ia7.salesforceliveagent.com/chat",
-          "buttonId" : "573Dn000000cwdU",
-          "deploymentId" : "572Dn000000cwbp",
-          "enabledFeatures" : [ "LiveAgent" ],
-          "entryFeature" : "LiveAgent",
-          "eswConfigDevName" : "Chat_Team",
-          "eswConfigId" : "04IDn000000c7VMMAY",
-          "eswLiveAgentDevName" : "Chat_Team",
-          "gslbBaseURL" : "https://service.force.com",
-          "isOfflineCasesEnabled" : "0",
-          "orgId" : "00DDn000002GSHY"
-        },
-        "externalScripts" : "",
-        "externalStyles" : "",
-        "fallbackRouting" : "",
-        "offlineSupportMinimizedText" : "Contact Us",
-        "offlineText" : "Agent Offline",
-        "onlineLoadingText" : "Loading",
-        "prechatBackgroundImgURL" : "",
-        "smallCompanyLogoImgURL" : "",
-        "snippetSettingsFile" : "",
-        "storageDomain" : "",
-        "waitingStateBackgroundImgURL" : ""
-      },
-      "componentName" : "forceCommunity:embeddedService",
-      "id" : "bb0fd83c-6aec-48b8-a559-77d0e85bafb1",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "fb9a8022-a5f4-4424-8b36-899378cdc587",
     "regionName" : "footer",
     "type" : "region"
