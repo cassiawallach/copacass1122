@@ -21,7 +21,6 @@
     "IsSourceObjectDefault": false,
     "IsXmlDeclarationRemoved": false,
     "Name": "getCases",
-    "Namespace": "",
     "OmniDataTransformItem": "getCases_Items.json",
     "OutputParsingClass": "",
     "OutputType": "JSON",
