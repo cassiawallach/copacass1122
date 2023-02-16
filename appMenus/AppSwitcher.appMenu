@@ -184,4 +184,8 @@
         <name>customeraccountportal</name>
         <type>Network</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Home Goods</name>
+        <type>Network</type>
+    </appMenuItems>
 </AppMenu>
