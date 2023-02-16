@@ -7,22 +7,7 @@
                     <name>actionNames</name>
                     <valueList>
                         <valueListItems>
-                            <value>CallHighlightAction</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Global.NewTask</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Global.NewEvent</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>FeedItem.TextPost</value>
-                        </valueListItems>
-                        <valueListItems>
                             <value>Edit</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>FeedItem.ContentPost</value>
                         </valueListItems>
                         <valueListItems>
                             <value>Global.NewContact</value>
@@ -31,49 +16,13 @@
                             <value>Global.NewCase</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>Global.LogACall</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Global.NewNote</value>
-                        </valueListItems>
-                        <valueListItems>
                             <value>Global.NewOpportunity</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>FeedItem.RypplePost</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>FeedItem.LinkPost</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>FeedItem.PollPost</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>FeedItem.QuestionPost</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>ChangeOwnerOne</value>
                         </valueListItems>
                         <valueListItems>
                             <value>ChangeRecordType</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>SendSurveyInvitation</value>
-                        </valueListItems>
-                        <valueListItems>
                             <value>Delete</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>AccountHierarchy</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Share</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>RecordShareHierarchy</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>IncludeOffline</value>
                         </valueListItems>
                         <valueListItems>
                             <value>EnableAsPartner</value>
@@ -97,37 +46,7 @@
                             <value>LoginToPortalAsPersonUser</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>CreateSurveyInvitation</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>XClean</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>PartnerScorecard</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>CreateCallList</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>StartOutboundConversation</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>PrintableView</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>CreateAccountChannel</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>AddToActionableList</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>SmsHighlightAction</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>EmailHighlightAction</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>WebsiteHighlightAction</value>
+                            <value>EnableAsBuyer</value>
                         </valueListItems>
                     </valueList>
                 </componentInstanceProperties>
@@ -149,7 +68,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>numVisibleActions</name>
-                    <value>3</value>
+                    <value>5</value>
                 </componentInstanceProperties>
                 <componentName>force:highlightsPanel</componentName>
                 <identifier>force_highlightsPanel</identifier>
@@ -162,14 +81,15 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentInstanceProperties>
-                    <name>displayOption</name>
-                    <value>BOTH</value>
-                </componentInstanceProperties>
-                <componentName>runtime_sales_merge:mergeCandidatesPreviewCard</componentName>
-                <identifier>runtime_sales_merge_mergeCandidatesPreviewCard</identifier>
+                <componentName>force:detailPanel</componentName>
+                <identifier>force_detailPanel</identifier>
             </componentInstance>
         </itemInstances>
+        <mode>Replace</mode>
+        <name>detailTabContent</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -195,12 +115,15 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>force:detailPanel</componentName>
-                <identifier>force_detailPanel</identifier>
+                <componentInstanceProperties>
+                    <name>showLegacyActivityComposer</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentName>runtime_sales_activities:activityPanel</componentName>
+                <identifier>runtime_sales_activities_activityPanel</identifier>
             </componentInstance>
         </itemInstances>
-        <mode>Replace</mode>
-        <name>detailTabContent</name>
+        <name>Facet-da473ec1-524a-46da-bcb2-ba5aa2bd52a3</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -215,6 +138,20 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>detailTabContent</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Standard.Tab.detail</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>detailTab</identifier>
+            </componentInstance>
+        </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -237,14 +174,14 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
-                    <value>detailTabContent</value>
+                    <value>Facet-da473ec1-524a-46da-bcb2-ba5aa2bd52a3</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>title</name>
-                    <value>Standard.Tab.detail</value>
+                    <value>Standard.Tab.activity</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
-                <identifier>detailTab</identifier>
+                <identifier>flexipage_tab</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -283,17 +220,6 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>runtime_sales_activities:activityPanel</componentName>
-                <identifier>runtime_sales_activities_activityPanel</identifier>
-            </componentInstance>
-        </itemInstances>
-        <mode>Replace</mode>
-        <name>activityTabContent</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
                 <componentName>forceChatter:recordFeedContainer</componentName>
                 <identifier>forceChatter_recordFeedContainer</identifier>
             </componentInstance>
@@ -303,24 +229,6 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>active</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>activityTabContent</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>title</name>
-                    <value>Standard.Tab.activity</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:tab</componentName>
-                <identifier>activityTab</identifier>
-            </componentInstance>
-        </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
