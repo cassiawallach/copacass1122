@@ -4,7 +4,7 @@
             {
                 "id": 0,
                 "name": "recordId",
-                "val": "001Dn0000066Fc5IAE"
+                "val": "0015w00002DUoxlAAD"
             }
         ],
         "orderBy": {
@@ -14,12 +14,9 @@
         "type": "DataRaptor",
         "value": {
             "bundle": "getCases",
-            "bundleType": "",
-            "dsDelay": "",
             "inputMap": {
                 "AccountId": "{recordId}"
             },
-            "jsonMap": "{\"recordId\":\"{recordId}\"}",
             "resultVar": ""
         }
     },
