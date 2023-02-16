@@ -2,29 +2,24 @@
     "AuthorName": "vlocityDev",
     "ClonedFromOmniUiCardKey": "osParentAttributeDR/vlocityDev/1/1603482797853",
     "DataSourceConfig": {
-        "dataSource": {
-            "contextVariables": [
-                {
-                    "id": 0,
-                    "name": "recordId",
-                    "val": "001Dn0000066Fc5IAE"
-                }
-            ],
-            "orderBy": {
-                "isReverse": false,
-                "name": ""
-            },
-            "type": "DataRaptor",
-            "value": {
-                "bundle": "getCases",
-                "bundleType": "",
-                "dsDelay": "",
-                "inputMap": {
-                    "AccountId": "{recordId}"
-                },
-                "jsonMap": "{\"recordId\":\"{recordId}\"}",
-                "resultVar": ""
+        "contextVariables": [
+            {
+                "id": 0,
+                "name": "recordId",
+                "val": "0015w00002DUoxlAAD"
             }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "getCases",
+            "inputMap": {
+                "AccountId": "{recordId}"
+            },
+            "resultVar": ""
         }
     },
     "Description": "",
@@ -35,7 +30,7 @@
     "OmniUiCardType": "Parent",
     "OverrideKey": "",
     "PropertySetConfig": "demoPassDataRecordIdDRFC.json",
-    "SampleDataSourceResponse": "[{\"Created\":\"2022-10-30T22:27:18.000Z\",\"Subject\":\"Sample Case 2: The widgets we received are the wrong size.\",\"CaseId\":\"500Dn000002VkFPIA0\",\"CaseNumber\":\"00001001\",\"PostalCode\":\"31349\",\"Total\":2,\"Priority\":\"High\",\"IsEscalated\":false,\"AccountId\":\"001Dn0000066Fc5IAE\",\"Origin\":\"Phone\",\"Status\":\"New\"},{\"Created\":\"2022-10-30T22:27:18.000Z\",\"Subject\":\"Sample Case 3: Cannot track our order.\",\"CaseId\":\"500Dn000002VkFQIA0\",\"CaseNumber\":\"00001002\",\"PostalCode\":\"31349\",\"Total\":2,\"Priority\":\"Low\",\"IsEscalated\":false,\"AccountId\":\"001Dn0000066Fc5IAE\",\"Origin\":\"Phone\",\"Status\":\"On Hold\"}]",
+    "SampleDataSourceResponse": "[{\"Total\":2,\"IsEscalated\":false,\"Origin\":\"Phone\",\"Type\":\"Question\",\"Subject\":\"This doodat not working\",\"Status\":\"Escalated\",\"Description\":\"raesent a magna sed elit pretium blandit. Aliquam faucibus sed mi in convallis. Fusce porta eros at felis accumsan consectetur. Aenean tristique lacinia augue pulvinar tempor. Morbi malesuada lorem nec tortor pellentesque, ut efficitur nulla lobortis. Phasellus lacinia nisl quam, quis tristique sem tempus id. Nullam quis purus vitae diam tincidunt aliquam.\",\"CaseId\":\"5005w00001bMnI4AAK\",\"Created\":\"2020-07-30T20:30:50.000Z\",\"CaseNumber\":\"00001004\",\"Priority\":\"High\"},{\"Total\":2,\"IsEscalated\":false,\"Origin\":\"Email\",\"Type\":\"Problem\",\"Subject\":\"Widget no complying\",\"Status\":\"New\",\"Description\":\"Morbi imperdiet dignissim turpis ac tincidunt. Fusce consequat efficitur nunc vel semper. Suspendisse accumsan pellentesque nunc, quis varius nisl mollis eget. Vestibulum gravida metus vel quam tristique aliquam. Donec non ultricies mi. In non risus sed mauris vulputate molestie sed dictum nunc. Donec vel arcu id elit imperdiet placerat a in diam. Maecenas eget odio et eros eleifend auctor.\",\"CaseId\":\"5005w00001bMnHuAAK\",\"Created\":\"2020-07-30T20:30:05.000Z\",\"CaseNumber\":\"00001003\",\"Priority\":\"Medium\"}]",
     "StylingConfiguration": "",
     "UniqueName": "demoPassDataRecordIdDRFC_vlocityDev_1",
     "VersionNumber": 1,
