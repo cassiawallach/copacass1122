@@ -4,7 +4,7 @@
             {
                 "id": 0,
                 "name": "recordId",
-                "val": "001Dn0000066Fc5IAE"
+                "val": "0015w00002DUoxlAAD"
             }
         ],
         "orderBy": {
@@ -13,7 +13,6 @@
         },
         "type": "Query",
         "value": {
-            "dsDelay": "",
             "jsonMap": "{\"recordId\":\"{recordId}\"}",
             "query": "Select Id,name from Account where Id = '{recordId}'",
             "resultVar": ""

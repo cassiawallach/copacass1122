@@ -12,11 +12,15 @@
     <label>REM Console</label>
     <navType>Console</navType>
     <tabs>Property__c</tabs>
+    <tabs>Bike_Card</tabs>
     <tabs>Brokerage__c</tabs>
     <tabs>Realtor__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>REM_Console_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Bike_Card</tab>
+        </mappings>
         <mappings>
             <tab>Brokerage__c</tab>
         </mappings>
