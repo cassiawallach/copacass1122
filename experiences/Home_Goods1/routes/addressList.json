@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "bc1f3cf7-6f74-4173-b1ad-0132d24becfa",
+  "appPageId" : "cca84e1c-cacb-417e-83d4-cde945b655a7",
+  "configurationTags" : [ ],
+  "id" : "c15c6234-a009-47e6-b6ca-afa26c533d3f",
+  "label" : "Address List",
+  "routeType" : "addresses",
+  "type" : "route",
+  "urlPrefix" : "addresses"
+}
