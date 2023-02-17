@@ -1,0 +1,85 @@
+{
+  "appPageId" : "cca84e1c-cacb-417e-83d4-cde945b655a7",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "369e96c8-d09e-44e6-9b95-a09d16ba71b0",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"039ac576-a75b-4d00-ae69-06519ba2b799\",\"columns\":[{\"UUID\":\"7daa16e4-f5d7-4c09-9d68-ad6e1d8295c6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "039ac576-a75b-4d00-ae69-06519ba2b799",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerLinkColor" : "rgb(48, 99, 25)",
+            "bannerLinkHref" : "https://copa-cass-11-22--dev1.sandbox.my.site.com/homegoods/global-search/",
+            "bannerLinkTitle" : "Shop Now",
+            "cmsPickerState" : "{\"isFromCms\": true,\"url\": \"/assets/images/home-sustainable.jpg\", \"alt\": \"Pods Banner\"}",
+            "displayBannerLinkAsButton" : true,
+            "heroTextPosition" : "center",
+            "opacity" : 5,
+            "overlay" : false,
+            "showBannerLink" : false,
+            "slogan" : "Expertly crafted with the finest ingredients",
+            "sloganColor" : "#fff",
+            "title" : "Organic bars, gels, and drinks",
+            "titleColor" : "#fff"
+          },
+          "componentName" : "b2c_lite_commerce:heroBannerUi",
+          "id" : "df12ed3f-bb92-4296-8480-1d929d4eba0e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "browseStep" : 1,
+            "headerText" : "Shop By Category",
+            "pageSize" : 6
+          },
+          "componentName" : "b2c_lite_commerce:shopCategory",
+          "id" : "cda4e2fe-b298-44f7-86db-7afa1c7a7385",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7daa16e4-f5d7-4c09-9d68-ad6e1d8295c6",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "ff98117a-5f8a-4331-ab2e-63cad578eea6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Home",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "9d1080f8-5303-4647-ad96-af4c18ef7f31",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1284ad7a-8a59-4386-8f23-00db89296f8a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ihl4UQFAYlpZzfjbMC5KVF8snEKqhu",
+  "type" : "view",
+  "viewType" : "home"
+}
