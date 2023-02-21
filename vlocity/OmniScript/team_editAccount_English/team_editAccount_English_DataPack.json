@@ -17,15 +17,17 @@
         "team_editAccount_English_Element_Website.json",
         "team_editAccount_English_Element_LineBreak3.json",
         "team_editAccount_English_Element_FPL-Account-Field.json",
+        "team_editAccount_English_Element_LineBreak4.json",
+        "team_editAccount_English_Element_Currency.json",
         "team_editAccount_English_Element_IPSaveAccountDetails.json"
     ],
     "OmniProcessType": "OmniScript",
     "PropertySetConfig": "team_editAccount_English_PropertySetConfig.json",
     "SubType": "editAccount",
     "Type": "team",
-    "UniqueName": "team_editAccount_English_4",
+    "UniqueName": "team_editAccount_English_5",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/team/editAccount/English",
-    "WebComponentKey": "212ddd50-9776-89b7-29a5-bb6ba08e73e9"
+    "WebComponentKey": "561f116f-468d-a3d4-ce74-3f615b31a106"
 }
