@@ -1,6 +1,7 @@
 {
   "appPageId" : "ea3e02a5-0feb-420e-a4cd-fe5161b6942b",
   "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
   "id" : "e03fbd27-8b03-409e-83ae-4c82cfc872a1",
   "label" : "Action Plan Template Detail",
   "regions" : [ {
