@@ -4,7 +4,7 @@
     &quot;AccountId&quot;: &quot;0015f0000097BQCAA2&quot;
 }</customJavaScript>
     <elementTypeComponentMapping>{&quot;ElementTypeToHTMLTemplateList&quot;:[]}</elementTypeComponentMapping>
-    <isActive>false</isActive>
+    <isActive>true</isActive>
     <isIntegrationProcedure>true</isIntegrationProcedure>
     <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
     <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
@@ -106,5 +106,5 @@
     <type>sample</type>
     <uniqueName>sample_getAccountContactDetails_Procedure_2</uniqueName>
     <versionNumber>2.0</versionNumber>
-    <webComponentKey>a03fbcc2-f769-06b9-c909-b8e2a6939098</webComponentKey>
+    <webComponentKey>870f585a-6d69-f50c-c9e4-9e02beeba48f</webComponentKey>
 </OmniIntegrationProcedure>
