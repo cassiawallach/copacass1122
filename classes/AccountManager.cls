@@ -1,1 +1,2 @@
-public class AccountManager {}
+public class AccountManager {
+}

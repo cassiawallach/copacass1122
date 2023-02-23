@@ -1,3 +1,3 @@
 @isTest
-
-private class AccountManagerTest {}
+private class AccountManagerTest {
+}
