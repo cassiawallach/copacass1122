@@ -4,6 +4,6 @@
     <protected>false</protected>
     <values>
         <field>URL__c</field>
-        <value xsi:type="xsd:string">https://www.rop/custom-metadata/env.dev1</value>
+        <value xsi:type="xsd:string">{!Environment.EV: ROP Custom Metadata}</value>
     </values>
 </CustomMetadata>
