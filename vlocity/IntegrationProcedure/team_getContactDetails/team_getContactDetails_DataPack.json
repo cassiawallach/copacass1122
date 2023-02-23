@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Team Get Contact Details",
+    "OmniProcessElement": [
+        "team_getContactDetails_Element_SetValues.json",
+        "team_getContactDetails_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "team_getContactDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "team_getContactDetails_PropertySetConfig.json",
+    "SubType": "getContactDetails",
+    "Type": "team",
+    "UniqueName": "team_getContactDetails_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/team/getContactDetails/Procedure",
+    "WebComponentKey": "6e5012ed-e4b3-8ce9-02f7-66b443b7ab54"
+}
