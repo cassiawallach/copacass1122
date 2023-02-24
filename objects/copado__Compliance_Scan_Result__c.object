@@ -460,7 +460,7 @@
     <recordTypes>
         <fullName>copado__Copado</fullName>
         <active>true</active>
-        <description>This record type is used for scan results produced by Copado.</description>
+        <description>This record type is used for scan results {!Environment.EV: Envionment}uced by Copado.</description>
         <label>Copado</label>
         <picklistValues>
             <picklist>copado__Highest_Rule_Action__c</picklist>

@@ -221,7 +221,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>HI Projects</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

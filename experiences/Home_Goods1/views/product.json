@@ -2,7 +2,7 @@
   "appPageId" : "cca84e1c-cacb-417e-83d4-cde945b655a7",
   "componentName" : "community_layout:sldsFlexibleLayout",
   "dataProviders" : [ {
-    "componentName" : "commerce_data_provider:productDataProvider",
+    "componentName" : "commerce_data_provider:{!Environment.EV: Envionment}uctDataProvider",
     "componentAttributes" : {
       "recordId" : "{!recordId}",
       "sfdcExpressionKey" : "Product"
@@ -58,10 +58,10 @@
           "componentAttributes" : {
             "carouselPageSize" : 1,
             "carouselPosition" : "before",
-            "product" : "{!Product.Details}",
+            "{!Environment.EV: Envionment}uct" : "{!Product.Details}",
             "showCarousel" : true
           },
-          "componentName" : "commerce_builder:productGallery",
+          "componentName" : "commerce_builder:{!Environment.EV: Envionment}uctGallery",
           "id" : "31babb5d-2003-4cd7-869f-14ba648c9221",
           "renderPriority" : "NEUTRAL",
           "renditionMap" : { },
@@ -76,8 +76,8 @@
         "components" : [ {
           "componentAttributes" : {
             "identifierName" : "SKU#",
-            "product" : "{!Product.Details}",
-            "productDetailSummaryFieldMapping" : "[]"
+            "{!Environment.EV: Envionment}uct" : "{!Product.Details}",
+            "{!Environment.EV: Envionment}uctDetailSummaryFieldMapping" : "[]"
           },
           "componentName" : "commerce_builder:heading",
           "id" : "03b11bd7-399f-44a8-a0ab-753347c1e243",
@@ -107,7 +107,7 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "product" : "{!Product.Details}"
+            "{!Environment.EV: Envionment}uct" : "{!Product.Details}"
           },
           "componentName" : "commerce_builder:variantSelector",
           "id" : "ccb4ef28-14ca-4b6a-b03d-fc6738f74b6f",
@@ -141,10 +141,10 @@
             "negotiatedPriceTextSize" : "small",
             "originalPriceLabel" : "Original Price",
             "originalPriceTextSize" : "small",
-            "product" : "{!Product.Details}",
-            "productPricing" : "{!Product.Pricing}",
-            "productTax" : "{!Product.Tax}",
-            "productVariant" : "{!Product.SelectedVariant}",
+            "{!Environment.EV: Envionment}uct" : "{!Product.Details}",
+            "{!Environment.EV: Envionment}uctPricing" : "{!Product.Pricing}",
+            "{!Environment.EV: Envionment}uctTax" : "{!Product.Tax}",
+            "{!Environment.EV: Envionment}uctVariant" : "{!Product.SelectedVariant}",
             "showNegotiatedPrice" : true,
             "showOriginalPrice" : false,
             "showTaxIndication" : false,
@@ -152,7 +152,7 @@
             "taxLabelSize" : "medium",
             "unavailablePriceLabel" : "Price Unavailable"
           },
-          "componentName" : "commerce_builder:productPricing",
+          "componentName" : "commerce_builder:{!Environment.EV: Envionment}uctPricing",
           "id" : "141b12d7-1593-4fd6-bec9-cfd29936f08a",
           "renderPriority" : "NEUTRAL",
           "renditionMap" : { },
@@ -162,7 +162,7 @@
             "backgroundColor" : "rgba(0,0,0,0)",
             "borderRadius" : 0,
             "discountRowLabel" : "Discount per Unit",
-            "productPricing" : "{!Product.Pricing}",
+            "{!Environment.EV: Envionment}uctPricing" : "{!Product.Pricing}",
             "quantityRowLabel" : "Quantity"
           },
           "componentName" : "commerce_builder:pricingTiers",
@@ -198,8 +198,8 @@
             "incrementValueGuideText" : "Increment quantity is {0}",
             "maximumValueGuideText" : "Maximum quantity is {0}",
             "minimumValueGuideText" : "Minimum quantity is {0}",
-            "product" : "{!Product.Details}",
-            "productVariant" : "{!Product.SelectedVariant}",
+            "{!Environment.EV: Envionment}uct" : "{!Product.Details}",
+            "{!Environment.EV: Envionment}uctVariant" : "{!Product.SelectedVariant}",
             "quantitySelectorLabel" : "QTY"
           },
           "componentName" : "commerce_builder:purchaseOptions",

@@ -4,7 +4,7 @@
     <promptVersions>
         <actionButtonLabel>Data Sets Online Help</actionButtonLabel>
         <actionButtonLink>https://docs.copado.com/article/ba15lsvggz-data-sets</actionButtonLink>
-        <body>&lt;p&gt;A data set is a collection of data that is taken from an org and grouped into files. These files will remain unmodified and static until you decide otherwise.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(62, 62, 60);&quot;&gt;Data sets can be created for different sample data such as accounts and contacts, CPQ product configuration and even for data from external sources.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Leverage data sets to seed new and existing sandboxes with test data in order to develop and test applications.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</body>
+        <body>&lt;p&gt;A data set is a collection of data that is taken from an org and grouped into files. These files will remain unmodified and static until you decide otherwise.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(62, 62, 60);&quot;&gt;Data sets can be created for different sample data such as accounts and contacts, CPQ {!Environment.EV: Envionment}uct configuration and even for data from external sources.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Leverage data sets to seed new and existing sandboxes with test data in order to develop and test applications.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</body>
         <customApplication>copado__Copado_Plan_Lightning</customApplication>
         <delayDays>1</delayDays>
         <displayType>DockedComposer</displayType>

@@ -1,6 +1,7 @@
 {
   "appPageId" : "34f8f0b7-40e6-49b6-b7bd-dc9a24a537f0",
   "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
+  "dataProviders" : [ ],
   "id" : "15c6a64e-c189-4f98-8827-c3d608fc3130",
   "label" : "Home",
   "regions" : [ {
@@ -82,7 +83,7 @@
     "components" : [ {
       "componentAttributes" : {
         "enableInlineEdit" : true,
-        "filterName" : "00BDn0000067JHCMA2",
+        "filterName" : "MyCases",
         "layout" : "FULL",
         "pageSize" : 15,
         "scope" : "Case",

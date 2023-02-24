@@ -8,5 +8,5 @@
     <skills>
         <skill>Customer_Service</skill>
     </skills>
-    <userOverflowAssignee>copacass1122@copado.com.production</userOverflowAssignee>
+    <userOverflowAssignee>copacass1122@copado.com.{!Environment.EV: Envionment}uction</userOverflowAssignee>
 </QueueRoutingConfig>

@@ -3200,7 +3200,7 @@
         <enabled>true</enabled>
         <name>copado__Personal_Settings__c</name>
     </customSettingAccesses>
-    <description>Provide users access to all Copado objects, fields, tabs, applications and components across all Copado products</description>
+    <description>Provide users access to all Copado objects, fields, tabs, applications and components across all Copado {!Environment.EV: Envionment}ucts</description>
     <fieldPermissions>
         <editable>false</editable>
         <field>User.copado__API_URL__c</field>

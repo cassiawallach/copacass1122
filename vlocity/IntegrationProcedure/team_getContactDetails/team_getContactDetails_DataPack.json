@@ -17,9 +17,9 @@
     "PropertySetConfig": "team_getContactDetails_PropertySetConfig.json",
     "SubType": "getContactDetails",
     "Type": "team",
-    "UniqueName": "team_getContactDetails_Procedure_1",
+    "UniqueName": "team_getContactDetails_Procedure_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/team/getContactDetails/Procedure",
-    "WebComponentKey": "494dc2db-c1cc-0a23-5e7e-0d16987ebcc5"
+    "WebComponentKey": "75ef5a91-f4a5-d734-059e-617e7311f731"
 }

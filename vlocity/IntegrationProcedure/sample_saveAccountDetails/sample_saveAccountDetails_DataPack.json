@@ -14,9 +14,9 @@
     "PropertySetConfig": "sample_saveAccountDetails_PropertySetConfig.json",
     "SubType": "saveAccountDetails",
     "Type": "sample",
-    "UniqueName": "sample_saveAccountDetails_Procedure_2",
+    "UniqueName": "sample_saveAccountDetails_Procedure_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/sample/saveAccountDetails/Procedure",
-    "WebComponentKey": "ec207c15-24dd-40a4-c5ed-d26350f8c8ef"
+    "WebComponentKey": "7b089f33-c3ff-65df-1294-2a98b83c464e"
 }

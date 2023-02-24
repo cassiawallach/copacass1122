@@ -1,0 +1,45 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "recordId",
+                    "val": "001DP00001oK6F6YAK"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "AccountId": "{recordId}"
+                },
+                "ipMethod": "sample_getAccountContactDetails",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "sampleContacts",
+    "Namespace": "",
+    "OmniUiCardKey": "sampleContacts/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "sampleContacts.json",
+    "SampleDataSourceResponse": "{\"Contact\":{\"ContactTitle\":\"Product Owner\",\"ContactPhone\":\"(123) 123-4567\",\"ContactLastName\":\"Contact\",\"ContactId\":\"003DP00001QRYf2YAH\",\"ContactFirstName\":\"Placeholder\",\"ContactEmail\":\"placeholder@gmail.com\"},\"Account\":{\"AccountWebsite\":\"www.placeholderinc.com\",\"AccountPostalCode\":\"12345\",\"AccountPhone\":\"(123) 123-4567\",\"AccountName\":\"PlaceHolder Inc\",\"AccountId\":\"001DP00001oK6F6YAK\"}}",
+    "StylingConfiguration": "",
+    "UniqueName": "sampleContacts_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/sampleContacts"
+}

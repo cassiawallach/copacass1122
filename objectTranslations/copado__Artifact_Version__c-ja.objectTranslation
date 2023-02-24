@@ -109,7 +109,7 @@
 
 Pre-Release indicates a package version that has been generated but not yet promoted or is not ready for release. 
 
-A package version with Published status, indicates it can be released or deployed to production. 
+A package version with Published status, indicates it can be released or deployed to {!Environment.EV: Envionment}uction. 
 
 Deprecated highlights a package version that has been deleted and is no longer available for use.
 

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>HI Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>HI Projects</value>
+    </caseValues>
+    <fields>
+        <label><!-- Project Type --></label>
+        <name>Project_Type__c</name>
+        <picklistValues>
+            <masterLabel>Bathroom</masterLabel>
+            <translation><!-- Bathroom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cabinets</masterLabel>
+            <translation><!-- Cabinets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flooring</masterLabel>
+            <translation><!-- Flooring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kitchen</masterLabel>
+            <translation><!-- Kitchen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lighting &amp; Electric</masterLabel>
+            <translation><!-- Lighting &amp; Electric --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Painting</masterLabel>
+            <translation><!-- Painting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plumming</masterLabel>
+            <translation><!-- Plumming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Windows &amp; Treatments</masterLabel>
+            <translation><!-- Windows &amp; Treatments --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -13,9 +13,9 @@
     "PropertySetConfig": "team_saveAccountDetails_PropertySetConfig.json",
     "SubType": "saveAccountDetails",
     "Type": "team",
-    "UniqueName": "team_saveAccountDetails_Procedure_2",
+    "UniqueName": "team_saveAccountDetails_Procedure_6",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/team/saveAccountDetails/Procedure",
-    "WebComponentKey": "de8a7e78-112a-39e5-7e11-8f5f30dca62a"
+    "WebComponentKey": "b451d40d-5007-09a2-7da4-d4cbc87762f8"
 }

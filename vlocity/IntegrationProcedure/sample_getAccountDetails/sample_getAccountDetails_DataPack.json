@@ -17,9 +17,9 @@
     "PropertySetConfig": "sample_getAccountDetails_PropertySetConfig.json",
     "SubType": "getAccountDetails",
     "Type": "sample",
-    "UniqueName": "sample_getAccountDetails_Procedure_2",
+    "UniqueName": "sample_getAccountDetails_Procedure_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/sample/getAccountDetails/Procedure",
-    "WebComponentKey": "74844340-c6ed-02e3-cd80-93806ae12ffa"
+    "WebComponentKey": "1bf81395-b440-a33b-e880-76570e785650"
 }

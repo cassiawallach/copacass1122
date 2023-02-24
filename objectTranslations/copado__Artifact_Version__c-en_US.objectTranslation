@@ -82,7 +82,7 @@
         <name>copado__Package_Version_Id__c</name>
     </fields>
     <fields>
-        <help><!-- Use this URL in order to install this package in a production environment. --></help>
+        <help><!-- Use this URL in order to install this package in a {!Environment.EV: Envionment}uction environment. --></help>
         <label><!-- Production Installation URL --></label>
         <name>copado__Production_Installation_URL__c</name>
     </fields>
@@ -105,7 +105,7 @@
 
 Pre-Release indicates a package version that has been generated but not yet promoted or is not ready for release. 
 
-A package version with Published status, indicates it can be released or deployed to production. 
+A package version with Published status, indicates it can be released or deployed to {!Environment.EV: Envionment}uction. 
 
 Deprecated highlights a package version that has been deleted and is no longer available for use.
 

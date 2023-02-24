@@ -4,9 +4,9 @@
   "dataProviders" : [ {
     "componentName" : "commerce_data_provider:searchDataProvider",
     "componentAttributes" : {
+      "categoryId" : "{!Route.recordId}",
       "searchTerm" : "{!Route.term}",
-      "sfdcExpressionKey" : "Search",
-      "categoryId" : "{!Route.recordId}"
+      "sfdcExpressionKey" : "Search"
     }
   } ],
   "id" : "f503dcd6-3fb6-471f-9e24-abd7a7c374c4",

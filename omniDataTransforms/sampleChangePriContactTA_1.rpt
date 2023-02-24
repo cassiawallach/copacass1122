@@ -17,20 +17,6 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>sampleChangePriContactTACustom9195</globalKey>
-        <inputFieldName>ChangeContact:LastName</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>sampleChangePriContactTA</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>ChangeContactLastName</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
         <filterOperator>=</filterOperator>
         <filterValue>AccountId</filterValue>
         <globalKey>SAMPLEPriContactTACustoma0Jf4000002JS5CEAWItem1</globalKey>
@@ -95,6 +81,20 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
+        <globalKey>sampleChangePriContactTACustom3704</globalKey>
+        <inputFieldName>ChangeContact:FirstName</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>sampleChangePriContactTA</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>ChangeContactFirstName</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
         <globalKey>SAMPLEPriContactTACustoma0Jf4000002JS5CEAWItem5</globalKey>
         <inputFieldName>ChangeContact:Id</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
@@ -109,13 +109,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>SAMPLEPriContactTACustoma0Jf4000002JS5CEAWItem6</globalKey>
-        <inputFieldName>ChangeContact:Name</inputFieldName>
+        <globalKey>sampleChangePriContactTACustom9195</globalKey>
+        <inputFieldName>ChangeContact:LastName</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>sampleChangePriContactTA</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>ChangeContactNameKey</outputFieldName>
+        <outputFieldName>ChangeContactLastName</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -123,13 +123,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>sampleChangePriContactTACustom3704</globalKey>
-        <inputFieldName>ChangeContact:FirstName</inputFieldName>
+        <globalKey>SAMPLEPriContactTACustoma0Jf4000002JS5CEAWItem6</globalKey>
+        <inputFieldName>ChangeContact:Name</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>sampleChangePriContactTA</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>ChangeContactFirstName</outputFieldName>
+        <outputFieldName>ChangeContactNameKey</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>

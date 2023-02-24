@@ -3,11 +3,15 @@
     <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
     <language>en_US</language>
     <masterLabel>tcxj8zcyoacn908i14z2</masterLabel>
-    <originNetwork>Default Help Center</originNetwork>
+    <originNetwork>customerportal</originNetwork>
     <relationships>
         <network>
             <access>VIEWER</access>
             <name>Default Help Center</name>
+        </network>
+        <network>
+            <access>VIEWER</access>
+            <name>customerportal</name>
         </network>
         <workspace>
             <access>INFERRED</access>

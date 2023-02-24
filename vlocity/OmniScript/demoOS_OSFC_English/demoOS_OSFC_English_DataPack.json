@@ -25,9 +25,9 @@
     "PropertySetConfig": "demoOS_OSFC_English_PropertySetConfig.json",
     "SubType": "OSFC",
     "Type": "demoOS",
-    "UniqueName": "demoOS_OSFC_English_2",
+    "UniqueName": "demoOS_OSFC_English_4",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/demoOS/OSFC/English",
-    "WebComponentKey": "3bedc3bf-d9f6-1613-0c9c-686357c40a69"
+    "WebComponentKey": "88a79bfb-e005-9859-8f33-3f920cdf17f8"
 }

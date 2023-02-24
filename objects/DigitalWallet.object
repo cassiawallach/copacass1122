@@ -160,6 +160,15 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PaymentMethodDetails</fullName>
+    </fields>
+    <fields>
+        <fullName>PaymentMethodSubType</fullName>
+    </fields>
+    <fields>
+        <fullName>PaymentMethodType</fullName>
+    </fields>
+    <fields>
         <fullName>Phone</fullName>
     </fields>
     <fields>
@@ -167,6 +176,9 @@
     </fields>
     <fields>
         <fullName>Status</fullName>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
     </fields>
     <listViews>
         <fullName>DigitalWallet</fullName>

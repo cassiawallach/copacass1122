@@ -5,6 +5,10 @@
     <masterLabel>X360_F_467592556_ZWEXBysitotqf2elYGc</masterLabel>
     <originNetwork>customerportal</originNetwork>
     <relationships>
+        <network>
+            <access>VIEWER</access>
+            <name>customerportal</name>
+        </network>
         <workspace>
             <access>INFERRED</access>
             <isManagingWorkspace>true</isManagingWorkspace>

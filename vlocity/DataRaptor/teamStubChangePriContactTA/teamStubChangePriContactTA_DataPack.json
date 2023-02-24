@@ -10,7 +10,7 @@
     "GlobalKey": "teamStubChangePriContactTA",
     "InputParsingClass": "",
     "InputType": "JSON",
-    "IsActive": false,
+    "IsActive": true,
     "IsAssignmentRulesUsed": false,
     "IsDeletedOnSuccess": false,
     "IsErrorIgnored": false,

@@ -184,4 +184,12 @@
         <name>customeraccountportal</name>
         <type>Network</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Home Goods</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Home_Improvement_Console</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

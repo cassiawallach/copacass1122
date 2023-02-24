@@ -12,20 +12,6 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>reusableCompanyMailingAddressCustom8516</globalKey>
-        <inputFieldName>Account:ShippingPostalCode</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>reusableCompanyMailingAddress</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>AccountMailingPostalCode</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
         <filterOperator>=</filterOperator>
         <filterValue>AccountId</filterValue>
         <globalKey>reusableCompanyMailingAddressCustom1541</globalKey>
@@ -43,13 +29,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>reusableCompanyMailingAddressCustom7898</globalKey>
-        <inputFieldName>Account:ShippingState</inputFieldName>
+        <globalKey>reusableCompanyMailingAddressCustom8985</globalKey>
+        <inputFieldName>Account:ShippingCity</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>reusableCompanyMailingAddress</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>AccountMailingState</outputFieldName>
+        <outputFieldName>AccountMailingCity</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -71,13 +57,27 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>reusableCompanyMailingAddressCustom8985</globalKey>
-        <inputFieldName>Account:ShippingCity</inputFieldName>
+        <globalKey>reusableCompanyMailingAddressCustom8516</globalKey>
+        <inputFieldName>Account:ShippingPostalCode</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>reusableCompanyMailingAddress</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>AccountMailingCity</outputFieldName>
+        <outputFieldName>AccountMailingPostalCode</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>reusableCompanyMailingAddressCustom7898</globalKey>
+        <inputFieldName>Account:ShippingState</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>reusableCompanyMailingAddress</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>AccountMailingState</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>

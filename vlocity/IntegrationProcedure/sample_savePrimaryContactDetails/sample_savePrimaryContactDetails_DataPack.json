@@ -18,9 +18,9 @@
     "PropertySetConfig": "sample_savePrimaryContactDetails_PropertySetConfig.json",
     "SubType": "savePrimaryContactDetails",
     "Type": "sample",
-    "UniqueName": "sample_savePrimaryContactDetails_Procedure_1",
+    "UniqueName": "sample_savePrimaryContactDetails_Procedure_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/sample/savePrimaryContactDetails/Procedure",
-    "WebComponentKey": "fc29291f-bb02-9eb4-56da-c8bf9a815430"
+    "WebComponentKey": "c6d7ab60-d078-2793-6ed1-08cfdc923198"
 }

@@ -28,9 +28,9 @@
     "PropertySetConfig": "team_updateAccountPrimaryContact_English_PropertySetConfig.json",
     "SubType": "updateAccountPrimaryContact",
     "Type": "team",
-    "UniqueName": "team_updateAccountPrimaryContact_English_1",
+    "UniqueName": "team_updateAccountPrimaryContact_English_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/team/updateAccountPrimaryContact/English",
-    "WebComponentKey": "1f61baef-baab-5a98-f4f9-9cdba3e5f47a"
+    "WebComponentKey": "a9046624-c687-4d2a-685f-daf0fbb67ca8"
 }

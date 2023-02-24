@@ -20,7 +20,7 @@
         <name>copado__Severity__c</name>
     </fields>
     <recordTypes>
-        <description><!-- This record type is used for scan findings produced by Copado. --></description>
+        <description><!-- This record type is used for scan findings {!Environment.EV: Envionment}uced by Copado. --></description>
         <label><!-- Copado --></label>
         <name>copado__Copado</name>
     </recordTypes>

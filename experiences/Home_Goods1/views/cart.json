@@ -170,7 +170,7 @@
                 "backgroundColor" : "",
                 "paddingHorizontal" : "none",
                 "paddingVertical" : "none",
-                "text" : "Search or browse products, and add them to your cart.  Your selections appear here.",
+                "text" : "Search or browse {!Environment.EV: Envionment}ucts, and add them to your cart.  Your selections appear here.",
                 "textAlign" : "center",
                 "textDecoration" : "{\"bold\": false}",
                 "textDisplayInfo" : "{\"headingTag\": \"p\", \"textStyle\": \"body-regular\"}"
@@ -212,7 +212,7 @@
                 "originalPriceFontColor" : "rgb(116, 116, 116)",
                 "originalPriceFontSize" : "small",
                 "pricePerUnitFontSize" : "medium",
-                "productFieldMapping" : "[{\"name\": \"ProductCode\",\"label\": \"Product Code:\",\"type\": \"STRING\"},{\"name\": \"Description\",\"label\": \"Description:\",\"type\": \"TEXTAREA\"}]",
+                "{!Environment.EV: Envionment}uctFieldMapping" : "[{\"name\": \"ProductCode\",\"label\": \"Product Code:\",\"type\": \"STRING\"},{\"name\": \"Description\",\"label\": \"Description:\",\"type\": \"TEXTAREA\"}]",
                 "promotionsAppliedSavingsButtonBorderRadius" : 20,
                 "promotionsAppliedSavingsButtonFontSize" : "small",
                 "promotionsAppliedSavingsButtonText" : "Saved {amount}",

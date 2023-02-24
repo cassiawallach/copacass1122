@@ -174,6 +174,34 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
+        <globalKey>sampleXformWeather07948308217402267</globalKey>
+        <inputFieldName>Current:temp</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>sampleXformWeather</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Current:TempF</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sampleXformWeather8319901879503753</globalKey>
+        <inputFieldName>Forecast:weather:description</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>sampleXformWeather</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Forecast:Condition</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
         <globalKey>sampleXformWeather6153132462150008</globalKey>
         <inputFieldName>Forecast:valid_date</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
@@ -257,34 +285,6 @@
         <name>sampleXformWeather</name>
         <outputCreationSequence>1.0</outputCreationSequence>
         <outputFieldName>Current:Condition</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>sampleXformWeather07948308217402267</globalKey>
-        <inputFieldName>Current:temp</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>sampleXformWeather</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Current:TempF</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>sampleXformWeather8319901879503753</globalKey>
-        <inputFieldName>Forecast:weather:description</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>sampleXformWeather</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Forecast:Condition</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>

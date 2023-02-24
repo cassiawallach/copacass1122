@@ -14,6 +14,8 @@
     <tabs>standard-RetailStoreKpi</tabs>
     <tabs>standard-Assortment</tabs>
     <tabs>standard-Promotion</tabs>
+    <tabs>standard-ProductCatalog</tabs>
+    <tabs>standard-ProductCategory</tabs>
     <tabs>standard-ActionPlanTemplate</tabs>
     <tabs>standard-AssessmentIndicatorDefinition</tabs>
     <tabs>standard-RetailExecution</tabs>

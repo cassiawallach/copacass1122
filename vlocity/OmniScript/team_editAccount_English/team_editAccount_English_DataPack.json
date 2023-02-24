@@ -23,9 +23,9 @@
     "PropertySetConfig": "team_editAccount_English_PropertySetConfig.json",
     "SubType": "editAccount",
     "Type": "team",
-    "UniqueName": "team_editAccount_English_6",
+    "UniqueName": "team_editAccount_English_7",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/team/editAccount/English",
-    "WebComponentKey": "882930c0-007c-8cdd-53cc-772589ed516a"
+    "WebComponentKey": "13a0cb44-9812-8f33-bc9f-70c47aeb2e77"
 }

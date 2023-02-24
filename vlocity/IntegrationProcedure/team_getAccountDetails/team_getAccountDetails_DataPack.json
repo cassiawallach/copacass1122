@@ -17,9 +17,9 @@
     "PropertySetConfig": "team_getAccountDetails_PropertySetConfig.json",
     "SubType": "getAccountDetails",
     "Type": "team",
-    "UniqueName": "team_getAccountDetails_Procedure_2",
+    "UniqueName": "team_getAccountDetails_Procedure_6",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/team/getAccountDetails/Procedure",
-    "WebComponentKey": "4ee4d120-cf22-2286-07aa-0155640d2a96"
+    "WebComponentKey": "97c35ffd-7bae-8b5c-87f5-c96d55aee656"
 }

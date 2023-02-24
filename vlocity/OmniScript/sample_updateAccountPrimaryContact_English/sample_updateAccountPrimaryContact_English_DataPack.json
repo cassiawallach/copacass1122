@@ -41,9 +41,9 @@
     "PropertySetConfig": "sample_updateAccountPrimaryContact_English_PropertySetConfig.json",
     "SubType": "updateAccountPrimaryContact",
     "Type": "sample",
-    "UniqueName": "sample_updateAccountPrimaryContact_English_1",
+    "UniqueName": "sample_updateAccountPrimaryContact_English_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/sample/updateAccountPrimaryContact/English",
-    "WebComponentKey": "d5aa6cc9-fc24-47d7-6d13-8286bc70dd51"
+    "WebComponentKey": "c94fcd60-08de-684e-b3af-203b6207fb44"
 }

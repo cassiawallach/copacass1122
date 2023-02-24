@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ExternalServiceRegistration xmlns="http://soap.sforce.com/2006/04/metadata">
     <label>DigitSecService</label>
-    <namedCredential>DigitSecCredentials</namedCredential>
+    <namedCredentialReference>DigitSecCredentials</namedCredentialReference>
     <operations>
         <active>true</active>
         <name>getfindings</name>
@@ -93,7 +93,7 @@
         &quot;consumes&quot;: [
           &quot;application/json&quot;
         ],
-        &quot;produces&quot;: [
+        &quot;{!Environment.EV: Envionment}uces&quot;: [
           &quot;application/json&quot;
         ],
         &quot;responses&quot;: {
@@ -135,7 +135,7 @@
         &quot;summary&quot;: &quot;Initialize a scan&quot;,
         &quot;description&quot;: &quot;&quot;,
         &quot;operationId&quot;: &quot;scanInit&quot;,
-        &quot;produces&quot;: [
+        &quot;{!Environment.EV: Envionment}uces&quot;: [
           &quot;application/json&quot;
         ],
         &quot;parameters&quot;: [
@@ -178,7 +178,7 @@
         &quot;summary&quot;: &quot;Initialize a Copado Scan&quot;,
         &quot;description&quot;: &quot;&quot;,
         &quot;operationId&quot;: &quot;scanCopadoInit&quot;,
-        &quot;produces&quot;: [
+        &quot;{!Environment.EV: Envionment}uces&quot;: [
           &quot;application/json&quot;
         ],
         &quot;parameters&quot;: [
@@ -344,7 +344,7 @@
         &quot;consumes&quot;: [
           &quot;application/json&quot;
         ],
-        &quot;produces&quot;: [
+        &quot;{!Environment.EV: Envionment}uces&quot;: [
           &quot;application/json&quot;
         ],
         &quot;parameters&quot;: [
@@ -390,7 +390,7 @@
         &quot;consumes&quot;: [
           &quot;application/json&quot;
         ],
-        &quot;produces&quot;: [
+        &quot;{!Environment.EV: Envionment}uces&quot;: [
           &quot;application/json&quot;
         ],
         &quot;parameters&quot;: [
@@ -749,6 +749,6 @@
 }</schema>
     <schemaType>OpenApi</schemaType>
     <serviceBinding>{&quot;compatibleMediaTypes&quot;:{}}</serviceBinding>
-    <status>Complete</status>
+    <status>Incomplete</status>
     <systemVersion>2</systemVersion>
 </ExternalServiceRegistration>

@@ -45,6 +45,9 @@
         <fullName>DeclineReason</fullName>
     </fields>
     <fields>
+        <fullName>FlagIcon</fullName>
+    </fields>
+    <fields>
         <fullName>FlagMessage</fullName>
     </fields>
     <fields>
@@ -55,6 +58,9 @@
     </fields>
     <fields>
         <fullName>IsConference</fullName>
+    </fields>
+    <fields>
+        <fullName>IsFlagSupervisorOnly</fullName>
     </fields>
     <fields>
         <fullName>IsFlagged</fullName>

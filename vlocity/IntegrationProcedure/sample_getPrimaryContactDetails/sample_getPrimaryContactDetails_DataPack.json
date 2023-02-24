@@ -17,9 +17,9 @@
     "PropertySetConfig": "sample_getPrimaryContactDetails_PropertySetConfig.json",
     "SubType": "getPrimaryContactDetails",
     "Type": "sample",
-    "UniqueName": "sample_getPrimaryContactDetails_Procedure_1",
+    "UniqueName": "sample_getPrimaryContactDetails_Procedure_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/sample/getPrimaryContactDetails/Procedure",
-    "WebComponentKey": "237f4d8c-7251-c855-9cce-6a803f829a84"
+    "WebComponentKey": "0d45c8a5-5932-2aef-3d56-1704af84f17f"
 }

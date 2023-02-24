@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
-    <description>Copado Plan is a tool that helps you to plan, organize, and manage your team&apos;s work, from the planning stage of a product to its release. It can also be used to collaborate efficiently amidst the teams.</description>
+    <description>Copado Plan is a tool that helps you to plan, organize, and manage your team&apos;s work, from the planning stage of a {!Environment.EV: Envionment}uct to its release. It can also be used to collaborate efficiently amidst the teams.</description>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>

@@ -18,13 +18,30 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>sampleGetPriContactDetailsCustom5927</globalKey>
-        <inputFieldName>Account:PrimaryContactId__r.LastName</inputFieldName>
+        <filterOperator>=</filterOperator>
+        <filterValue>AccountId</filterValue>
+        <globalKey>SAMPLEGetPriContactDetailsCustoma173i000000ZbN3AAKItem0</globalKey>
+        <inputFieldName>Id</inputFieldName>
+        <inputObjectName>Account</inputObjectName>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>sampleGetPriContactDetails</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Account</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sampleGetPriContactDetailsCustom4971</globalKey>
+        <inputFieldName>Account:Id</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>sampleGetPriContactDetails</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>UpdateLastName</outputFieldName>
+        <outputFieldName>AccountId</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -39,23 +56,6 @@
         <name>sampleGetPriContactDetails</name>
         <outputCreationSequence>1.0</outputCreationSequence>
         <outputFieldName>AccountName</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <filterOperator>=</filterOperator>
-        <filterValue>AccountId</filterValue>
-        <globalKey>SAMPLEGetPriContactDetailsCustoma173i000000ZbN3AAKItem0</globalKey>
-        <inputFieldName>Id</inputFieldName>
-        <inputObjectName>Account</inputObjectName>
-        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>sampleGetPriContactDetails</name>
-        <outputCreationSequence>0.0</outputCreationSequence>
-        <outputFieldName>Account</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -105,13 +105,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>sampleGetPriContactDetailsCustom4971</globalKey>
-        <inputFieldName>Account:Id</inputFieldName>
+        <globalKey>sampleGetPriContactDetailsCustom5927</globalKey>
+        <inputFieldName>Account:PrimaryContactId__r.LastName</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>sampleGetPriContactDetails</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>AccountId</outputFieldName>
+        <outputFieldName>UpdateLastName</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>

@@ -11,6 +11,57 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>AccountId</filterValue>
+        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item0</globalKey>
+        <inputFieldName>AccountId</inputFieldName>
+        <inputObjectName>Case</inputObjectName>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>getCases</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Cases</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>001DP00001o5W9jYAE</filterValue>
+        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item1</globalKey>
+        <inputFieldName>Id</inputFieldName>
+        <inputObjectName>Account</inputObjectName>
+        <inputObjectQuerySequence>2.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>getCases</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Account</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| &quot;SELECT/\/\/COUNT()/\/\/FROM/\/\/Case/\/\/WHERE/\/\/AccountId/\/\/=/\/\/&apos;001DP00001o5W9jYAE&apos;&quot; var:AccountId COUNTQUERY</formulaConverted>
+        <formulaExpression>COUNTQUERY ( &quot;SELECT COUNT() FROM Case WHERE AccountId = &apos;001DP00001o5W9jYAE&apos;&quot; , AccountId )</formulaExpression>
+        <formulaResultPath>Cases.Total</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item2</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>getCases</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
         <globalKey>getCasesCustom0jIDP000000CaTN2A0Item7</globalKey>
         <inputFieldName>Account:Id</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
@@ -25,27 +76,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item8</globalKey>
-        <inputFieldName>Account:BillingPostalCode</inputFieldName>
+        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item12</globalKey>
+        <inputFieldName>Cases:Id</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>getCases</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>PostalCode</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item9</globalKey>
-        <inputFieldName>Cases:Priority</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>getCases</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Priority</outputFieldName>
+        <outputFieldName>CaseId</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -81,54 +118,6 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <filterOperator>=</filterOperator>
-        <filterValue>AccountId</filterValue>
-        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item0</globalKey>
-        <inputFieldName>AccountId</inputFieldName>
-        <inputObjectName>Case</inputObjectName>
-        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>getCases</name>
-        <outputCreationSequence>0.0</outputCreationSequence>
-        <outputFieldName>Cases</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item12</globalKey>
-        <inputFieldName>Cases:Id</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>getCases</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>CaseId</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <filterOperator>=</filterOperator>
-        <filterValue>001DP00001o5W9jYAE</filterValue>
-        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item1</globalKey>
-        <inputFieldName>Id</inputFieldName>
-        <inputObjectName>Account</inputObjectName>
-        <inputObjectQuerySequence>2.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>getCases</name>
-        <outputCreationSequence>0.0</outputCreationSequence>
-        <outputFieldName>Account</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
         <globalKey>getCasesCustom0jIDP000000CaTN2A0Item13</globalKey>
         <inputFieldName>Cases:Description</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
@@ -143,44 +132,13 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <formulaConverted>| &quot;SELECT/\/\/COUNT()/\/\/FROM/\/\/Case/\/\/WHERE/\/\/AccountId/\/\/=/\/\/&apos;001DP00001o5W9jYAE&apos;&quot; var:AccountId COUNTQUERY</formulaConverted>
-        <formulaExpression>COUNTQUERY ( &quot;SELECT COUNT() FROM Case WHERE AccountId = &apos;001DP00001o5W9jYAE&apos;&quot; , AccountId )</formulaExpression>
-        <formulaResultPath>Cases.Total</formulaResultPath>
-        <formulaSequence>1.0</formulaSequence>
-        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item2</globalKey>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>getCases</name>
-        <outputCreationSequence>0.0</outputCreationSequence>
-        <outputFieldName>Formula</outputFieldName>
-        <outputObjectName>Formula</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item14</globalKey>
-        <inputFieldName>Cases:Status</inputFieldName>
+        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item16</globalKey>
+        <inputFieldName>Cases:Type</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
         <linkedObjectSequence>0.0</linkedObjectSequence>
         <name>getCases</name>
         <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Status</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item5</globalKey>
-        <inputFieldName>Cases.Total</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>getCases</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Total</outputFieldName>
+        <outputFieldName>Type</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -195,20 +153,6 @@
         <name>getCases</name>
         <outputCreationSequence>1.0</outputCreationSequence>
         <outputFieldName>IsEscalated</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
-        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item16</globalKey>
-        <inputFieldName>Cases:Type</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>getCases</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>Type</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -244,6 +188,48 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
+        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item8</globalKey>
+        <inputFieldName>Account:BillingPostalCode</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>getCases</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>PostalCode</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item9</globalKey>
+        <inputFieldName>Cases:Priority</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>getCases</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Priority</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item14</globalKey>
+        <inputFieldName>Cases:Status</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>getCases</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Status</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
         <globalKey>getCasesCustom0jIDP000000CaTN2A0Item15</globalKey>
         <inputFieldName>Cases:Subject</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
@@ -255,9 +241,23 @@
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
     </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>getCasesCustom0jIDP000000CaTN2A0Item5</globalKey>
+        <inputFieldName>Cases.Total</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>getCases</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Total</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
     <outputType>JSON</outputType>
     <previewJsonData>{
-  &quot;AccountId&quot; : &quot;001DP00001o5W9jYAE&quot;
+  &quot;AccountId&quot; : &quot;0015w00002DUoxmAAD&quot;
 }</previewJsonData>
     <processSuperBulk>false</processSuperBulk>
     <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
