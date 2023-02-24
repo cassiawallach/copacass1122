@@ -13,9 +13,9 @@
     "PropertySetConfig": "team_saveContactDetails_PropertySetConfig.json",
     "SubType": "saveContactDetails",
     "Type": "team",
-    "UniqueName": "team_saveContactDetails_Procedure_2",
+    "UniqueName": "team_saveContactDetails_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/team/saveContactDetails/Procedure",
-    "WebComponentKey": "1f74ef8b-8629-dcf5-8be9-8c9c5241d193"
+    "WebComponentKey": "a412e0b1-7735-f4bf-14f8-2b1ea14f8763"
 }
