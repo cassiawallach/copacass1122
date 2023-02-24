@@ -14,6 +14,7 @@
         "team_editContact_English_Element_LineBreak1.json",
         "team_editContact_English_Element_Last-Name.json",
         "team_editContact_English_Element_LineBreak2.json",
+        "team_editContact_English_Element_Company.json",
         "team_editContact_English_Element_Title.json",
         "team_editContact_English_Element_LineBreak3.json",
         "team_editContact_English_Element_Phone.json",
@@ -25,9 +26,9 @@
     "PropertySetConfig": "team_editContact_English_PropertySetConfig.json",
     "SubType": "editContact",
     "Type": "team",
-    "UniqueName": "team_editContact_English_2",
+    "UniqueName": "team_editContact_English_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/team/editContact/English",
-    "WebComponentKey": "ae1d9fba-6ad0-4ba1-07b9-3a9abfa13657"
+    "WebComponentKey": "39b6827a-5706-013b-954d-724976fb673f"
 }
