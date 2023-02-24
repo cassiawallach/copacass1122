@@ -147,6 +147,17 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>External_ID2__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>External ID2</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>Family</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
