@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <brand>
-        <headerColor>#0070D2</headerColor>
+        <headerColor>#6AAE88</headerColor>
+        <logo>Screenshot_20230227_at_11535_PM</logo>
+        <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
     </brand>
     <formFactors>Small</formFactors>
@@ -11,16 +13,18 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>REM Console</label>
     <navType>Console</navType>
+    <tabs>standard-home</tabs>
     <tabs>Property__c</tabs>
-    <tabs>Bike_Card</tabs>
     <tabs>Brokerage__c</tabs>
+    <tabs>standard-Opportunity</tabs>
     <tabs>Realtor__c</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>REM_Console_UtilityBar</utilityBar>
     <workspaceConfig>
-        <mappings>
-            <tab>Bike_Card</tab>
-        </mappings>
         <mappings>
             <tab>Brokerage__c</tab>
         </mappings>
@@ -29,6 +33,24 @@
         </mappings>
         <mappings>
             <tab>Realtor__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Account</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Contact</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Dashboard</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Opportunity</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-home</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-report</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>
