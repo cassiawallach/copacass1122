@@ -380,4 +380,11 @@
         <label><!-- Large Data --></label>
         <name>omnistudio__LargeData__c</name>
     </fields>
+    <layouts>
+        <layout>Interface_DRGeneric Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>
