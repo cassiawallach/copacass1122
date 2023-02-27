@@ -259,14 +259,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>FPL_Demo_Field_update__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>FPL Demo FieldUPDATE</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>Fax</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -397,35 +389,6 @@
     <fields>
         <fullName>Phone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>PrimaryContactId__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Primary Contact</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>Contact.AccountId</field>
-                <operation>equals</operation>
-                <valueField>$Source.Id</valueField>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>Contact</referenceTo>
-        <relationshipLabel>Accounts(Primary)</relationshipLabel>
-        <relationshipName>PrimaryContact</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ROP_Test_Field__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>ROP Test Field</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Rating</fullName>

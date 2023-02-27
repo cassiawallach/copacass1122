@@ -186,6 +186,21 @@
             <translation>指定されたテストを実行</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Deployment Flow Step Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields Updated By Copado --></label>
+            <section>Fields Updated By Copado</section>
+        </sections>
+        <sections>
+            <label><!-- Stage Information --></label>
+            <section>Stage Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Pipeline Connection Reference --></nameFieldLabel>
     <validationRules>
         <errorMessage><!-- Platform for pipeline and Environment must match --></errorMessage>

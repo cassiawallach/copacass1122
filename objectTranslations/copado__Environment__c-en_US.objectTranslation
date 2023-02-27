@@ -5,6 +5,11 @@
         <name>cmcSf__Apex_Test_Level__c</name>
     </fields>
     <fields>
+        <help><!-- Use this field as an identifier for the Environment record when referencing it in an action. --></help>
+        <label><!-- API Name --></label>
+        <name>copado__API_Name__c</name>
+    </fields>
+    <fields>
         <label><!-- Compliance Rule Group --></label>
         <name>copado__Compliance_Rule_Group__c</name>
         <relationshipLabel><!-- Environments --></relationshipLabel>
@@ -132,6 +137,10 @@
             <masterLabel>Salesforce</masterLabel>
             <translation><!-- Salesforce --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>copado_sfcc</masterLabel>
+            <translation><!-- copado_sfcc --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <help><!-- The Default Credential for the target Org is always selected by default. Optionally, the Default Credential can be selected only if the user has no Org Credential for the target Org. --></help>
@@ -180,6 +189,29 @@
             <translation><!-- Only If User Has No Org Credential --></translation>
         </picklistValues>
     </fields>
+    <fields>
+        <label><!-- Production Org? --></label>
+        <name>copadometrics__Production_Org__c</name>
+    </fields>
+    <layouts>
+        <layout>Environment Layout</layout>
+        <sections>
+            <label><!-- Compliance --></label>
+            <section>Compliance</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Page Messages --></label>
+            <section>Page Messages</section>
+        </sections>
+        <sections>
+            <label><!-- Rollback --></label>
+            <section>Rollback</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- We do not recommend to set “Run Specified Test” on an environment level, unless you are 100% sure that ALL deployments contain Apex. If this is the case, you can deactivate this Validation Rule. --></errorMessage>
         <name>cmcSf__Prevent_RunSpecifiedTest_For_Environment</name>

@@ -109,9 +109,6 @@
         <fullName>Description</fullName>
     </fields>
     <fields>
-        <fullName>ExternalReference</fullName>
-    </fields>
-    <fields>
         <fullName>MaxValuesPerFacet</fullName>
         <inlineHelpText>Set the maximum number of values to show per filter. Enter a value from 1 to 100.</inlineHelpText>
     </fields>
