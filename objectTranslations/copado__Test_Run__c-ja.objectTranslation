@@ -143,7 +143,26 @@
         <name>copado__User_Story__c</name>
         <relationshipLabel><!-- Test Runs --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Test Execution Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>テスト実行結果</label>
+            <section>Test Run Results</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Test Run Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Test Run must be passed before deploying. --></errorMessage>
+        <name>Cannot_deploy_from_dev_until_pass</name>
+    </validationRules>
     <webLinks>
         <label><!-- Copado_DX --></label>
         <name>copado__Copado_DX</name>
