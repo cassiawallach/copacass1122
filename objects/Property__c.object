@@ -184,6 +184,20 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Property_Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Property Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Property Snapshot</relationshipLabel>
+        <relationshipName>Property_Snapshot</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
         <fullName>Selling_Agent__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
@@ -339,7 +353,7 @@
             </values>
         </picklistValues>
     </recordTypes>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
