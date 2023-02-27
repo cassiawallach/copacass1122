@@ -81,5 +81,16 @@
         <label><!-- Username --></label>
         <name>copado__Username__c</name>
     </fields>
+    <layouts>
+        <layout>Pull Request Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Other Information --></label>
+            <section>Other Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Pull Request Name --></nameFieldLabel>
 </CustomObjectTranslation>

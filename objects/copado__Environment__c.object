@@ -128,16 +128,22 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Environment_Record_Page1</content>
         <formFactor>Large</formFactor>
-        <type>Default</type>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Environment_Record_Page1</content>
         <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
@@ -167,6 +173,19 @@
             <restricted>true</restricted>
             <valueSetName>cmcSf__Apex_Test_Level</valueSetName>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>copado__API_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Use this field as an identifier for the Environment record when referencing it in an action.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field as an identifier for the Environment record when referencing it in an action.</inlineHelpText>
+        <label>API Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>copado__Compliance_Rule_Group__c</fullName>
@@ -431,14 +450,19 @@
                     <label>Salesforce</label>
                 </value>
                 <value>
-                    <fullName>Other</fullName>
-                    <default>false</default>
-                    <label>Other</label>
-                </value>
-                <value>
                     <fullName>SFDX</fullName>
                     <default>false</default>
                     <label>SFDX</label>
+                </value>
+                <value>
+                    <fullName>copado_sfcc</fullName>
+                    <default>false</default>
+                    <label>copado_sfcc</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -539,6 +563,15 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>copadometrics__Production_Org__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Production Org?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <label>Environment</label>
     <listViews>
