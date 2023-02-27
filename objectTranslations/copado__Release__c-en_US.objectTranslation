@@ -59,6 +59,21 @@
         <label><!-- Last Synced Date --></label>
         <name>copadoconnect__Last_Synced_Date__c</name>
     </fields>
+    <layouts>
+        <layout>Release Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Advanced --></label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- please dont include spaces in version field --></errorMessage>
         <name>copado__Validate_spaces_in_version</name>

@@ -16,5 +16,6 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>Knowledge__kav</tabs>
+    <tabs>standard-WaveHome</tabs>
     <uiType>Aloha</uiType>
 </CustomApplication>
