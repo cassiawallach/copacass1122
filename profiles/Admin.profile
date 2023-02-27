@@ -15429,11 +15429,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Property__c.Building__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Property__c.City__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -15470,11 +15465,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Property__c.Street__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -24398,19 +24388,7 @@
         <layout>Promotion-Promotion Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Property__c-House Layout</layout>
-        <recordType>Property__c.House</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Property__c-Property Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Property__c-Property Layout</layout>
-        <recordType>Property__c.Building</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Property__c-Unit Layout</layout>
-        <recordType>Property__c.Unit</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuickText-Quick Text Layout</layout>
@@ -30193,21 +30171,6 @@
         <default>false</default>
         <personAccountDefault>true</personAccountDefault>
         <recordType>PersonAccount.PersonAccount</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Property__c.Building</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>true</default>
-        <recordType>Property__c.House</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Property__c.Unit</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
