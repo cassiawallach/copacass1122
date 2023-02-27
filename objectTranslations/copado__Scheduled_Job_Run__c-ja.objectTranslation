@@ -35,5 +35,12 @@
             <translation>成功</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Scheduled Job Result Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Scheduled Job Result Name --></nameFieldLabel>
 </CustomObjectTranslation>
