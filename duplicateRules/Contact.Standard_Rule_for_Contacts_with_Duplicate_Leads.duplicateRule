@@ -23,10 +23,6 @@
                 <outputField>Phone</outputField>
             </mappingFields>
             <mappingFields>
-                <inputField>Email</inputField>
-                <outputField>Email</outputField>
-            </mappingFields>
-            <mappingFields>
                 <inputField>MailingCity</inputField>
                 <outputField>City</outputField>
             </mappingFields>
@@ -45,6 +41,10 @@
             <mappingFields>
                 <inputField>AccountId</inputField>
                 <outputField>Company</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>Email</inputField>
+                <outputField>Email</outputField>
             </mappingFields>
             <outputObject>Lead</outputObject>
         </objectMapping>

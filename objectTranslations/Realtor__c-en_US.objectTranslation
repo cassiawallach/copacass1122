@@ -9,20 +9,25 @@
         <value>Realtor</value>
     </caseValues>
     <fields>
-        <label><!-- Brokerage --></label>
-        <name>Brokerage__c</name>
-        <relationshipLabel><!-- Realtor --></relationshipLabel>
+        <label></label>
+        <name>Agent_User__c</name>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- External ID --></label>
+        <label></label>
+        <name>Brokerage__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
         <name>External_ID__c</name>
     </fields>
     <fields>
-        <label><!-- First Name --></label>
+        <label></label>
         <name>First_Name__c</name>
     </fields>
     <fields>
-        <label><!-- Last Name --></label>
+        <label></label>
         <name>Last_Name__c</name>
     </fields>
     <startsWith>Consonant</startsWith>

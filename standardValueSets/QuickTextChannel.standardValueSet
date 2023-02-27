@@ -41,4 +41,9 @@
         <default>false</default>
         <label>Live Agent</label>
     </standardValue>
+    <standardValue>
+        <fullName>Social</fullName>
+        <default>false</default>
+        <label>Social</label>
+    </standardValue>
 </StandardValueSet>
