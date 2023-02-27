@@ -271,7 +271,7 @@
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
         <fullName>Building</fullName>
-        <active>true</active>
+        <active>false</active>
         <label>Building</label>
         <picklistValues>
             <picklist>Type__c</picklist>
@@ -299,7 +299,7 @@
     </recordTypes>
     <recordTypes>
         <fullName>House</fullName>
-        <active>true</active>
+        <active>false</active>
         <label>House</label>
         <picklistValues>
             <picklist>Type__c</picklist>
@@ -327,7 +327,7 @@
     </recordTypes>
     <recordTypes>
         <fullName>Unit</fullName>
-        <active>true</active>
+        <active>false</active>
         <label>Unit</label>
         <picklistValues>
             <picklist>Type__c</picklist>
