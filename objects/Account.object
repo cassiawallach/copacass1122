@@ -249,6 +249,18 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Brokerage__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Brokerage</label>
+        <referenceTo>Brokerage__c</referenceTo>
+        <relationshipLabel>Properties</relationshipLabel>
+        <relationshipName>Properties</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ChannelProgramLevelName</fullName>
     </fields>
     <fields>
@@ -431,6 +443,17 @@
         <fullName>Rating</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Selling_Agent__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Selling Agent</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Properties_Selling</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>ShippingAddress</fullName>
@@ -1016,6 +1039,11 @@
                 <default>false</default>
             </values>
         </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Property_Account</fullName>
+        <active>true</active>
+        <label>Property Account</label>
     </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
