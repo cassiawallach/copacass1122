@@ -79,4 +79,15 @@
         <name>copado__User_Story__c</name>
         <relationshipLabel><!-- User Story Metadata --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>User Story Metadata Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- File Details --></label>
+            <section>File Details</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

@@ -177,9 +177,6 @@
     <fields>
         <fullName>Status</fullName>
     </fields>
-    <fields>
-        <fullName>Type</fullName>
-    </fields>
     <listViews>
         <fullName>DigitalWallet</fullName>
         <filterScope>Everything</filterScope>
