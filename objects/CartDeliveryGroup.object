@@ -87,10 +87,6 @@
         <fullName>DeliverToName</fullName>
     </fields>
     <fields>
-        <fullName>DeliveryMethodId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>DesiredDeliveryDate</fullName>
     </fields>
     <fields>

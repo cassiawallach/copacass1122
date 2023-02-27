@@ -5,6 +5,21 @@
         <default>false</default>
         <label>None</label>
     </customValue>
+    <customValue>
+        <fullName>Copado Robotic Testing</fullName>
+        <default>false</default>
+        <label>Copado Robotic Testing</label>
+    </customValue>
+    <customValue>
+        <fullName>PMD</fullName>
+        <default>false</default>
+        <label>PMD</label>
+    </customValue>
+    <customValue>
+        <fullName>Apex Tests</fullName>
+        <default>false</default>
+        <label>Apex Tests</label>
+    </customValue>
     <masterLabel>Copado Test Tool</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

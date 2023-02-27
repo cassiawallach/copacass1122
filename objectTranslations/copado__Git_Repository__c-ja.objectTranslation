@@ -65,6 +65,10 @@
         <label><!-- Source Format --></label>
         <name>copado__Source_Format__c</name>
         <picklistValues>
+            <masterLabel>DX</masterLabel>
+            <translation><!-- DX --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Metadata</masterLabel>
             <translation>メタデータ</translation>
         </picklistValues>
@@ -79,5 +83,19 @@
         <label><!-- URI --></label>
         <name>copado__URI__c</name>
     </fields>
+    <layouts>
+        <layout>Git Repository Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Git Server Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Git Repository Name --></nameFieldLabel>
 </CustomObjectTranslation>

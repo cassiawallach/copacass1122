@@ -160,9 +160,10 @@
         <fields>Name</fields>
         <fields>copado__User_Story_Title__c</fields>
         <fields>copado__Status__c</fields>
+        <fields>copado__Developer__c</fields>
+        <fields>copado__Environment__c</fields>
         <fields>copado__Project__c</fields>
         <fields>copado__Sprint__c</fields>
-        <fields>copado__Developer__c</fields>
         <label>User Story Highlight Panel</label>
     </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
@@ -170,7 +171,7 @@
     <description>Agile form of requirements gathering</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableFeeds>false</enableFeeds>
+    <enableFeeds>true</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>true</enableReports>
@@ -6559,6 +6560,7 @@
         <label>Deployment Status</label>
         <length>50</length>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
@@ -6569,6 +6571,7 @@
         <externalId>false</externalId>
         <label>DigitSec Scan Result</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -6613,6 +6616,7 @@
         <relationshipLabel>User Stories</relationshipLabel>
         <relationshipName>User_Stories</relationshipName>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -6623,6 +6627,7 @@
         <label>Jira Key</label>
         <length>30</length>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
@@ -6646,6 +6651,7 @@
         <externalId>false</externalId>
         <label>Apex Test Level</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -6660,6 +6666,7 @@
         <externalId>false</externalId>
         <label>Acceptance Criteria Status</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -6690,6 +6697,7 @@
         <externalId>false</externalId>
         <label>Acceptance Criteria</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>TextArea</type>
@@ -6703,6 +6711,7 @@
         <precision>3</precision>
         <required>false</required>
         <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>
@@ -6718,6 +6727,7 @@
         <precision>3</precision>
         <required>false</required>
         <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Percent</type>
@@ -6728,6 +6738,7 @@
         <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Apex Tests Passed</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -6740,6 +6751,7 @@
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>
@@ -6755,6 +6767,7 @@
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>
@@ -6769,6 +6782,7 @@
         <label>Base Branch</label>
         <length>180</length>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
@@ -6784,6 +6798,7 @@
         <relationshipLabel>User Stories</relationshipLabel>
         <relationshipName>User_Stories_BA</relationshipName>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -6796,6 +6811,7 @@
         <inlineHelpText>Describes why the User Story was cancelled, so that this information is available.</inlineHelpText>
         <label>Cancellation Reason</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>TextArea</type>
@@ -6810,6 +6826,7 @@
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>
@@ -6821,6 +6838,7 @@
         <externalId>false</externalId>
         <label>Close Date</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Date</type>
@@ -6831,6 +6849,7 @@
         <externalId>false</externalId>
         <label>Compliance Criteria</label>
         <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>LongTextArea</type>
@@ -6844,6 +6863,7 @@
         <inlineHelpText>Current status of the User Story Compliance scan.</inlineHelpText>
         <label>Compliance Status</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -6889,6 +6909,7 @@
         <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Compliance</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -6899,6 +6920,7 @@
         <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Data Privacy</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -6913,6 +6935,7 @@
         <relationshipLabel>User Stories (Developer)</relationshipLabel>
         <relationshipName>User_Stories_developer</relationshipName>
         <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -6923,6 +6946,7 @@
         <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Documentation Complete</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -6952,6 +6976,7 @@
         <relationshipLabel>User Stories</relationshipLabel>
         <relationshipName>User_Stories</relationshipName>
         <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -6968,6 +6993,7 @@
         <relationshipLabel>User Stories</relationshipLabel>
         <relationshipName>User_Stories</relationshipName>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -6980,6 +7006,7 @@
         <externalId>false</externalId>
         <inlineHelpText>If checked, this user story will not be included in the count of user stories ahead and behind.</inlineHelpText>
         <label>Exclude from Pipelines</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -6994,6 +7021,7 @@
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>
@@ -7005,6 +7033,7 @@
         <externalId>false</externalId>
         <label>Functional Specifications</label>
         <length>30000</length>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Html</type>
@@ -7018,6 +7047,7 @@
         <inlineHelpText>The git merge status of the latest pull request between the feature branch and the target branch. This value is provided by the Git Repository. If there is no value, the Git Repository did not provide one.</inlineHelpText>
         <label>Git Merge Status</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -7057,6 +7087,7 @@
         <externalId>false</externalId>
         <inlineHelpText>Value automatically updated by Copado whenever there are Apex Classes added or committed in the User Story.</inlineHelpText>
         <label>Has Apex Code</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -7067,6 +7098,7 @@
         <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Is Bundle</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -7079,6 +7111,7 @@
         <inlineHelpText>Latest Compliance Scan execution date.</inlineHelpText>
         <label>Last Compliance Scan Date</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>DateTime</type>
@@ -7089,6 +7122,7 @@
         <externalId>false</externalId>
         <label>Last Promotion Date</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>DateTime</type>
@@ -7131,6 +7165,7 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <relationshipLabel>User Stories</relationshipLabel>
         <relationshipName>User_Stories</relationshipName>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -7147,6 +7182,7 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <relationshipLabel>User Stories</relationshipLabel>
         <relationshipName>User_Stories</relationshipName>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -7157,6 +7193,7 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <externalId>false</externalId>
         <label>Latest Commit Date</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>DateTime</type>
@@ -7167,6 +7204,7 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Legal</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -7178,6 +7216,7 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <description>If any of the Quality Gates are Manual Steps (Pull Request, Manual Test, or Manual Approval), the story should be marked as &apos;Manual Step Required&apos;.</description>
         <externalId>false</externalId>
         <label>Manual Step Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -7188,6 +7227,7 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Manual Tests Passed</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -7200,6 +7240,7 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <inlineHelpText>Metadata types of the components listed in the User Story Selections. This value is updated automatically by Copado.</inlineHelpText>
         <label>Metadata Types in Selection</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>MultiselectPicklist</type>
@@ -7626,6 +7667,7 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <precision>3</precision>
         <required>false</required>
         <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Percent</type>
@@ -7638,6 +7680,7 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <precision>7</precision>
         <required>false</required>
         <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>
@@ -7655,6 +7698,7 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <relationshipLabel>User Stories (Credential)</relationshipLabel>
         <relationshipName>User_Stories</relationshipName>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -7680,6 +7724,7 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <precision>3</precision>
         <required>false</required>
         <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>
@@ -7715,6 +7760,7 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <precision>3</precision>
         <required>false</required>
         <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>
@@ -7744,6 +7790,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <precision>3</precision>
         <required>false</required>
         <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Percent</type>
@@ -7760,6 +7807,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <relationshipLabel>User Stories</relationshipLabel>
         <relationshipName>User_Stories</relationshipName>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -7772,6 +7820,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <externalId>false</externalId>
         <inlineHelpText>If checked, the User Story is marked as ready to be promoted. The user story will appear as &apos;Ahead&apos; and available to be selected in the Promotion and Branch Management pages.</inlineHelpText>
         <label>Ready to Promote</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -7783,6 +7832,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <externalId>false</externalId>
         <inlineHelpText>When this checkbox is checked, a promotion and deployment of this User Story will be started.</inlineHelpText>
         <label>Promote and Deploy</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -7793,6 +7843,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Promote as Single Step</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -7805,6 +7856,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <inlineHelpText>Test Level to apply in the deployment of the User Story.</inlineHelpText>
         <label>Promotion Test Level</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -7841,6 +7893,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Pull Requests Approved</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -7877,6 +7930,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <relationshipLabel>User Stories</relationshipLabel>
         <relationshipName>User_Stories</relationshipName>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -7893,6 +7947,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <relationshipLabel>User Stories</relationshipLabel>
         <relationshipName>User_Stories</relationshipName>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -7905,6 +7960,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <inlineHelpText>Current status of the implementation of the User Story.</inlineHelpText>
         <label>Status</label>
         <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -7977,6 +8033,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <externalId>false</externalId>
         <inlineHelpText>If checked, the User Story will not be indexed for Copado&apos;s Overlap Awareness.</inlineHelpText>
         <label>Exclude from Overlap Awareness</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -7990,6 +8047,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <precision>3</precision>
         <required>false</required>
         <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>
@@ -8004,6 +8062,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <precision>3</precision>
         <required>false</required>
         <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>
@@ -8021,6 +8080,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <relationshipLabel>User Stories</relationshipLabel>
         <relationshipName>User_Stories</relationshipName>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -8031,6 +8091,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <externalId>false</externalId>
         <label>Technical Specifications</label>
         <length>30000</length>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Html</type>
@@ -8046,6 +8107,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <relationshipLabel>User Stories (Test Script Owner)</relationshipLabel>
         <relationshipName>User_Stories_TestScriptOwner</relationshipName>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -8062,6 +8124,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <relationshipLabel>User Stories</relationshipLabel>
         <relationshipName>User_Stories</relationshipName>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -8108,6 +8171,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>
@@ -8123,6 +8187,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <relationshipLabel>User Stories</relationshipLabel>
         <relationshipName>User_Stories</relationshipName>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -8136,6 +8201,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <label>User Story Title</label>
         <length>255</length>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
@@ -8148,6 +8214,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <externalId>false</externalId>
         <inlineHelpText>This will create a validation deployment.  When checked, Git metadata and regular metadata will be merged to create 1 validation deployment.</inlineHelpText>
         <label>Validate Only</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -8203,6 +8270,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <externalId>false</externalId>
         <label>As a...</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>TextArea</type>
@@ -8213,6 +8281,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <externalId>false</externalId>
         <label>Want to...</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>TextArea</type>
@@ -8223,6 +8292,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <externalId>false</externalId>
         <label>So that...</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>TextArea</type>
@@ -8233,6 +8303,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <externalId>false</externalId>
         <label>Connect log</label>
         <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>LongTextArea</type>
@@ -8246,6 +8317,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <label>External ID</label>
         <length>255</length>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
@@ -8257,53 +8329,355 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <externalId>false</externalId>
         <label>Last Synced Date</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>DateTime</type>
     </fields>
+    <fields>
+        <fullName>copadometrics__Business_Disruption_Failure__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(OR(TEXT(copadometrics__Severity__c) == &apos;P0 - Blocker - Business Disruption&apos;, TEXT(copadometrics__Severity__c) == &apos;P1 - Critical - No Workaround&apos;), true, false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Business Disruption Failure?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>copadometrics__Development_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Development Complete</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>copadometrics__Elapsed_Time_to_Resolve__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(IF(
+ISBLANK(copadometrics__First_Time_Promoted_to_Production__c),
+FLOOR(NOW() - CreatedDate)
+,
+FLOOR(copadometrics__First_Time_Promoted_to_Production__c - CreatedDate)
+))
+
+&amp; &quot; days &quot; &amp;
+
+TEXT(IF(
+ISBLANK(copadometrics__First_Time_Promoted_to_Production__c),
+FLOOR(MOD((NOW() - CreatedDate)*24, 24))
+,
+FLOOR(MOD((copadometrics__First_Time_Promoted_to_Production__c - CreatedDate)*24, 24))
+))
+ 
+&amp; &quot; hours &quot; &amp; 
+
+TEXT(IF(
+ISBLANK(copadometrics__First_Time_Promoted_to_Production__c),
+ROUND(MOD((NOW() - CreatedDate)*1440, 60), 0)
+,
+ROUND(MOD((copadometrics__First_Time_Promoted_to_Production__c - CreatedDate)*1440, 60), 0)
+)) &amp; &quot; minutes&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Elapsed Time to Resolve</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copadometrics__Elapsed_Time_to_Resolve_days__c</fullName>
+        <businessStatus>DeprecateCandidate</businessStatus>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(
+ISBLANK(copadometrics__First_Time_Promoted_to_Production__c),
+FLOOR(NOW() - CreatedDate)
+,
+FLOOR(copadometrics__First_Time_Promoted_to_Production__c - CreatedDate)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Elapsed Time to Resolve (days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copadometrics__Elapsed_Time_to_Resolve_hours__c</fullName>
+        <businessStatus>DeprecateCandidate</businessStatus>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(
+ISBLANK(copadometrics__First_Time_Promoted_to_Production__c),
+FLOOR(MOD((NOW() - CreatedDate)*24, 24))
+,
+FLOOR(MOD((copadometrics__First_Time_Promoted_to_Production__c - CreatedDate)*24, 24))
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Elapsed Time to Resolve (hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copadometrics__Elapsed_Time_to_Resolve_minutes__c</fullName>
+        <businessStatus>DeprecateCandidate</businessStatus>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(
+ISBLANK(copadometrics__First_Time_Promoted_to_Production__c),
+ROUND(MOD((NOW() - CreatedDate)*1440, 60), 0)
+,
+ROUND(MOD((copadometrics__First_Time_Promoted_to_Production__c - CreatedDate)*1440, 60), 0)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Elapsed Time to Resolve (minutes)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copadometrics__First_Ready_to_Promote_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>First Ready to Promote Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>copadometrics__First_Time_Promoted_to_Production__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>First Time Promoted to Production</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>copadometrics__Found_in_Promotion__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Found in Promotion</label>
+        <referenceTo>copado__Promotion__c</referenceTo>
+        <relationshipLabel>User Stories (Found in Promotion)</relationshipLabel>
+        <relationshipName>User_Stories</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copadometrics__Lead_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(IF(
+AND(NOT(ISBLANK(copadometrics__First_Time_Promoted_to_Production__c)), NOT(ISBLANK(copadometrics__First_Ready_to_Promote_Time__c))),
+FLOOR(copadometrics__First_Time_Promoted_to_Production__c - copadometrics__First_Ready_to_Promote_Time__c)
+,
+0)) 
+&amp; &quot; days &quot; &amp; 
+
+
+TEXT(IF(
+AND(NOT(ISBLANK(copadometrics__First_Time_Promoted_to_Production__c)), NOT(ISBLANK(copadometrics__First_Ready_to_Promote_Time__c))),
+FLOOR(MOD((copadometrics__First_Time_Promoted_to_Production__c - copadometrics__First_Ready_to_Promote_Time__c)*24, 24))
+,
+0)) &amp; &quot; hours &quot; &amp; 
+
+
+TEXT(IF(
+AND(NOT(ISBLANK(copadometrics__First_Time_Promoted_to_Production__c)), NOT(ISBLANK(copadometrics__First_Ready_to_Promote_Time__c))),
+ROUND(MOD((copadometrics__First_Time_Promoted_to_Production__c - copadometrics__First_Ready_to_Promote_Time__c)*1440, 60), 0)
+,
+0))  &amp; &quot; minutes &quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copadometrics__Lead_Time_days__c</fullName>
+        <businessStatus>DeprecateCandidate</businessStatus>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(
+AND(NOT(ISBLANK(copadometrics__First_Time_Promoted_to_Production__c)), NOT(ISBLANK(copadometrics__First_Ready_to_Promote_Time__c))),
+FLOOR(copadometrics__First_Time_Promoted_to_Production__c - copadometrics__First_Ready_to_Promote_Time__c)
+,
+0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Time (days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copadometrics__Lead_Time_hours__c</fullName>
+        <businessStatus>DeprecateCandidate</businessStatus>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(
+AND(NOT(ISBLANK(copadometrics__First_Time_Promoted_to_Production__c)), NOT(ISBLANK(copadometrics__First_Ready_to_Promote_Time__c))),
+FLOOR(MOD((copadometrics__First_Time_Promoted_to_Production__c - copadometrics__First_Ready_to_Promote_Time__c)*24, 24))
+,
+0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Time (hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copadometrics__Lead_Time_minutes__c</fullName>
+        <businessStatus>DeprecateCandidate</businessStatus>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(
+AND(NOT(ISBLANK(copadometrics__First_Time_Promoted_to_Production__c)), NOT(ISBLANK(copadometrics__First_Ready_to_Promote_Time__c))),
+ROUND(MOD((copadometrics__First_Time_Promoted_to_Production__c - copadometrics__First_Ready_to_Promote_Time__c)*1440, 60), 0)
+,
+0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Time (minutes)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copadometrics__Severity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Severity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>P0 - Blocker - Business Disruption</fullName>
+                    <default>false</default>
+                    <label>P0 - Blocker - Business Disruption</label>
+                </value>
+                <value>
+                    <fullName>P1 - Critical - No Workaround</fullName>
+                    <default>false</default>
+                    <label>P1 - Critical - No Workaround</label>
+                </value>
+                <value>
+                    <fullName>P2 - Major</fullName>
+                    <default>false</default>
+                    <label>P2 - Major</label>
+                </value>
+                <value>
+                    <fullName>P3 - Minor</fullName>
+                    <default>false</default>
+                    <label>P3 - Minor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <label>User Story</label>
+    <listViews>
+        <fullName>Open_User_Stories</fullName>
+        <columns>NAME</columns>
+        <columns>copado__User_Story_Title__c</columns>
+        <columns>copado__Status__c</columns>
+        <columns>copado__Developer__c</columns>
+        <columns>copado__Project__c</columns>
+        <columns>copado__Sprint__c</columns>
+        <columns>copado__Environment__c</columns>
+        <columns>copado__Promote_and_Deploy__c</columns>
+        <columns>copado__Promote_Change__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>copado__User_Story__c.copado__User_Story</value>
+        </filters>
+        <filters>
+            <field>copado__Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Cancelled,Backlog</value>
+        </filters>
+        <label>My Open User Stories</label>
+    </listViews>
     <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
-        <columns>RECORDTYPE</columns>
         <columns>copado__User_Story_Title__c</columns>
         <columns>copado__Status__c</columns>
-        <columns>copado__Priority__c</columns>
-        <columns>copado__Order__c</columns>
-        <columns>copado__US_Feature__c</columns>
         <columns>copado__Epic__c</columns>
-        <columns>copado__Theme__c</columns>
         <columns>copado__Project__c</columns>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
-    <listViews>
-        <fullName>copado__Cli_Listview</fullName>
-        <columns>NAME</columns>
-        <columns>copado__User_Story_Title__c</columns>
-        <columns>copado__Status__c</columns>
-        <columns>copado__Project__c</columns>
-        <columns>copado__Org_Credential__c</columns>
-        <columns>CREATED_DATE</columns>
+        <columns>copado__Promote_and_Deploy__c</columns>
+        <columns>copado__Promote_Change__c</columns>
+        <columns>copado__Stop_Indexing_Metadata__c</columns>
+        <columns>copado__Exclude_From_CBM__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>copado__Status__c</field>
+            <field>RECORDTYPE</field>
             <operation>equals</operation>
-            <value>In Progress</value>
+            <value>copado__User_Story__c.copado__User_Story</value>
         </filters>
-        <label>Cli Listview</label>
+        <label>All</label>
     </listViews>
     <nameField>
         <displayFormat>US-{0000000}</displayFormat>
         <label>User Story Reference</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>User Stories</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
         <fullName>copado__Bug</fullName>
-        <active>true</active>
+        <active>false</active>
         <label>Bug</label>
         <picklistValues>
             <picklist>DigitSec_Scan_Result__c</picklist>
@@ -8793,10 +9167,29 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>copadometrics__Severity__c</picklist>
+            <values>
+                <fullName>P0 - Blocker - Business Disruption</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P1 - Critical - No Workaround</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P2 - Major</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P3 - Minor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>copado__Investigation</fullName>
-        <active>true</active>
+        <active>false</active>
         <label>Investigation</label>
         <picklistValues>
             <picklist>DigitSec_Scan_Result__c</picklist>
@@ -9283,6 +9676,25 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>copadometrics__Severity__c</picklist>
+            <values>
+                <fullName>P0 - Blocker - Business Disruption</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P1 - Critical - No Workaround</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P2 - Major</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P3 - Minor</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9779,10 +10191,29 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>copadometrics__Severity__c</picklist>
+            <values>
+                <fullName>P0 - Blocker - Business Disruption</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P1 - Critical - No Workaround</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P2 - Major</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P3 - Minor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>copado__Utility</fullName>
-        <active>true</active>
+        <active>false</active>
         <label>Utility</label>
         <picklistValues>
             <picklist>DigitSec_Scan_Result__c</picklist>
@@ -10272,6 +10703,25 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>copadometrics__Severity__c</picklist>
+            <values>
+                <fullName>P0 - Blocker - Business Disruption</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P1 - Critical - No Workaround</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P2 - Major</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P3 - Minor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>RECORDTYPE</customTabListAdditionalFields>
@@ -10301,6 +10751,20 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
+        <fullName>ManualTestPassRequired</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+copado__Environment__r.Name=&quot;Dev4&quot;,
+copado__Manual_Step_Required__c=TRUE,
+copado__Manual_Tests_Passed__c=FALSE,
+OR(
+copado__Promote_Change__c=TRUE,
+copado__Promote_and_Deploy__c=TRUE
+)
+)</errorConditionFormula>
+        <errorMessage>A Manual Test Script Run must be completed and passed before promotion.</errorMessage>
+    </validationRules>
+    <validationRules>
         <fullName>copado__Cancellation_reason_required</fullName>
         <active>false</active>
         <errorConditionFormula>AND(
@@ -10317,6 +10781,17 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
 NOT ( ISBLANK(copado__Org_Credential__c) ) &amp;&amp;
 copado__Environment__c != copado__Org_Credential__r.copado__Environment__c</errorConditionFormula>
         <errorMessage>The credential must belong to the environment.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>copado__Excluded_User_Stories_Not_Promotable</fullName>
+        <active>true</active>
+        <description>If &apos;Excluded from CBM&apos; is enable, the user story can not be mark as &quot;Ready To Promote&quot; or &quot;Promote &amp; Deploy&quot;</description>
+        <errorConditionFormula>IF(
+  AND(NOT(ISBLANK(copado__Platform__c)), copado__Platform__c != &apos;Salesforce&apos;), 
+  (IF(AND(copado__Exclude_From_CBM__c, OR(copado__Promote_Change__c, copado__Promote_and_Deploy__c)), TRUE, FALSE)),
+  FALSE
+)</errorConditionFormula>
+        <errorMessage>You cannot enable the &quot;Ready to Promote&quot; or the &quot;Promote &amp; Deploy&quot; options because the &quot;Exclude from Pipeline&quot; option is enabled. Please disable this option first and try again.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>copado__Promote_User_Story_Apex_validation</fullName>
