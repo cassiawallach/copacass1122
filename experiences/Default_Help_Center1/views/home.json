@@ -10,16 +10,7 @@
         "numberOfArticles" : 5,
         "showTitle" : true,
         "title" : "Top Articles",
-        "topicList" : [ {
-          "isPublic" : true,
-          "name" : "0TODn000000Y8ZBOA0"
-        }, {
-          "isPublic" : true,
-          "name" : "0TODn000000Y8ZAOA0"
-        }, {
-          "isPublic" : true,
-          "name" : "0TODn000000Y8Z9OAK"
-        } ]
+        "topicList" : [ ]
       },
       "componentName" : "forceCommunity:topArticleList",
       "id" : "583c9210-f0c9-426e-935e-6d3eaf0a8292",
@@ -78,8 +69,8 @@
         "redirectUrl" : "",
         "secondQuestion" : "Stop creating your case?",
         "showArticles" : true,
-        "showDiscussions" : true,
-        "topicId" : "0TODn000000Y8ZAOA0"
+        "showDiscussions" : false,
+        "topicId" : ""
       },
       "componentName" : "forceCommunity:caseDeflection",
       "id" : "d6a9f2d9-ba28-47fe-a9ab-099d73413bb0",
