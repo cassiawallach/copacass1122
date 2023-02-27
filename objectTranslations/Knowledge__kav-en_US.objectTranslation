@@ -28,5 +28,32 @@
         <label><!-- Question --></label>
         <name>Question__c</name>
     </fields>
+    <layouts>
+        <layout>Knowledge Layout</layout>
+        <sections>
+            <label><!-- Asignación --></label>
+            <section>Asignación</section>
+        </sections>
+        <sections>
+            <label><!-- Detalle de artículo --></label>
+            <section>Detalle de artículo</section>
+        </sections>
+        <sections>
+            <label><!-- Información --></label>
+            <section>Información</section>
+        </sections>
+        <sections>
+            <label><!-- Propiedades --></label>
+            <section>Propiedades</section>
+        </sections>
+        <sections>
+            <label><!-- Respuesta de participación digital --></label>
+            <section>Respuesta de participación digital</section>
+        </sections>
+        <sections>
+            <label><!-- Visible para --></label>
+            <section>Visible para</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

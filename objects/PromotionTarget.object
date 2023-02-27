@@ -165,7 +165,7 @@
     </fields>
     <fields>
         <fullName>RestrictionQuantity</fullName>
-        <inlineHelpText>Enter how many {!Environment.EV: Envionment}ucts can receive this discount. Leave blank for an unlimited quantity. This field is mandatory if the Adjustment Type is Total Fixed Price.</inlineHelpText>
+        <inlineHelpText>Enter how many products can receive this discount. Leave blank for an unlimited quantity. This field is mandatory if the Adjustment Type is Total Fixed Price.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

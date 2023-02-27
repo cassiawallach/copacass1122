@@ -454,7 +454,7 @@
         <externalId>false</externalId>
         <formula>HYPERLINK(&apos;https://login.salesforce.com/packaging/installPackage.apexp?p0=&apos;+copado__Subscriber_Version_Id__c, &apos;https://login.salesforce.com/packaging/installPackage.apexp?p0=&apos;+copado__Subscriber_Version_Id__c, &apos;_blank&apos;)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <inlineHelpText>Use this URL in order to install this package in a {!Environment.EV: Envionment}uction environment.</inlineHelpText>
+        <inlineHelpText>Use this URL in order to install this package in a production environment.</inlineHelpText>
         <label>Production Installation URL</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -506,7 +506,7 @@
 
 Pre-Release indicates a package version that has been generated but not yet promoted or is not ready for release. 
 
-A package version with Published status, indicates it can be released or deployed to {!Environment.EV: Envionment}uction. 
+A package version with Published status, indicates it can be released or deployed to production. 
 
 Deprecated highlights a package version that has been deleted and is no longer available for use.
 
