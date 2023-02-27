@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
-        <plural>false</plural>
-        <value>Property</value>
-    </caseValues>
-    <caseValues>
         <plural>true</plural>
         <value>Properties</value>
     </caseValues>
+    <caseValues>
+        <plural>false</plural>
+        <value>Property</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Building__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
     <fields>
         <label></label>
         <name>External_ID__c</name>
@@ -17,6 +22,45 @@
         <name>Selling_Agent__c</name>
         <relationshipLabel></relationshipLabel>
     </fields>
+    <fields>
+        <label></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Condo</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>House</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lot</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multiunit</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Property Layout</layout>
+        <sections>
+            <label></label>
+            <section>ADDR</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <label></label>
         <name>Building</name>
