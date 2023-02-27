@@ -159,9 +159,9 @@
     <fields>
         <fullName>copado__Back_Promotion_Behavior__c</fullName>
         <deprecated>false</deprecated>
-        <description>How should user stories be moved back from higher environments ({!Environment.EV: Envionment}/test) to lower environments (test/dev)</description>
+        <description>How should user stories be moved back from higher environments (prod/test) to lower environments (test/dev)</description>
         <externalId>false</externalId>
-        <inlineHelpText>How should user stories be moved back from higher environments ({!Environment.EV: Envionment}/test) to lower environments (test/dev)</inlineHelpText>
+        <inlineHelpText>How should user stories be moved back from higher environments (prod/test) to lower environments (test/dev)</inlineHelpText>
         <label>Back-Promotion Execution</label>
         <required>true</required>
         <trackHistory>false</trackHistory>
@@ -310,9 +310,9 @@
     <fields>
         <fullName>copado__Promotion_Behavior__c</fullName>
         <deprecated>false</deprecated>
-        <description>How should user stories be deployed from lower (dev/test) environments to higher environments (test/{!Environment.EV: Envionment})</description>
+        <description>How should user stories be deployed from lower (dev/test) environments to higher environments (test/prod)</description>
         <externalId>false</externalId>
-        <inlineHelpText>How should user stories be deployed from lower (dev/test) environments to higher environments (test/{!Environment.EV: Envionment})</inlineHelpText>
+        <inlineHelpText>How should user stories be deployed from lower (dev/test) environments to higher environments (test/prod)</inlineHelpText>
         <label>Promotion Execution</label>
         <required>true</required>
         <trackHistory>false</trackHistory>

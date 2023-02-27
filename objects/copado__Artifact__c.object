@@ -350,7 +350,7 @@ The credential where the unmanaged package is created from.</inlineHelpText>
         <fullName>copado__Package_Type__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <inlineHelpText>For detailed information : https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp_plan_pkg_types.htm</inlineHelpText>
+        <inlineHelpText>For detailed information : https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_{!Environment.EV: Envionment}gp_plan_pkg_types.htm</inlineHelpText>
         <label>Package Type</label>
         <required>false</required>
         <trackHistory>false</trackHistory>

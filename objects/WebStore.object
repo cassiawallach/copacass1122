@@ -109,9 +109,6 @@
         <fullName>Description</fullName>
     </fields>
     <fields>
-        <fullName>ExternalReference</fullName>
-    </fields>
-    <fields>
         <fullName>MaxValuesPerFacet</fullName>
         <inlineHelpText>Set the maximum number of values to show per filter. Enter a value from 1 to 100.</inlineHelpText>
     </fields>
@@ -143,7 +140,7 @@
     </fields>
     <fields>
         <fullName>StrikethroughPricebookId</fullName>
-        <inlineHelpText>Displays a price book with a {!Environment.EV: Envionment}uct’s original list price and the buyer’s discounted price.</inlineHelpText>
+        <inlineHelpText>Displays a price book with a product’s original list price and the buyer’s discounted price.</inlineHelpText>
         <type>Lookup</type>
     </fields>
     <fields>

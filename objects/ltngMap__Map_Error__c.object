@@ -241,7 +241,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Map Errors</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

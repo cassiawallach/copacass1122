@@ -35,6 +35,13 @@
         <label><!-- Object --></label>
         <name>copado__Object__c</name>
     </fields>
+    <layouts>
+        <layout>Record Matching Formula Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- You can not change the Configuration Schema Credential once the value is selected. --></errorMessage>
         <name>copado__RestrictSchemaCredentialModification</name>

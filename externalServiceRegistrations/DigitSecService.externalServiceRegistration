@@ -93,7 +93,7 @@
         &quot;consumes&quot;: [
           &quot;application/json&quot;
         ],
-        &quot;{!Environment.EV: Envionment}uces&quot;: [
+        &quot;produces&quot;: [
           &quot;application/json&quot;
         ],
         &quot;responses&quot;: {
@@ -135,7 +135,7 @@
         &quot;summary&quot;: &quot;Initialize a scan&quot;,
         &quot;description&quot;: &quot;&quot;,
         &quot;operationId&quot;: &quot;scanInit&quot;,
-        &quot;{!Environment.EV: Envionment}uces&quot;: [
+        &quot;produces&quot;: [
           &quot;application/json&quot;
         ],
         &quot;parameters&quot;: [
@@ -178,7 +178,7 @@
         &quot;summary&quot;: &quot;Initialize a Copado Scan&quot;,
         &quot;description&quot;: &quot;&quot;,
         &quot;operationId&quot;: &quot;scanCopadoInit&quot;,
-        &quot;{!Environment.EV: Envionment}uces&quot;: [
+        &quot;produces&quot;: [
           &quot;application/json&quot;
         ],
         &quot;parameters&quot;: [
@@ -344,7 +344,7 @@
         &quot;consumes&quot;: [
           &quot;application/json&quot;
         ],
-        &quot;{!Environment.EV: Envionment}uces&quot;: [
+        &quot;produces&quot;: [
           &quot;application/json&quot;
         ],
         &quot;parameters&quot;: [
@@ -390,7 +390,7 @@
         &quot;consumes&quot;: [
           &quot;application/json&quot;
         ],
-        &quot;{!Environment.EV: Envionment}uces&quot;: [
+        &quot;produces&quot;: [
           &quot;application/json&quot;
         ],
         &quot;parameters&quot;: [

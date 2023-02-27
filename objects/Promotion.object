@@ -130,12 +130,12 @@
     </fields>
     <fields>
         <fullName>DiscountOrder</fullName>
-        <inlineHelpText>Select whether to apply discounts to the most expensive or least expensive {!Environment.EV: Envionment}ucts first.</inlineHelpText>
+        <inlineHelpText>Select whether to apply discounts to the most expensive or least expensive products first.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>DiscountRestriction</fullName>
-        <inlineHelpText>Restrict which {!Environment.EV: Envionment}ucts can be discounted.</inlineHelpText>
+        <inlineHelpText>Restrict which products can be discounted.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

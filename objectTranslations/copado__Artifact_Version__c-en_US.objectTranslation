@@ -82,7 +82,7 @@
         <name>copado__Package_Version_Id__c</name>
     </fields>
     <fields>
-        <help><!-- Use this URL in order to install this package in a {!Environment.EV: Envionment}uction environment. --></help>
+        <help><!-- Use this URL in order to install this package in a production environment. --></help>
         <label><!-- Production Installation URL --></label>
         <name>copado__Production_Installation_URL__c</name>
     </fields>
@@ -105,7 +105,7 @@
 
 Pre-Release indicates a package version that has been generated but not yet promoted or is not ready for release. 
 
-A package version with Published status, indicates it can be released or deployed to {!Environment.EV: Envionment}uction. 
+A package version with Published status, indicates it can be released or deployed to production. 
 
 Deprecated highlights a package version that has been deleted and is no longer available for use.
 
@@ -179,6 +179,57 @@ Open, Locked and Cancelled are used for packages related to User Story bundles. 
         <label><!-- View In Git --></label>
         <name>copado__View_In_Git__c</name>
     </fields>
+    <layouts>
+        <layout>Artifact Version Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Package Version Details --></label>
+            <section>Package Version Details</section>
+        </sections>
+        <sections>
+            <label><!-- Release Details --></label>
+            <section>Release Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Configure Package Version From Git --></label>
+        <name>cmcSf__Configure_Package_Version_From_Git</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Generate Package Version --></label>
+        <name>cmcSf__GeneratePackageVersionSFDX</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Publish Package Version --></label>
+        <name>cmcSf__PublishPackageVersionSFDX</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Installation Key --></label>
+        <name>cmcSf__UpdateInstallationKey</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Package Version Info --></label>
+        <name>cmcSf__Update_Package_Version_Info</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Edit Configuration --></label>
+        <name>copado__EditConfiguration</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Generate Package Version --></label>
+        <name>copado__GeneratePackageVersion</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Lock Bundle --></label>
+        <name>copado__Lock_Bundle</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Publish Package Version --></label>
+        <name>copado__PublishPackageVersion</name>
+    </quickActions>
     <webLinks>
         <label><!-- Merge_Version --></label>
         <name>copado__Merge_Version</name>

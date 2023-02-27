@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>copado__System_Property_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>copado__System_Property__c</pageOrSobjectType>
+    </actionOverrides>
     <brand>
         <headerColor>#2463EB</headerColor>
-        <logo>copado__Copado_App_Icon_Plan</logo>
         <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
-    <description>Copado Plan is a tool that helps you to plan, organize, and manage your team&apos;s work, from the planning stage of a {!Environment.EV: Envionment}uct to its release. It can also be used to collaborate efficiently amidst the teams.</description>
+    <description>Copado Plan is a tool that helps you to plan, organize, and manage your team&apos;s work, from the planning stage of a product to its release. It can also be used to collaborate efficiently amidst the teams.</description>
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>

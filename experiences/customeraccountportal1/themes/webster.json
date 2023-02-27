@@ -329,8 +329,8 @@
           "components" : [ {
             "componentAttributes" : {
               "navAlignment" : "left",
-              "navItemThreshold" : 7,
-              "navigationMenuEditorRefresh" : "Default_Navigation2"
+              "navItemThreshold" : 5,
+              "navigationMenuEditorRefresh" : ""
             },
             "componentName" : "forceCommunity:themeNav",
             "id" : "12186dd3-faad-4cbc-82c1-21ca5477e4a0",
@@ -354,7 +354,7 @@
     }, {
       "components" : [ {
         "componentAttributes" : {
-          "bgImage" : "background: #281f23 url(/sfsites/c/file-asset/Screenshot_20230131_at_121437_PM?v=1) center center /cover",
+          "bgImage" : "background: #281f23 url(/sfsites/c/file-asset/CopadoSwagStoreWebBanner_1500x?v=1) center center /cover",
           "bgOverlayColor" : "rgba(0, 0, 0, 0.5)",
           "captionText" : "",
           "captionTextColor" : "#FFFFFF",
