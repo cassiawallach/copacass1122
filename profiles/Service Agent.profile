@@ -22832,6 +22832,10 @@
         <recordType>Account.Customer_Account</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.Property_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AccountBrand-Account Brand Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -23175,18 +23179,18 @@
         <layout>Promotion-Promotion Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Property__c-Building Layout</layout>
+        <layout>Property__c-Property Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Property__c-Building Layout</layout>
+        <layout>Property__c-Property Layout</layout>
         <recordType>Property__c.Building</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Property__c-Building Layout</layout>
+        <layout>Property__c-Property Layout</layout>
         <recordType>Property__c.House</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Property__c-Building Layout</layout>
+        <layout>Property__c-Property Layout</layout>
         <recordType>Property__c.Unit</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -25120,6 +25124,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Account.Customer_Account</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.Property_Account</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
