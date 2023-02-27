@@ -160,19 +160,6 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Building__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Building</label>
-        <referenceTo>Property__c</referenceTo>
-        <relationshipLabel>Properties</relationshipLabel>
-        <relationshipName>Properties</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>External_ID__c</fullName>
         <externalId>true</externalId>
         <label>External ID</label>
@@ -196,54 +183,12 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <fields>
-        <fullName>Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Type</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Multiunit</fullName>
-                    <default>false</default>
-                    <label>Multiunit</label>
-                </value>
-                <value>
-                    <fullName>House</fullName>
-                    <default>false</default>
-                    <label>House</label>
-                </value>
-                <value>
-                    <fullName>Condo</fullName>
-                    <default>false</default>
-                    <label>Condo</label>
-                </value>
-                <value>
-                    <fullName>Lot</fullName>
-                    <default>false</default>
-                    <label>Lot</label>
-                </value>
-                <value>
-                    <fullName>Commercial</fullName>
-                    <default>false</default>
-                    <label>Commercial</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
     <label>Property</label>
     <listViews>
         <fullName>All</fullName>
         <columns>NAME</columns>
-        <columns>Type__c</columns>
         <columns>Selling_Agent__c</columns>
         <columns>RECORDTYPE</columns>
-        <columns>Building__c</columns>
         <columns>External_ID__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
@@ -255,91 +200,7 @@
     </nameField>
     <pluralLabel>Properties</pluralLabel>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
-    <recordTypes>
-        <fullName>Building</fullName>
-        <active>true</active>
-        <label>Building</label>
-        <picklistValues>
-            <picklist>Type__c</picklist>
-            <values>
-                <fullName>Commercial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Condo</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>House</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lot</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Multiunit</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
-    <recordTypes>
-        <fullName>House</fullName>
-        <active>true</active>
-        <label>House</label>
-        <picklistValues>
-            <picklist>Type__c</picklist>
-            <values>
-                <fullName>Commercial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Condo</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>House</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lot</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Multiunit</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
-    <recordTypes>
-        <fullName>Unit</fullName>
-        <active>true</active>
-        <label>Unit</label>
-        <picklistValues>
-            <picklist>Type__c</picklist>
-            <values>
-                <fullName>Commercial</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Condo</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>House</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lot</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Multiunit</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

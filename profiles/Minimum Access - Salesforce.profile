@@ -13974,22 +13974,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Property__c.Building__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Property__c.External_ID__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Property__c.Selling_Agent__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Property__c.Type__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -22471,18 +22461,6 @@
         <layout>Property__c-Building Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Property__c-Building Layout</layout>
-        <recordType>Property__c.Building</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Property__c-Building Layout</layout>
-        <recordType>Property__c.House</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Property__c-Building Layout</layout>
-        <recordType>Property__c.Unit</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>ROP_Custom_Metadata__mdt-ROP Custom Metadata Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -23605,21 +23583,6 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>PersonAccount.PersonAccount</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Property__c.Building</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Property__c.House</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Property__c.Unit</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
