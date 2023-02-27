@@ -396,6 +396,17 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Selling_Agent__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Selling Agent</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Properties_Selling</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
