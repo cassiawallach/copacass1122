@@ -18,4 +18,11 @@
         <label><!-- Test Readiness Logic --></label>
         <name>copado__Test_Readiness_Logic__c</name>
     </fields>
+    <layouts>
+        <layout>Test Tool Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

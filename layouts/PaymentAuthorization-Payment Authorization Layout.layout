@@ -62,10 +62,6 @@
         <label>AdditionalInformation</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>OrderPaymentSummaryId</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>SfResultCode</field>
             </layoutItems>
