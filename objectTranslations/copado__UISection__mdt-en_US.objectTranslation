@@ -22,4 +22,11 @@
         <label><!-- Where is this used? --></label>
         <name>copado__WhereIsThisUsed__c</name>
     </fields>
+    <layouts>
+        <layout>UISection Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

@@ -141,7 +141,12 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>US_Commit_HP</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>US_Commit_HP</fullName>
+        <fields>copado__Snapshot_Commit__c</fields>
+        <label>US Commit HP</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
     <enableActivities>false</enableActivities>

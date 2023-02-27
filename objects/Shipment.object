@@ -139,11 +139,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>DeliveryMethodId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>DeliveryTaskId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -160,11 +155,6 @@
     <fields>
         <fullName>ExpectedDeliveryDate</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>OrderSummaryId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
@@ -225,26 +215,18 @@
         <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
         <customTabListAdditionalFields>SourceLocation</customTabListAdditionalFields>
         <customTabListAdditionalFields>DestinationLocation</customTabListAdditionalFields>
-        <customTabListAdditionalFields>OrderSummary</customTabListAdditionalFields>
-        <customTabListAdditionalFields>DeliveryMethod</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>LastModifiedDate</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>LastModifiedBy</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>SourceLocation</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>DestinationLocation</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>OrderSummary</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>DeliveryMethod</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LastModifiedDate</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LastModifiedBy</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>SourceLocation</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>DestinationLocation</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>OrderSummary</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>DeliveryMethod</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>SourceLocation</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>DestinationLocation</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>OrderSummary</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>DeliveryMethod</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>
