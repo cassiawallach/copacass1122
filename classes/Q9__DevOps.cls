@@ -32,7 +32,7 @@ global class Environment {
     global String myDomain;
     global String name;
     global String orgId;
-    global Boolean production;
+    global Boolean {!Environment.EV: Envionment}uction;
     global String url;
     global Environment() {
 
