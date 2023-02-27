@@ -10,6 +10,11 @@
     </caseValues>
     <fields>
         <label></label>
+        <name>Agent_User__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
         <name>Brokerage__c</name>
         <relationshipLabel></relationshipLabel>
     </fields>

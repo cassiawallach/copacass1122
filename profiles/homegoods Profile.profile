@@ -51,6 +51,31 @@
         <visible>false</visible>
     </applicationVisibilities>
     <custom>true</custom>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Brokerage__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Selling_Agent__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Brokerage__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Property_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Realtor__c.Agent_User__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -106,6 +131,11 @@
     <layoutAssignments>
         <layout>copado__Environment__c-copado__Environment Layout</layout>
     </layoutAssignments>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.Property_Account</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <userLicense>Guest User License</userLicense>
     <userPermissions>
         <enabled>true</enabled>

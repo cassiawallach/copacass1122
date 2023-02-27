@@ -10,12 +10,26 @@
     </caseValues>
     <fields>
         <label></label>
+        <name>Brokerage__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
         <name>Building__c</name>
         <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
         <label></label>
         <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Property_Account__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Property_Type__c</name>
     </fields>
     <fields>
         <label></label>
