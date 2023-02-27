@@ -80,5 +80,16 @@
         <name>Username__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Monitoring Metadata Change Alert Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Ignore Metadata Action --></label>
+        <name>Ignore_Metadata_Action</name>
+    </quickActions>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
