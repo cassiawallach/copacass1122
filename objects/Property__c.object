@@ -146,7 +146,7 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <allowInChatterGroups>false</allowInChatterGroups>
+    <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
@@ -158,7 +158,7 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>Building__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
@@ -182,6 +182,32 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Property Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Property Snapshot</relationshipLabel>
+        <relationshipName>Property_Snapshot</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Selling_Agent_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Selling Agent</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Properties</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Selling_Agent__c</fullName>
@@ -249,15 +275,16 @@
         <label>All</label>
     </listViews>
     <nameField>
-        <label>Property Name</label>
+        <displayFormat>PC-{00000}</displayFormat>
+        <label>Property Code</label>
         <trackHistory>false</trackHistory>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Properties</pluralLabel>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
         <fullName>Building</fullName>
-        <active>true</active>
+        <active>false</active>
         <label>Building</label>
         <picklistValues>
             <picklist>Type__c</picklist>
@@ -285,7 +312,7 @@
     </recordTypes>
     <recordTypes>
         <fullName>House</fullName>
-        <active>true</active>
+        <active>false</active>
         <label>House</label>
         <picklistValues>
             <picklist>Type__c</picklist>
@@ -313,7 +340,7 @@
     </recordTypes>
     <recordTypes>
         <fullName>Unit</fullName>
-        <active>true</active>
+        <active>false</active>
         <label>Unit</label>
         <picklistValues>
             <picklist>Type__c</picklist>
@@ -339,7 +366,7 @@
             </values>
         </picklistValues>
     </recordTypes>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <searchLayouts />
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

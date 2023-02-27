@@ -13,5 +13,12 @@
         <name>Action__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Monitoring Ignored Action Type Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
