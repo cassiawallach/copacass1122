@@ -534,14 +534,19 @@ This value will prefill the order by field on related Promotion record creation 
                     <label>Salesforce</label>
                 </value>
                 <value>
-                    <fullName>Other</fullName>
-                    <default>false</default>
-                    <label>Other</label>
-                </value>
-                <value>
                     <fullName>SFDX</fullName>
                     <default>false</default>
                     <label>SFDX</label>
+                </value>
+                <value>
+                    <fullName>copado_sfcc</fullName>
+                    <default>false</default>
+                    <label>copado_sfcc</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
                 </value>
             </valueSetDefinition>
         </valueSet>

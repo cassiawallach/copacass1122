@@ -41,5 +41,12 @@
         <label><!-- Vulnerability_Trace --></label>
         <name>Vulnerability_Trace__c</name>
     </fields>
+    <layouts>
+        <layout>DigitSecFinding Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

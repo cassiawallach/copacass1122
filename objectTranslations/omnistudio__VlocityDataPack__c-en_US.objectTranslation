@@ -49,4 +49,11 @@
         <label><!-- Version --></label>
         <name>omnistudio__Version__c</name>
     </fields>
+    <layouts>
+        <layout>Vlocity Data Pack Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

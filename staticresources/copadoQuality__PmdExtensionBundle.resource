@@ -30,24 +30,10 @@
           "copado__ConfigJson__c": "{\"functionName\":\"RunPmd\",\"parameters\":[{\"name\":\"git_json\",\"value\":\"{$Context.Repository.Credential}\",\"required\":false},{\"name\":\"RulesetFileName\",\"value\":\"ruleset\",\"required\":false},{\"name\":\"testResultIds\",\"value\":\"{$Context.JobExecution__r.DataJson.resultIds}\",\"required\":false},{\"name\":\"branchesAndFileIdJson\",\"value\":\"{$Job.PrevStep.ResultDataJson__c}\"},{\"name\":\"deltaScan\",\"value\":\"{$Context.Apex.copadoQuality.IsDeltaScan}\"},{\"name\":\"consolidatedResultId\",\"value\":\"{$Context.JobExecution__r.DataJson.resultId}\"}]}",
           "copado__CustomType__c": "Function",
           "copado__JobTemplate__c": "a0u7Z00000Bf5fUQAR",
-          "copado__Order__c": 3,
+          "copado__Order__c": 2,
           "copado__Type__c": "Function",
           "Id": "a0t7Z00000JUhtEQAT",
           "Name": "Execute PMD"
-        },
-        {
-          "attributes": {
-            "type": "copado__JobStep__c",
-            "url": "/services/data/v55.0/sobjects/copado__JobStep__c/a0t7Z00000JUhtFQAT"
-          },
-          "copado__ApiName__c": "Run PMD_Set Repository For Scan",
-          "copado__ConfigJson__c": "{\"flowName\":\"copadoQuality.SetRepositoryForPMDScan\",\"parameters\":[{\"name\":\"testIds\",\"value\":\"{$Context.JobExecution__r.DataJson.testIds}\"},{\"name\":\"jobStepToUpdate\",\"value\":\"{$Job.Step.Execute PMD.Id}\"}]}",
-          "copado__CustomType__c": "Salesforce Flow",
-          "copado__JobTemplate__c": "a0u7Z00000Bf5fUQAR",
-          "copado__Order__c": 1,
-          "copado__Type__c": "Flow",
-          "Id": "a0t7Z00000JUhtFQAT",
-          "Name": "Set Repository For Scan"
         },
         {
           "attributes": {
@@ -58,7 +44,7 @@
           "copado__ConfigJson__c": "{\"flowName\":\"copadoQuality.RetrieveBranchesAndFileIdForPMDScan\",\"parameters\":[{\"name\":\"testIds\",\"value\":\"{$Context.JobExecution__r.DataJson.testIds}\"},{\"name\":\"jobExecutionId\",\"value\":\"{$Context.JobExecution__c}\"},{\"name\":\"extensionConfigurationId\",\"value\":\"{$Context.JobExecution__r.DataJson.extensionConfigurationId}\"},{\"name\":\"consolidatedResultId\",\"value\":\"{$Context.JobExecution__r.DataJson.resultId}\"}]}",
           "copado__CustomType__c": "Salesforce Flow",
           "copado__JobTemplate__c": "a0u7Z00000Bf5fUQAR",
-          "copado__Order__c": 2,
+          "copado__Order__c": 1,
           "copado__Type__c": "Flow",
           "Id": "a0t7Z00000JUhtGQAT",
           "Name": "Retrieve Branches and Ruleset File Id"
@@ -72,7 +58,7 @@
           "copado__ConfigJson__c": "{\"functionName\":\"Evaluate_PMD_Acceptance_Criteria\",\"parameters\":[{\"name\":\"acceptanceCriteria\",\"value\":\"{$Context.JobExecution__r.DataJson.acceptanceCriteria}\"},{\"name\":\"sarifFileId\",\"value\":\"{$Context.Apex.copadoQuality.GetSarifFileId}\"},{\"name\":\"sarifFileName\",\"value\":\"pmd-output.sarif.json\"}]}",
           "copado__CustomType__c": "Function",
           "copado__JobTemplate__c": "a0u7Z00000Bf5fUQAR",
-          "copado__Order__c": 4,
+          "copado__Order__c": 3,
           "copado__Type__c": "Function",
           "Id": "a0t7Z00000JUhtHQAT",
           "Name": "Evaluate PMD Acceptance Criteria"
