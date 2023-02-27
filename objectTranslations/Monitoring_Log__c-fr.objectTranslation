@@ -61,5 +61,12 @@
         </picklistValues>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Monitoring Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

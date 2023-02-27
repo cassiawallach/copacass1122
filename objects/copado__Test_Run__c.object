@@ -128,11 +128,14 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Test_Run_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -736,6 +739,21 @@
         <customTabListAdditionalFields>copado__Overall_Test_Comments__c</customTabListAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Cannot_deploy_from_dev_until_pass</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND (
+OR(
+NOT (ISPICKVAL(copado__Status__c,&quot;passed&quot;)),
+NOT (ISPICKVAL(copado__Status__c,&quot;passed with comments&quot;))
+),
+ copado__Environment__c=copado__User_Story__r.copado__Environment__c,
+OR(
+ copado__User_Story__r.copado__Promote_and_Deploy__c =TRUE,
+copado__User_Story__r.copado__Promote_Change__c=TRUE)
+)</errorConditionFormula>
+        <errorMessage>Test Run must be passed before deploying.</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
     <webLinks>
         <fullName>copado__Copado_DX</fullName>
