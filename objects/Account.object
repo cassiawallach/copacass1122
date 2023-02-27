@@ -980,6 +980,11 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <recordTypes>
+        <fullName>Property_Account</fullName>
+        <active>true</active>
+        <label>Property Account</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
