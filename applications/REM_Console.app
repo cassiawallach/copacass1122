@@ -11,16 +11,17 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>REM Console</label>
     <navType>Console</navType>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Account</tabs>
     <tabs>Property__c</tabs>
-    <tabs>Bike_Card</tabs>
     <tabs>Brokerage__c</tabs>
     <tabs>Realtor__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Feed</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>REM_Console_UtilityBar</utilityBar>
     <workspaceConfig>
-        <mappings>
-            <tab>Bike_Card</tab>
-        </mappings>
         <mappings>
             <tab>Brokerage__c</tab>
         </mappings>
@@ -29,6 +30,21 @@
         </mappings>
         <mappings>
             <tab>Realtor__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Account</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Dashboard</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Feed</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-home</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-report</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>
