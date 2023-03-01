@@ -11047,6 +11047,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Brokerage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Description</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -22832,7 +22837,7 @@
         <recordType>Account.Customer_Account</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Account Layout</layout>
+        <layout>Account-Property Account Layout</layout>
         <recordType>Account.Property_Account</recordType>
     </layoutAssignments>
     <layoutAssignments>
