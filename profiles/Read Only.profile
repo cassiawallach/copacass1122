@@ -11097,6 +11097,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Selling_Agent__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.ShippingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14258,6 +14263,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Property__c.External_ID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Property__c.Selling_Agent_User__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
