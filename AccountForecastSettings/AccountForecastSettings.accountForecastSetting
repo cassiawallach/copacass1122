@@ -11,7 +11,7 @@
     <forecastFrequency>Monthly</forecastFrequency>
     <opportunityItemScheduleEnabled>false</opportunityItemScheduleEnabled>
     <opportunityProbabilityEnabled>false</opportunityProbabilityEnabled>
-    <{!Environment.EV: Envionment}uctFilterId>000000000000000</{!Environment.EV: Envionment}uctFilterId>
+    <productFilterId>000000000000000</productFilterId>
     <recalculateAllFrcstCnt>0</recalculateAllFrcstCnt>
     <regenerateForecastCnt>0</regenerateForecastCnt>
     <salesAgreementFilterId>000000000000000</salesAgreementFilterId>
