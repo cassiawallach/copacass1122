@@ -51,4 +51,39 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
+    <standardValue>
+        <fullName>Building - Residential</fullName>
+        <default>false</default>
+        <label>Building - Residential</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Building - Commercial</fullName>
+        <default>false</default>
+        <label>Building - Commercial</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Multifamily</fullName>
+        <default>false</default>
+        <label>Multifamily</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Condominium</fullName>
+        <default>false</default>
+        <label>Condominium</label>
+    </standardValue>
+    <standardValue>
+        <fullName>House</fullName>
+        <default>false</default>
+        <label>House</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Townhome</fullName>
+        <default>false</default>
+        <label>Townhome</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lot</fullName>
+        <default>false</default>
+        <label>Lot</label>
+    </standardValue>
 </StandardValueSet>
