@@ -228,6 +228,13 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>PropertyAccount_CL</fullName>
+        <fields>Name</fields>
+        <fields>Type</fields>
+        <fields>Selling_Agent__c</fields>
+        <label>PropertyAccount CL</label>
+    </compactLayouts>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <externalSharingModel>Read</externalSharingModel>
@@ -247,6 +254,18 @@
     <fields>
         <fullName>BillingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Brokerage__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Brokerage</label>
+        <referenceTo>Brokerage__c</referenceTo>
+        <relationshipLabel>Property Accounts</relationshipLabel>
+        <relationshipName>PropertyAccounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>ChannelProgramLevelName</fullName>
@@ -469,6 +488,22 @@
             <value>THIS_WEEK</value>
         </filters>
         <label>New This Week</label>
+    </listViews>
+    <listViews>
+        <fullName>Property_Accounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>Brokerage__c</columns>
+        <columns>Selling_Agent__c</columns>
+        <columns>PARENT_NAME</columns>
+        <columns>ACCOUNT.ADDRESS2_STREET</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Account.Property_Account</value>
+        </filters>
+        <label>Property Accounts</label>
     </listViews>
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypes>
@@ -994,6 +1029,7 @@
     <recordTypes>
         <fullName>Property_Account</fullName>
         <active>true</active>
+        <compactLayoutAssignment>PropertyAccount_CL</compactLayoutAssignment>
         <label>Property Account</label>
         <picklistValues>
             <picklist>AccountSource</picklist>
