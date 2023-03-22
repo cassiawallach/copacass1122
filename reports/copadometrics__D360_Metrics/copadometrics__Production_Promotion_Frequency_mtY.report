@@ -31,7 +31,7 @@
     <columns>
         <field>FK_NAME</field>
     </columns>
-    <description>Frequency of {!Environment.EV: Envionment}uction related promotions</description>
+    <description>Frequency of production related promotions</description>
     <filter>
         <criteriaItems>
             <column>copado__Promotion__c.copadometrics__Destination_is_a_Production_Org__c</column>

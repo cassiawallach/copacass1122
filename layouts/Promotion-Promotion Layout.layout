@@ -90,11 +90,19 @@
         <label>PromotionScheduling</label>
         <layoutColumns>
             <layoutItems>
+                <behavior>Required</behavior>
+                <field>StartDate</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>StartDateTime</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>EndDate</field>
+            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>EndDateTime</field>

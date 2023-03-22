@@ -35,7 +35,7 @@
         <aggregateTypes>Sum</aggregateTypes>
         <field>copado__Promotion__c.copadometrics__Caused_Business_Disruption__c</field>
     </columns>
-    <description>The change failure rate is a measure of how often promotion failures occur in {!Environment.EV: Envionment}uction that require immediate remedy (particularity, rollbacks).</description>
+    <description>The change failure rate is a measure of how often promotion failures occur in production that require immediate remedy (particularity, rollbacks).</description>
     <filter>
         <criteriaItems>
             <column>copado__Promotion__c.copadometrics__Caused_Business_Disruption__c</column>

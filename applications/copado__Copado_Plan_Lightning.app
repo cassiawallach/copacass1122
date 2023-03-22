@@ -14,7 +14,7 @@
         <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
-    <description>Copado Plan is a tool that helps you to plan, organize, and manage your team&apos;s work, from the planning stage of a {!Environment.EV: Envionment}uct to its release. It can also be used to collaborate efficiently amidst the teams.</description>
+    <description>Copado Plan is a tool that helps you to plan, organize, and manage your team&apos;s work, from the planning stage of a product to its release. It can also be used to collaborate efficiently amidst the teams.</description>
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>

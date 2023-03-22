@@ -6,5 +6,5 @@
   "label" : "Product Detail",
   "routeType" : "detail-01t",
   "type" : "route",
-  "urlPrefix" : "{!Environment.EV: Envionment}uct"
+  "urlPrefix" : "product"
 }

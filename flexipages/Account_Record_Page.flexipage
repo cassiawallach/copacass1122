@@ -93,47 +93,6 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>parentFieldApiName</name>
-                    <value>Account.Id</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListApiName</name>
-                    <value>Property_Snapshot__r</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListComponentOverride</name>
-                    <value>CARD</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>rowsToDisplay</name>
-                    <value>10</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showActionBar</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentName>force:relatedListSingleContainer</componentName>
-                <identifier>force_relatedListSingleContainer4</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Name}</leftValue>
-                        <operator>CONTAINS</operator>
-                        <rightValue>PA</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>parentFieldApiName</name>
-                    <value>Account.Id</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListApiName</name>
-                    <value>AccountBrands</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
                     <name>relatedListComponentOverride</name>
                     <value>NONE</value>
                 </componentInstanceProperties>
@@ -145,293 +104,8 @@
                     <name>showActionBar</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>force:relatedListSingleContainer</componentName>
-                <identifier>force_relatedListSingleContainer5</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>actionNames</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>New</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>maxRecordsToDisplay</name>
-                    <value>10</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>parentFieldApiName</name>
-                    <value>Account.Id</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListApiName</name>
-                    <value>Opportunities</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListDisplayType</name>
-                    <value>ADVGRID</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListFieldAliases</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>OPPORTUNITY.NAME</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>OPPORTUNITY.STAGE_NAME</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>OPPORTUNITY.AMOUNT</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>OPPORTUNITY.CLOSE_DATE</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListLabel</name>
-                    <value>Opportunities</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showActionBar</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>sortFieldAlias</name>
-                    <value>__DEFAULT__</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>sortFieldOrder</name>
-                    <value>Default</value>
-                </componentInstanceProperties>
-                <componentName>lst:dynamicRelatedList</componentName>
-                <identifier>lst_dynamicRelatedList3</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>parentFieldApiName</name>
-                    <value>Account.Id</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListApiName</name>
-                    <value>Visits</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListComponentOverride</name>
-                    <value>NONE</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>rowsToDisplay</name>
-                    <value>10</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showActionBar</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentName>force:relatedListSingleContainer</componentName>
-                <identifier>force_relatedListSingleContainer3</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>parentFieldApiName</name>
-                    <value>Account.Id</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListApiName</name>
-                    <value>WorkOrders</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListComponentOverride</name>
-                    <value>ADVGRID</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>rowsToDisplay</name>
-                    <value>10</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showActionBar</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentName>force:relatedListSingleContainer</componentName>
-                <identifier>force_relatedListSingleContainer2</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>parentFieldApiName</name>
-                    <value>Account.Id</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListApiName</name>
-                    <value>CombinedAttachments</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListComponentOverride</name>
-                    <value>NONE</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>rowsToDisplay</name>
-                    <value>10</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showActionBar</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentName>force:relatedListSingleContainer</componentName>
-                <identifier>force_relatedListSingleContainer</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>actionNames</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>MassAddToCampaign</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Merge</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>NewContact</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>maxRecordsToDisplay</name>
-                    <value>5</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>parentFieldApiName</name>
-                    <value>Account.Id</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListApiName</name>
-                    <value>Contacts</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListDisplayType</name>
-                    <value>ADVGRID</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListFieldAliases</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>FULL_NAME</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>CONTACT.TITLE</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>CONTACT.EMAIL</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>CONTACT.PHONE1</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListLabel</name>
-                    <value>Contacts</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showActionBar</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>sortFieldAlias</name>
-                    <value>__DEFAULT__</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>sortFieldOrder</name>
-                    <value>Default</value>
-                </componentInstanceProperties>
-                <componentName>lst:dynamicRelatedList</componentName>
-                <identifier>lst_dynamicRelatedList2</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>actionNames</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>MassChangeOwner</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>NewCase</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>maxRecordsToDisplay</name>
-                    <value>4</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>parentFieldApiName</name>
-                    <value>Account.Id</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListApiName</name>
-                    <value>Cases</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListDisplayType</name>
-                    <value>ADVGRID</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListFieldAliases</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>CASES.CASE_NUMBER</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>NAME</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>CASES.SUBJECT</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>CASES.PRIORITY</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>CASES.CREATED_DATE_DATE_ONLY</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>CASES.STATUS</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>OWNER_NAME</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListLabel</name>
-                    <value>Cases</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showActionBar</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>sortFieldAlias</name>
-                    <value>__DEFAULT__</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>sortFieldOrder</name>
-                    <value>Default</value>
-                </componentInstanceProperties>
-                <componentName>lst:dynamicRelatedList</componentName>
-                <identifier>lst_dynamicRelatedList</identifier>
+                <componentName>force:relatedListContainer</componentName>
+                <identifier>force_relatedListContainer</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -455,67 +129,17 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentInstanceProperties>
-                    <name>city</name>
-                    <value>ShippingCity</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>country</name>
-                    <value>ShippingCountry</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>geolocation</name>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>iconColour</name>
-                    <value>#ffa500</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>margin</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>marginTitle</name>
-                    <value>Account Location</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>postcode</name>
-                    <value>ShippingPostalCode</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>recordDesc</name>
-                    <value>Description</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>recordName</name>
-                    <value>Name</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>state</name>
-                    <value>ShippingState</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>street</name>
-                    <value>ShippingStreet</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>zoomLevel</name>
-                    <value>12</value>
-                </componentInstanceProperties>
-                <componentName>ltngMap:recordMapWrap</componentName>
-                <identifier>ltngMap_recordMapWrap</identifier>
+                <componentName>runtime_sales_social:socialPanel</componentName>
+                <identifier>runtime_sales_social_socialPanel</identifier>
             </componentInstance>
         </itemInstances>
-        <name>Facet-f3dd86a1-5856-4d5f-a809-198a98a8c46d</name>
+        <mode>Replace</mode>
+        <name>newsTabContent</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentInstanceProperties>
-                    <name>active</name>
-                    <value>true</value>
-                </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>body</name>
                     <value>detailTabContent</value>
@@ -532,7 +156,7 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>active</name>
-                    <value>false</value>
+                    <value>true</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>body</name>
@@ -564,14 +188,14 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
-                    <value>Facet-f3dd86a1-5856-4d5f-a809-198a98a8c46d</value>
+                    <value>newsTabContent</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>title</name>
-                    <value>Map</value>
+                    <value>Standard.Tab.news</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
-                <identifier>flexipage_tab2</identifier>
+                <identifier>newsTab</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -587,6 +211,40 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:tabset</componentName>
                 <identifier>flexipage_tabset</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>direction</name>
+                    <value>ltr</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>display</name>
+                    <value>Display OmniScript on page</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>inlineVariant</name>
+                    <value>brand</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>language</name>
+                    <value>English</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>subType</name>
+                    <value>editAccount</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>theme</name>
+                    <value>lightning</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>type</name>
+                    <value>team</value>
+                </componentInstanceProperties>
+                <componentName>runtime_omnistudio:omniscript</componentName>
+                <identifier>runtime_omnistudio_omniscript</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -643,10 +301,6 @@
     <sobjectType>Account</sobjectType>
     <template>
         <name>flexipage:recordHomeTemplateDesktop</name>
-        <properties>
-            <name>saveOptions</name>
-            <value>[{&quot;name&quot;:&quot;UseDefaultAssignmentRule&quot;,&quot;value&quot;:&quot;NONE&quot;}]</value>
-        </properties>
     </template>
     <type>RecordPage</type>
 </FlexiPage>

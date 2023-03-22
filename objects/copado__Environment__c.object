@@ -161,6 +161,16 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Validation_Only__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>This field should be enabled on the source environment to enable the validation and restrict the promotion to the next environment.</inlineHelpText>
+        <label>Validation_Only_from_source</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>cmcSf__Apex_Test_Level__c</fullName>
         <deprecated>false</deprecated>
         <description>Test levels in order from least to most restrictive</description>
@@ -448,6 +458,11 @@
                     <fullName>Salesforce</fullName>
                     <default>true</default>
                     <label>Salesforce</label>
+                </value>
+                <value>
+                    <fullName>ServiceNow</fullName>
+                    <default>false</default>
+                    <label>ServiceNow</label>
                 </value>
                 <value>
                     <fullName>SFDX</fullName>

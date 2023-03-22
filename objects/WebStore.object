@@ -102,6 +102,10 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Country</fullName>
+        <inlineHelpText>The ship to country to use when a optional ship to country isn&apos;t selected at checkout.</inlineHelpText>
+    </fields>
+    <fields>
         <fullName>DefaultLanguage</fullName>
         <inlineHelpText>The language to use when translated content isn&apos;t available. This value comes from the first supported language for your org in Translation Workbench.</inlineHelpText>
     </fields>
@@ -140,7 +144,7 @@
     </fields>
     <fields>
         <fullName>StrikethroughPricebookId</fullName>
-        <inlineHelpText>Displays a price book with a {!Environment.EV: Envionment}uct’s original list price and the buyer’s discounted price.</inlineHelpText>
+        <inlineHelpText>Displays a price book with a product’s original list price and the buyer’s discounted price.</inlineHelpText>
         <type>Lookup</type>
     </fields>
     <fields>

@@ -5,6 +5,8 @@
     <domainPartition>sandbox</domainPartition>
     <enableNativeBrowserForAuthOnAndroid>false</enableNativeBrowserForAuthOnAndroid>
     <enableNativeBrowserForAuthOnIos>false</enableNativeBrowserForAuthOnIos>
+    <enableShareBrowserSessionAndroidForAuth>false</enableShareBrowserSessionAndroidForAuth>
+    <enableShareBrowserSessionIOSForAuth>false</enableShareBrowserSessionIOSForAuth>
     <logRedirections>false</logRedirections>
     <myDomainName>copa-cass-11-22</myDomainName>
     <myDomainSuffix>MySalesforce</myDomainSuffix>

@@ -218,4 +218,8 @@
         </sections>
     </layouts>
     <nameFieldLabel><!-- Step Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- You have access to only validate not promote. --></errorMessage>
+        <name>Restrict_Promotion</name>
+    </validationRules>
 </CustomObjectTranslation>

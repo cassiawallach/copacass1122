@@ -29,6 +29,10 @@
             <translation><!-- Apex Tests --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Copado Robotic Testing</masterLabel>
+            <translation><!-- Copado Robotic Testing --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Manual Tests</masterLabel>
             <translation><!-- Manual Tests --></translation>
         </picklistValues>

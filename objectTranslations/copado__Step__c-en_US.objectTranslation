@@ -213,4 +213,8 @@ WARNING: Credits consumption will apply as a regular deployment since resource-w
             <section>Progress</section>
         </sections>
     </layouts>
+    <validationRules>
+        <errorMessage><!-- You have access to only validate not promote. --></errorMessage>
+        <name>Restrict_Promotion</name>
+    </validationRules>
 </CustomObjectTranslation>

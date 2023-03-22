@@ -13,7 +13,7 @@
       "componentAttributes" : {
         "cartCountDisplay" : "TotalProductCount",
         "discountAmountFontColor" : "rgb(46, 132, 74)",
-        "emptyCartBodyLabel" : "Search or browse {!Environment.EV: Envionment}ucts, and add them to your cart. Your selections appear here.",
+        "emptyCartBodyLabel" : "Search or browse products, and add them to your cart. Your selections appear here.",
         "emptyCartHeaderLabel" : "Your cart’s empty",
         "incrementValueGuideText" : "Sold in increments of {0}",
         "maximumValueGuideText" : "Maximum quantity is {0}",
@@ -22,7 +22,7 @@
         "negotiatedPriceFontSize" : "large",
         "originalPriceFontColor" : "rgb(151, 151, 151)",
         "originalPriceFontSize" : "small",
-        "{!Environment.EV: Envionment}uctFieldMapping" : "",
+        "productFieldMapping" : "",
         "promotionsAppliedDetailsFontSize" : "small",
         "promotionsAppliedDetailsNameTextColor" : "rgb(79,79,79)",
         "promotionsAppliedDetailsPopoverHeaderText" : "Promotions Applied",

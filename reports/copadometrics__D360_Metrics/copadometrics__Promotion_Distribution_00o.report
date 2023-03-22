@@ -32,7 +32,7 @@
     <columns>
         <field>FK_NAME</field>
     </columns>
-    <description>% of promotions that are to a {!Environment.EV: Envionment}uction org.</description>
+    <description>% of promotions that are to a production org.</description>
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Month</dateGranularity>

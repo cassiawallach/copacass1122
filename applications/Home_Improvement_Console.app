@@ -15,13 +15,9 @@
     <tabs>standard-home</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
-    <tabs>Home_Improvement_Project__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Home_Improvement_Console_UtilityBar</utilityBar>
     <workspaceConfig>
-        <mappings>
-            <tab>Home_Improvement_Project__c</tab>
-        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

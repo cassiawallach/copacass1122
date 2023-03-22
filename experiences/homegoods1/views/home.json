@@ -49,8 +49,8 @@
         "addToCartButtonTextHoverColor" : "",
         "numberOfLineItemsToAddEachTime" : 1,
         "numberOfLineItemsToStart" : 5,
-        "{!Environment.EV: Envionment}uctPlaceholderText" : "Item SKU",
-        "{!Environment.EV: Envionment}uctText" : "Product",
+        "productPlaceholderText" : "Item SKU",
+        "productText" : "Product",
         "quantityText" : "Quantity",
         "showAddEntryIcon" : true,
         "title" : "Quick Order"

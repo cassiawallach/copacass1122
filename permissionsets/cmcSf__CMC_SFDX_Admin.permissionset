@@ -49,6 +49,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>cmcSf__GetApexCodeCoverageFromOrg</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>cmcSf__GetPackageVersionWithKeys</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -73,6 +77,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>cmcSf__LwcResponse</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>cmcSf__MetadataRefresh</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>cmcSf__PackageCreateHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -90,6 +102,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>cmcSf__PipelineDistributionCtrl</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>cmcSf__RefreshMetadataCallback</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>cmcSf__RefreshOrgMetadataCache</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -128,6 +148,10 @@
         <enabled>true</enabled>
         <name>copado__UISection__mdt</name>
     </customMetadataTypeAccesses>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>cmcSf__Enable_Metadata_List</name>
+    </customPermissions>
     <customPermissions>
         <enabled>true</enabled>
         <name>cmcSf__Manage_Package_Keys</name>
@@ -176,6 +200,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>copado__Artifact_Version__c.cmcSf__Api_Version__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>copado__Artifact_Version__c.cmcSf__Code_Coverage__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -207,6 +236,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>copado__Artifact_Version__c.cmcSf__Uninstall_Script__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>copado__Artifact__c.cmcSf__Api_Version__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

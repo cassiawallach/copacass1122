@@ -220,6 +220,42 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4U</field>
+            <label>Amended Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4V</field>
+            <label>Contracted</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4W</field>
+            <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Y</field>
+            <label>Ordered</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4X</field>
+            <label>Order Group ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Z</field>
+            <label>Primary Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4a</field>
+            <label>Quote Pricebook Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4b</field>
+            <label>Renewal</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4c</field>
+            <label>Renewed Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
@@ -257,6 +293,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDn00000aWb4U</field>
+            <field>00NDn00000aWb4V</field>
+            <field>00NDn00000aWb4W</field>
+            <field>00NDn00000aWb4Y</field>
+            <field>00NDn00000aWb4X</field>
+            <field>00NDn00000aWb4Z</field>
+            <field>00NDn00000aWb4a</field>
+            <field>00NDn00000aWb4b</field>
+            <field>00NDn00000aWb4c</field>
             <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
@@ -406,6 +451,42 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4U</field>
+            <label>Amended Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4V</field>
+            <label>Contracted</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4W</field>
+            <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Y</field>
+            <label>Ordered</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4X</field>
+            <label>Order Group ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Z</field>
+            <label>Primary Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4a</field>
+            <label>Quote Pricebook Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4b</field>
+            <label>Renewal</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4c</field>
+            <label>Renewed Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
@@ -444,6 +525,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDn00000aWb4U</field>
+            <field>00NDn00000aWb4V</field>
+            <field>00NDn00000aWb4W</field>
+            <field>00NDn00000aWb4Y</field>
+            <field>00NDn00000aWb4X</field>
+            <field>00NDn00000aWb4Z</field>
+            <field>00NDn00000aWb4a</field>
+            <field>00NDn00000aWb4b</field>
+            <field>00NDn00000aWb4c</field>
             <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
@@ -589,6 +679,42 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4U</field>
+            <label>Amended Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4V</field>
+            <label>Contracted</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4W</field>
+            <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Y</field>
+            <label>Ordered</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4X</field>
+            <label>Order Group ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Z</field>
+            <label>Primary Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4a</field>
+            <label>Quote Pricebook Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4b</field>
+            <label>Renewal</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4c</field>
+            <label>Renewed Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
@@ -626,6 +752,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDn00000aWb4U</field>
+            <field>00NDn00000aWb4V</field>
+            <field>00NDn00000aWb4W</field>
+            <field>00NDn00000aWb4Y</field>
+            <field>00NDn00000aWb4X</field>
+            <field>00NDn00000aWb4Z</field>
+            <field>00NDn00000aWb4a</field>
+            <field>00NDn00000aWb4b</field>
+            <field>00NDn00000aWb4c</field>
             <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
@@ -771,6 +906,42 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4U</field>
+            <label>Amended Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4V</field>
+            <label>Contracted</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4W</field>
+            <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Y</field>
+            <label>Ordered</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4X</field>
+            <label>Order Group ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Z</field>
+            <label>Primary Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4a</field>
+            <label>Quote Pricebook Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4b</field>
+            <label>Renewal</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4c</field>
+            <label>Renewed Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
@@ -808,6 +979,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDn00000aWb4U</field>
+            <field>00NDn00000aWb4V</field>
+            <field>00NDn00000aWb4W</field>
+            <field>00NDn00000aWb4Y</field>
+            <field>00NDn00000aWb4X</field>
+            <field>00NDn00000aWb4Z</field>
+            <field>00NDn00000aWb4a</field>
+            <field>00NDn00000aWb4b</field>
+            <field>00NDn00000aWb4c</field>
             <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
@@ -957,6 +1137,42 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4U</field>
+            <label>Amended Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4V</field>
+            <label>Contracted</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4W</field>
+            <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Y</field>
+            <label>Ordered</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4X</field>
+            <label>Order Group ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Z</field>
+            <label>Primary Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4a</field>
+            <label>Quote Pricebook Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4b</field>
+            <label>Renewal</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4c</field>
+            <label>Renewed Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
@@ -995,6 +1211,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDn00000aWb4U</field>
+            <field>00NDn00000aWb4V</field>
+            <field>00NDn00000aWb4W</field>
+            <field>00NDn00000aWb4Y</field>
+            <field>00NDn00000aWb4X</field>
+            <field>00NDn00000aWb4Z</field>
+            <field>00NDn00000aWb4a</field>
+            <field>00NDn00000aWb4b</field>
+            <field>00NDn00000aWb4c</field>
             <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
@@ -1140,6 +1365,42 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4U</field>
+            <label>Amended Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4V</field>
+            <label>Contracted</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4W</field>
+            <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Y</field>
+            <label>Ordered</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4X</field>
+            <label>Order Group ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Z</field>
+            <label>Primary Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4a</field>
+            <label>Quote Pricebook Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4b</field>
+            <label>Renewal</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4c</field>
+            <label>Renewed Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
@@ -1177,6 +1438,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDn00000aWb4U</field>
+            <field>00NDn00000aWb4V</field>
+            <field>00NDn00000aWb4W</field>
+            <field>00NDn00000aWb4Y</field>
+            <field>00NDn00000aWb4X</field>
+            <field>00NDn00000aWb4Z</field>
+            <field>00NDn00000aWb4a</field>
+            <field>00NDn00000aWb4b</field>
+            <field>00NDn00000aWb4c</field>
             <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
@@ -1326,6 +1596,42 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4U</field>
+            <label>Amended Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4V</field>
+            <label>Contracted</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4W</field>
+            <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Y</field>
+            <label>Ordered</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4X</field>
+            <label>Order Group ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Z</field>
+            <label>Primary Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4a</field>
+            <label>Quote Pricebook Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4b</field>
+            <label>Renewal</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4c</field>
+            <label>Renewed Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
@@ -1364,6 +1670,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDn00000aWb4U</field>
+            <field>00NDn00000aWb4V</field>
+            <field>00NDn00000aWb4W</field>
+            <field>00NDn00000aWb4Y</field>
+            <field>00NDn00000aWb4X</field>
+            <field>00NDn00000aWb4Z</field>
+            <field>00NDn00000aWb4a</field>
+            <field>00NDn00000aWb4b</field>
+            <field>00NDn00000aWb4c</field>
             <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
@@ -1509,6 +1824,42 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4U</field>
+            <label>Amended Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4V</field>
+            <label>Contracted</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4W</field>
+            <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Y</field>
+            <label>Ordered</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4X</field>
+            <label>Order Group ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Z</field>
+            <label>Primary Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4a</field>
+            <label>Quote Pricebook Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4b</field>
+            <label>Renewal</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4c</field>
+            <label>Renewed Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
@@ -1546,6 +1897,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDn00000aWb4U</field>
+            <field>00NDn00000aWb4V</field>
+            <field>00NDn00000aWb4W</field>
+            <field>00NDn00000aWb4Y</field>
+            <field>00NDn00000aWb4X</field>
+            <field>00NDn00000aWb4Z</field>
+            <field>00NDn00000aWb4a</field>
+            <field>00NDn00000aWb4b</field>
+            <field>00NDn00000aWb4c</field>
             <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
@@ -1695,6 +2055,42 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4U</field>
+            <label>Amended Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4V</field>
+            <label>Contracted</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4W</field>
+            <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Y</field>
+            <label>Ordered</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4X</field>
+            <label>Order Group ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Z</field>
+            <label>Primary Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4a</field>
+            <label>Quote Pricebook Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4b</field>
+            <label>Renewal</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4c</field>
+            <label>Renewed Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
@@ -1733,6 +2129,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDn00000aWb4U</field>
+            <field>00NDn00000aWb4V</field>
+            <field>00NDn00000aWb4W</field>
+            <field>00NDn00000aWb4Y</field>
+            <field>00NDn00000aWb4X</field>
+            <field>00NDn00000aWb4Z</field>
+            <field>00NDn00000aWb4a</field>
+            <field>00NDn00000aWb4b</field>
+            <field>00NDn00000aWb4c</field>
             <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
@@ -1878,6 +2283,42 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4U</field>
+            <label>Amended Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4V</field>
+            <label>Contracted</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4W</field>
+            <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Y</field>
+            <label>Ordered</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4X</field>
+            <label>Order Group ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Z</field>
+            <label>Primary Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4a</field>
+            <label>Quote Pricebook Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4b</field>
+            <label>Renewal</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4c</field>
+            <label>Renewed Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
@@ -1915,6 +2356,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDn00000aWb4U</field>
+            <field>00NDn00000aWb4V</field>
+            <field>00NDn00000aWb4W</field>
+            <field>00NDn00000aWb4Y</field>
+            <field>00NDn00000aWb4X</field>
+            <field>00NDn00000aWb4Z</field>
+            <field>00NDn00000aWb4a</field>
+            <field>00NDn00000aWb4b</field>
+            <field>00NDn00000aWb4c</field>
             <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
@@ -2064,6 +2514,42 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4U</field>
+            <label>Amended Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4V</field>
+            <label>Contracted</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4W</field>
+            <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Y</field>
+            <label>Ordered</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4X</field>
+            <label>Order Group ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Z</field>
+            <label>Primary Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4a</field>
+            <label>Quote Pricebook Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4b</field>
+            <label>Renewal</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4c</field>
+            <label>Renewed Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
@@ -2102,6 +2588,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDn00000aWb4U</field>
+            <field>00NDn00000aWb4V</field>
+            <field>00NDn00000aWb4W</field>
+            <field>00NDn00000aWb4Y</field>
+            <field>00NDn00000aWb4X</field>
+            <field>00NDn00000aWb4Z</field>
+            <field>00NDn00000aWb4a</field>
+            <field>00NDn00000aWb4b</field>
+            <field>00NDn00000aWb4c</field>
             <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
@@ -2247,6 +2742,42 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4U</field>
+            <label>Amended Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4V</field>
+            <label>Contracted</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4W</field>
+            <label>Create Contracted Prices</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Y</field>
+            <label>Ordered</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4X</field>
+            <label>Order Group ID</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4Z</field>
+            <label>Primary Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4a</field>
+            <label>Quote Pricebook Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4b</field>
+            <label>Renewal</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDn00000aWb4c</field>
+            <label>Renewed Contract</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
@@ -2284,6 +2815,15 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NDn00000aWb4U</field>
+            <field>00NDn00000aWb4V</field>
+            <field>00NDn00000aWb4W</field>
+            <field>00NDn00000aWb4Y</field>
+            <field>00NDn00000aWb4X</field>
+            <field>00NDn00000aWb4Z</field>
+            <field>00NDn00000aWb4a</field>
+            <field>00NDn00000aWb4b</field>
+            <field>00NDn00000aWb4c</field>
             <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>

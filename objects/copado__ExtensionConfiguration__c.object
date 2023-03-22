@@ -243,6 +243,11 @@
                     <default>false</default>
                     <label>PMD</label>
                 </value>
+                <value>
+                    <fullName>Copado Robotic Testing</fullName>
+                    <default>false</default>
+                    <label>Copado Robotic Testing</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>

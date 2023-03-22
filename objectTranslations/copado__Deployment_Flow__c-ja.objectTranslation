@@ -181,6 +181,10 @@
             <translation>セールスフォース</translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>ServiceNow</masterLabel>
+            <translation><!-- ServiceNow --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>copado_sfcc</masterLabel>
             <translation><!-- copado_sfcc --></translation>
         </picklistValues>
@@ -207,6 +211,10 @@
         </sections>
     </layouts>
     <nameFieldLabel><!-- Pipeline Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Create System Properties --></label>
+        <name>cmcSnow__Create_System_Properties</name>
+    </quickActions>
     <quickActions>
         <label><!-- Clone with Environments --></label>
         <name>copado__Clone_with_Environments</name>

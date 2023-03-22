@@ -5,6 +5,11 @@
         <value><!-- Environment --></value>
     </caseValues>
     <fields>
+        <help><!-- This field should be enabled on the source environment to enable the validation and restrict the promotion to the next environment. --></help>
+        <label><!-- Validation_Only_from_source --></label>
+        <name>Validation_Only__c</name>
+    </fields>
+    <fields>
         <label><!-- Apex Test Level --></label>
         <name>cmcSf__Apex_Test_Level__c</name>
     </fields>
@@ -142,6 +147,10 @@
             <translation>セールスフォース</translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>ServiceNow</masterLabel>
+            <translation><!-- ServiceNow --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>copado_sfcc</masterLabel>
             <translation><!-- copado_sfcc --></translation>
         </picklistValues>
@@ -217,6 +226,10 @@
         </sections>
     </layouts>
     <nameFieldLabel><!-- Environment Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Create System Properties --></label>
+        <name>cmcSnow__Configure_System_Properties</name>
+    </quickActions>
     <validationRules>
         <errorMessage><!-- We do not recommend to set “Run Specified Test” on an environment level, unless you are 100% sure that ALL deployments contain Apex. If this is the case, you can deactivate this Validation Rule. --></errorMessage>
         <name>cmcSf__Prevent_RunSpecifiedTest_For_Environment</name>

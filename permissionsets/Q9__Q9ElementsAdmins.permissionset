@@ -21,11 +21,19 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>Q9__ElementsSettingsController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Q9__ElementsSettingsControllerBundle</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>Q9__MetadataService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Q9__MetadataXmlBatchHelper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>

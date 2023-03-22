@@ -29,6 +29,7 @@
     <enableUpDownVote>false</enableUpDownVote>
     <forgotPasswordTemplate>unfiled$public/CommunityForgotPasswordEmailTemplate</forgotPasswordTemplate>
     <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
+    <headlessForgotPasswordTemplate>unfiled$public/CommunityHeadlessForgotPasswordTemplate</headlessForgotPasswordTemplate>
     <networkMemberGroups>
         <permissionSet>Live_Agent_Setup_Flow</permissionSet>
         <profile>external identity user</profile>

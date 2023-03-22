@@ -139,6 +139,11 @@
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
     </fields>
+    <fields>
+        <fullName>RetailStoreId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
     <listViews>
         <fullName>All_AssessmentTaskOrder</fullName>
         <filterScope>Everything</filterScope>

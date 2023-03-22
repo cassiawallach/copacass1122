@@ -162,7 +162,7 @@
         <externalId>false</externalId>
         <inlineHelpText>The URI-encoded fullName. Needed for the readMetadata() call.</inlineHelpText>
         <label>Encoded FullName</label>
-        <length>80</length>
+        <length>255</length>
         <required>true</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>

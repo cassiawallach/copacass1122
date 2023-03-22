@@ -9,7 +9,7 @@ global class UpdateCompletedUserStories {
     global UpdateCompletedUserStories() {
 
     }
-    @InvocableMethod(label='Invoke update First Time Promoted to Production' description='Updates user stories that were successfully deployed to {!Environment.EV: Envionment}uction')
+    @InvocableMethod(label='Invoke update First Time Promoted to Production' description='Updates user stories that were successfully deployed to production')
     global static void execute(List<copadometrics.UpdateCompletedUserStories.InvocableVariables> variables) {
 
     }

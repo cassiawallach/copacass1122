@@ -177,6 +177,10 @@ This value will prefill the order by field on related Promotion record creation 
             <translation><!-- Salesforce --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>ServiceNow</masterLabel>
+            <translation><!-- ServiceNow --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>copado_sfcc</masterLabel>
             <translation><!-- copado_sfcc --></translation>
         </picklistValues>
@@ -202,6 +206,10 @@ This value will prefill the order by field on related Promotion record creation 
             <section>Custom Links</section>
         </sections>
     </layouts>
+    <quickActions>
+        <label><!-- Create System Properties --></label>
+        <name>cmcSnow__Create_System_Properties</name>
+    </quickActions>
     <quickActions>
         <label><!-- Clone with Environments --></label>
         <name>copado__Clone_with_Environments</name>

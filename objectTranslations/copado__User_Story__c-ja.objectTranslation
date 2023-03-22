@@ -5,6 +5,10 @@
         <value><!-- User Story --></value>
     </caseValues>
     <fieldSets>
+        <label><!-- VSMCCG1 --></label>
+        <name>VSMCCG1</name>
+    </fieldSets>
+    <fieldSets>
         <label><!-- Add Test Classes --></label>
         <name>cmcSf__Add_Test_Classes</name>
     </fieldSets>
@@ -118,8 +122,16 @@
         <name>Jira_Link_formula__c</name>
     </fields>
     <fields>
+        <label><!-- Regression Ready --></label>
+        <name>Regression_Ready__c</name>
+    </fields>
+    <fields>
         <label><!-- Apex Test Level --></label>
         <name>cmcSf__Apex_Test_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Story Id --></label>
+        <name>cmcSnow__User_Story_Id__c</name>
     </fields>
     <fields>
         <label><!-- Acceptance Criteria Status --></label>
@@ -1109,6 +1121,10 @@
         <name>ManualTestPassRequired</name>
     </validationRules>
     <validationRules>
+        <errorMessage><!-- Access restricted to promote and deploy --></errorMessage>
+        <name>Restrict_US_Promote_Deploy</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- A cancellation reason must be given. --></errorMessage>
         <name>copado__Cancellation_reason_required</name>
     </validationRules>
@@ -1131,6 +1147,10 @@
     <validationRules>
         <errorMessage><!-- Enter a value between 0 to 100 to specify the Progress in percentage. --></errorMessage>
         <name>copado__User_Story_Progress_Range_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Functional tests must be added to broader regression suite before deploying --></errorMessage>
+        <name>regression_tests_must_be_added</name>
     </validationRules>
     <webLinks>
         <label><!-- DigitSec_S4_Security_Scan --></label>

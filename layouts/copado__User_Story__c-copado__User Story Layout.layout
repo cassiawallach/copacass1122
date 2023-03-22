@@ -65,6 +65,10 @@
                 <behavior>Readonly</behavior>
                 <field>Jira_Link_formula__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Regression_Ready__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -761,7 +761,7 @@ copado__SUM_Deployed__c / copado__Org_Count__c,
         <fullName>copado__dataJson__c</fullName>
         <deprecated>false</deprecated>
         <description>If the step type is &quot;data&quot;  this should contains the json defining the query. 
-In {!Environment.EV: Envionment}uction this field should be HIDDEN</description>
+In production this field should be HIDDEN</description>
         <externalId>false</externalId>
         <label>dataJson</label>
         <length>131072</length>
@@ -783,5 +783,13 @@ In {!Environment.EV: Envionment}uction this field should be HIDDEN</description>
         <lookupDialogsAdditionalFields>copado__CheckOnly__c</lookupDialogsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Restrict_Promotion</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND ( ISNEW(),
+	copado__CheckOnly__c = False, NOT($Permission.Enable_Promote_Deploy)
+)</errorConditionFormula>
+        <errorMessage>You have access to only validate not promote.</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

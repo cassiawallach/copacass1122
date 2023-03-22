@@ -43,6 +43,10 @@
         <name>cmcSf__Validate_Deploy_Request_Id__c</name>
     </fields>
     <fields>
+        <label><!-- Update Set ID --></label>
+        <name>cmcSnow__Update_Set_ID__c</name>
+    </fields>
+    <fields>
         <help><!-- Select this checkbox if you are promoting from a higher to a lower environment in the pipeline. --></help>
         <label><!-- Is Back-Promotion --></label>
         <name>copado__Back_Promotion__c</name>

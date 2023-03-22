@@ -1,197 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <brand>
-        <headerColor>#6AAE88</headerColor>
-        <logo>Screenshot_20230227_at_11535_PM</logo>
-        <logoVersion>1</logoVersion>
+        <headerColor>#0070D2</headerColor>
         <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
     </brand>
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
-    <isNavTabPersistenceDisabled>true</isNavTabPersistenceDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>REM Console</label>
     <navType>Console</navType>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Property_Account_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Property_Account</recordType>
-        <type>Flexipage</type>
-        <profile>Read Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Property_Account_Record_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Property_Account</recordType>
-        <type>Flexipage</type>
-        <profile>Service Agent</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Property_Account_Record_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Property_Account</recordType>
-        <type>Flexipage</type>
-        <profile>ContractManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Property_Account_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Property_Account</recordType>
-        <type>Flexipage</type>
-        <profile>ContractManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Property_Account_Record_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Property_Account</recordType>
-        <type>Flexipage</type>
-        <profile>Read Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Property_Account_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Property_Account</recordType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Property_Account_Record_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Property_Account</recordType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Property_Account_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Property_Account</recordType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Property_Account_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Property_Account</recordType>
-        <type>Flexipage</type>
-        <profile>Service Agent</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Property_Account_Record_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Property_Account</recordType>
-        <type>Flexipage</type>
-        <profile>Service Supervisor</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Property_Account_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Property_Account</recordType>
-        <type>Flexipage</type>
-        <profile>Service Supervisor</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Property_Account_Record_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Property_Account</recordType>
-        <type>Flexipage</type>
-        <profile>SolutionManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Property_Account_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Property_Account</recordType>
-        <type>Flexipage</type>
-        <profile>SolutionManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Property_Account_Record_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Property_Account</recordType>
-        <type>Flexipage</type>
-        <profile>StandardAul</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Property_Account_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Property_Account</recordType>
-        <type>Flexipage</type>
-        <profile>StandardAul</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Property_Account_Record_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Property_Account</recordType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <setupExperience>all</setupExperience>
-    <tabs>standard-home</tabs>
-    <tabs>Brokerage__c</tabs>
-    <tabs>Realtor__c</tabs>
-    <tabs>standard-Account</tabs>
-    <tabs>standard-Contact</tabs>
-    <tabs>standard-Opportunity</tabs>
-    <tabs>standard-report</tabs>
-    <tabs>standard-Dashboard</tabs>
+    <tabs>Bike_Card</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>REM_Console_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
-            <tab>Brokerage__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Realtor__c</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Account</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Contact</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Dashboard</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Opportunity</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-home</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-report</tab>
+            <tab>Bike_Card</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>

@@ -171,6 +171,20 @@
         <label>SFDX Package Lightning Page</label>
     </fieldSets>
     <fields>
+        <fullName>cmcSf__Api_Version__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The api version to be used for the packaging CLI commands. If this is not specified, the default value, i.e. the api version of the Dev Hub, will be used. Specify in the format, e.g. 54.0.
+Note that if Api Version has also been specified in the child Package Version, that value will be used.</inlineHelpText>
+        <label>Api Version</label>
+        <length>5</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>cmcSf__IsOrgDependent__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
@@ -1308,6 +1322,13 @@ The credential where the unmanaged package is created from.</inlineHelpText>
         <searchResultsAdditionalFields>copado__DefaultPath__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>cmcSf__Api_Version_Format</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(ISBLANK(cmcSf__Api_Version__c)) &amp;&amp; NOT(REGEX(cmcSf__Api_Version__c, &quot;^\\d*.0&quot;))</errorConditionFormula>
+        <errorDisplayField>cmcSf__Api_Version__c</errorDisplayField>
+        <errorMessage>The API version specified is not valid. It must be in the format, Number.0</errorMessage>
+    </validationRules>
     <validationRules>
         <fullName>copado__ArtifactNameCannotChange</fullName>
         <active>true</active>

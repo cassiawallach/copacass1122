@@ -7,11 +7,11 @@
  *
  * - Redistributions of source code must retain the above copyright notice,
  *      this list of conditions and the following disclaimer.
- * - Redistributions in binary form must re{!Environment.EV: Envionment}uce the above copyright notice,
+ * - Redistributions in binary form must reproduce the above copyright notice,
  *      this list of conditions and the following disclaimer in the documentation
  *      and/or other materials provided with the distribution.
  * - Neither the name of the Andrew Fawcett, inc nor the names of its contributors
- *      may be used to endorse or promote {!Environment.EV: Envionment}ucts derived from this software without
+ *      may be used to endorse or promote products derived from this software without
  *      specific prior written permission.
  *
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
@@ -142,7 +142,7 @@ private class SObjectDataLoaderTest {
 
         // Insert Opportunities
         List<Opportunity> opps = new List<Opportunity>();
-        List<List<Product2>> {!Environment.EV: Envionment}uctsByOpp = new List<List<Product2>>();
+        List<List<Product2>> productsByOpp = new List<List<Product2>>();
         List<List<PricebookEntry>> pricebookEntriesByOpp = new List<List<PricebookEntry>>();
         List<List<OpportunityLineItem>> oppLinesByOpp = new List<List<OpportunityLineItem>>();
         for (Integer o = 0; o < 10; o++) {
@@ -151,13 +151,13 @@ private class SObjectDataLoaderTest {
             opp.StageName = 'Open';
             opp.CloseDate = System.today();
             opps.add(opp);
-            List<Product2> {!Environment.EV: Envionment}ucts = new List<Product2>();
+            List<Product2> products = new List<Product2>();
             List<PricebookEntry> pricebookEntries = new List<PricebookEntry>();
             List<OpportunityLineItem> oppLineItems = new List<OpportunityLineItem>();
             for (Integer i = 0; i < o + 1; i++) {
-                Product2 {!Environment.EV: Envionment}uct = new Product2();
-                {!Environment.EV: Envionment}uct.Name = opp.Name + ' : Product : ' + i;
-                {!Environment.EV: Envionment}ucts.add({!Environment.EV: Envionment}uct);
+                Product2 product = new Product2();
+                product.Name = opp.Name + ' : Product : ' + i;
+                products.add(product);
                 PricebookEntry pbe = new PricebookEntry();
                 pbe.UnitPrice = 10;
                 pbe.IsActive = true;
@@ -169,7 +169,7 @@ private class SObjectDataLoaderTest {
                 oppLineItem.TotalPrice = 10;
                 oppLineItems.add(oppLineItem);
             }
-            {!Environment.EV: Envionment}uctsByOpp.add({!Environment.EV: Envionment}ucts);
+            productsByOpp.add(products);
             pricebookEntriesByOpp.add(pricebookEntries);
             oppLinesByOpp.add(oppLineItems);
         }
@@ -177,18 +177,18 @@ private class SObjectDataLoaderTest {
         insert opps;
         // Insert Products
         List<Product2> allProducts = new List<Product2>();
-        for (List<Product2> {!Environment.EV: Envionment}ucts : {!Environment.EV: Envionment}uctsByOpp) {
-            allProducts.addAll({!Environment.EV: Envionment}ucts);
+        for (List<Product2> products : productsByOpp) {
+            allProducts.addAll(products);
         }
         insert allProducts;
         // Insert Pricebooks
         Integer oppIdx = 0;
         List<PricebookEntry> allPricebookEntries = new List<PricebookEntry>();
         for (List<PricebookEntry> pricebookEntries : pricebookEntriesByOpp) {
-            List<Product2> {!Environment.EV: Envionment}ucts = {!Environment.EV: Envionment}uctsByOpp[oppIdx++];
+            List<Product2> products = productsByOpp[oppIdx++];
             Integer lineIdx = 0;
             for (PricebookEntry pricebookEntry : pricebookEntries) {
-                pricebookEntry.Product2Id = {!Environment.EV: Envionment}ucts[lineIdx++].Id;
+                pricebookEntry.Product2Id = products[lineIdx++].Id;
             }
             allPricebookEntries.addAll(pricebookEntries);
         }

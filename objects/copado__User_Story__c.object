@@ -180,6 +180,41 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fieldSets>
+        <fullName>VSMCCG1</fullName>
+        <description>Value Stream Map: CopaCass Gen1</description>
+        <displayedFields>
+            <field>copado__User_Story_Title__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>copado__Project__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>copado__Sprint__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>copado__Environment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>copado__Developer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>VSMCCG1</label>
+    </fieldSets>
+    <fieldSets>
         <fullName>cmcSf__Add_Test_Classes</fullName>
         <description>It is used in Add Apex Test Classes page.</description>
         <displayedFields>
@@ -6645,6 +6680,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Regression_Ready__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Regression Ready</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>cmcSf__Apex_Test_Level__c</fullName>
         <deprecated>false</deprecated>
         <description>Test levels in order from least to most restrictive</description>
@@ -6659,6 +6704,20 @@
             <restricted>true</restricted>
             <valueSetName>cmcSf__Apex_Test_Level</valueSetName>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>cmcSnow__User_Story_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>It is a custom field to story record Id . It will be used to send record id to SNOW after records are created in copado from snow</description>
+        <externalId>false</externalId>
+        <label>User Story Id</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>copado__Acceptance_Criteria_Status__c</fullName>
@@ -10765,6 +10824,20 @@ copado__Promote_and_Deploy__c=TRUE
         <errorMessage>A Manual Test Script Run must be completed and passed before promotion.</errorMessage>
     </validationRules>
     <validationRules>
+        <fullName>Restrict_US_Promote_Deploy</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+OR(
+AND(					ISCHANGED(copado__Promote_and_Deploy__c),copado__Promote_and_Deploy__c),
+AND(									ISCHANGED(copado__Promote_Change__c),copado__Promote_Change__c)
+),	
+copado__Environment__r.Validation_Only__c = true,
+not($Permission.Enable_Promote_Deploy=true)
+)</errorConditionFormula>
+        <errorDisplayField>copado__Promote_and_Deploy__c</errorDisplayField>
+        <errorMessage>Access restricted to promote and deploy</errorMessage>
+    </validationRules>
+    <validationRules>
         <fullName>copado__Cancellation_reason_required</fullName>
         <active>false</active>
         <errorConditionFormula>AND(
@@ -10830,6 +10903,19 @@ copado__Environment__c != copado__Org_Credential__r.copado__Environment__c</erro
         <description>If User Story has Progress%, it should be in a valid range of 0 to 100.</description>
         <errorConditionFormula>NOT(ISNULL( copado__Progress__c )) &amp;&amp; (copado__Progress__c &lt; 0 || copado__Progress__c &gt; 1)</errorConditionFormula>
         <errorMessage>Enter a value between 0 to 100 to specify the Progress in percentage.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>regression_tests_must_be_added</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+copado__Environment__r.Name=&quot;UAT&quot;,
+Regression_Ready__c=FALSE,
+OR( 
+copado__Promote_and_Deploy__c=TRUE,
+copado__Promote_Change__c=TRUE)
+)</errorConditionFormula>
+        <errorDisplayField>Regression_Ready__c</errorDisplayField>
+        <errorMessage>Functional tests must be added to broader regression suite before deploying</errorMessage>
     </validationRules>
     <visibility>Public</visibility>
     <webLinks>

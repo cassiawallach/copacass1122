@@ -10,7 +10,7 @@
         "breadcrumbsColor" : "",
         "breadcrumbsFontSize" : "small"
       },
-      "componentName" : "b2b_buyer_builder:{!Environment.EV: Envionment}uctDetailsBreadcrumbs",
+      "componentName" : "b2b_buyer_builder:productDetailsBreadcrumbs",
       "id" : "5a88494b-ef4c-4a0f-a285-08f3ca3834b1",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
@@ -26,7 +26,7 @@
         "imageBorderColor" : "",
         "showImageCarousel" : true
       },
-      "componentName" : "b2b_buyer_builder:{!Environment.EV: Envionment}uctDetailsGallery",
+      "componentName" : "b2b_buyer_builder:productDetailsGallery",
       "id" : "7ed67c7f-9eb9-47a6-b15f-3cd39f369d8f",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
@@ -39,11 +39,11 @@
     "components" : [ {
       "componentAttributes" : {
         "identifierName" : "SKU#",
-        "{!Environment.EV: Envionment}uctDetailSummaryFieldMapping" : "",
+        "productDetailSummaryFieldMapping" : "",
         "titleTextColor" : "",
         "titleTextSize" : "medium"
       },
-      "componentName" : "b2b_buyer_builder:{!Environment.EV: Envionment}uctDetailsHeading",
+      "componentName" : "b2b_buyer_builder:productDetailsHeading",
       "id" : "13bab901-f924-487e-a06b-a2d8c68695a1",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
@@ -82,7 +82,7 @@
         "priceAdjustmentTiersRowTitleTextColor" : "",
         "priceAdjustmentTiersTextColor" : "",
         "priceAdjustmentTiersTitleText" : "Tier Discounts",
-        "{!Environment.EV: Envionment}uctVariantTitle" : "Product options:",
+        "productVariantTitle" : "Product options:",
         "quantitySelectorLabel" : "QTY",
         "showAddToListButton" : true,
         "showGuides" : true,
@@ -94,7 +94,7 @@
         "showProductVariantTitle" : true,
         "unavailablePriceLabel" : "Price Unavailable"
       },
-      "componentName" : "b2b_buyer_builder:{!Environment.EV: Envionment}uctDetailsPurchaseOptions",
+      "componentName" : "b2b_buyer_builder:productDetailsPurchaseOptions",
       "id" : "01e2bd80-313b-4fcd-835f-bb028d0f1781",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
@@ -106,7 +106,7 @@
         "openFilesInNewTab" : true,
         "titleText" : "Resources"
       },
-      "componentName" : "b2b_buyer_builder:{!Environment.EV: Envionment}uctDetailsRelatedFiles",
+      "componentName" : "b2b_buyer_builder:productDetailsRelatedFiles",
       "id" : "e5bd90e7-509f-4bc9-b709-01816acf0b89",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },

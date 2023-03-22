@@ -125,21 +125,30 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Category</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>DiscountOrder</fullName>
-        <inlineHelpText>Select whether to apply discounts to the most expensive or least expensive {!Environment.EV: Envionment}ucts first.</inlineHelpText>
+        <inlineHelpText>Select whether to apply discounts to the most expensive or least expensive products first.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>DiscountRestriction</fullName>
-        <inlineHelpText>Restrict which {!Environment.EV: Envionment}ucts can be discounted.</inlineHelpText>
+        <inlineHelpText>Restrict which products can be discounted.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>DisplayName</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -164,9 +173,19 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Level</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>MaximumUsageCount</fullName>
         <inlineHelpText>Enter the maximum number of times this promotion can apply to a cart. The default value is 1.</inlineHelpText>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Methods</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Name</fullName>
@@ -191,6 +210,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>StartDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>StartDateTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -210,12 +233,20 @@
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Campaign</customTabListAdditionalFields>
+        <customTabListAdditionalFields>StartDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EndDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>CreatedBy</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>Campaign</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>StartDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EndDate</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>CreatedBy</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Campaign</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>StartDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>EndDate</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CreatedBy</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>Campaign</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>StartDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EndDate</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CreatedBy</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>

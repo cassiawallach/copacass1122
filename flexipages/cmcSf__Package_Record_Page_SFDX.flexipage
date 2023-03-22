@@ -196,12 +196,8 @@
         </itemInstances>
         <itemInstances>
             <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>readonly</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.copado__Source_Api_Version__c</fieldItem>
-                <identifier>Recordcopado_Source_Api_Version_cField</identifier>
+                <fieldItem>Record.cmcSf__Api_Version__c</fieldItem>
+                <identifier>RecordApi_Version_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-611b92a8-c365-4091-a611-293684671258</name>

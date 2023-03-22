@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AppMenu xmlns="http://soap.sforce.com/2006/04/metadata">
     <appMenuItems>
+        <name>REM_Console</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>standard__Platform</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -9,7 +13,15 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
+        <name>standard__LightningSalesConsole</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>standard__Service</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__LightningService</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
@@ -42,14 +54,6 @@
     </appMenuItems>
     <appMenuItems>
         <name>standard__LightningSales</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningService</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningSalesConsole</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
@@ -161,10 +165,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>REM_Console</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>Copado_Monitoring_Center</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -262,6 +262,18 @@
     </appMenuItems>
     <appMenuItems>
         <name>Home_Improvement_Console</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>rh2__PS_Rollup_Helper</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>rh2__Rollup_Helper_Lightning</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>SBQQ__QuoteQuickly</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>
