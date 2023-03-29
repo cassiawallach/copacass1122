@@ -19376,6 +19376,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>ProductAttribute.Year__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>ProductTransfer.CanUpdateIsReceived</field>
         <readable>true</readable>

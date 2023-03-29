@@ -37,7 +37,7 @@
         "cardBackgroundColor" : "",
         "cardBorderColor" : "rgba(255, 255, 255, 0)",
         "cardBorderRadius" : "0",
-        "cardContentMapping" : "",
+        "cardContentMapping" : "[{\"name\":\"Name\",\"showLabel\":false,\"label\":\"Product Name\",\"displayName\":\"Product Name\",\"type\":\"STRING\",\"fontSize\":\"medium\",\"fontColor\":\"#333\"},{\"name\":\"Description\",\"showLabel\":false,\"label\":\"Product Description\",\"displayName\":\"Product Description\",\"type\":\"TEXTAREA\",\"fontSize\":\"medium\",\"fontColor\":\"#333\"},{\"name\":\"Description\",\"showLabel\":false,\"label\":\"Product Description\",\"displayName\":\"Product Description\",\"type\":\"TEXTAREA\",\"fontSize\":\"medium\",\"fontColor\":\"#333\"}]",
         "cardDividerColor" : "rgb(221, 219, 218)",
         "gridColumnSpacing" : "small",
         "gridMaxColumnsDisplayed" : "4",

@@ -5,33 +5,41 @@
   "id" : "41b2ea0a-af39-47a6-bd02-f9d1f9dbdeb9",
   "label" : "Home",
   "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : {
-        "bannerBackgroundColor" : "",
-        "bannerPosition" : "top",
-        "bannerSizePercent" : 35,
-        "borderRadius" : 20,
-        "boxShadow" : true,
-        "haveBanner" : false,
-        "iconBackgroundColor" : "rgb(255,255,255)",
-        "iconSize" : "medium",
-        "noImageColor" : "rgb(212, 212, 212)",
-        "overlay" : "rgba(0,0,0,0.01)",
-        "templateType" : "default",
-        "titleColor" : "",
-        "titleFontSize" : "medium",
-        "titleHorizontalAlign" : "center"
-      },
-      "componentName" : "community_navigation:tileMenu",
-      "id" : "098d8fa2-4699-4f39-8ee5-093e24c357b8",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "7f2b98b5-69a9-4af0-9d4a-ec0be98c936e",
     "regionName" : "header",
     "type" : "region"
   }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "allowAttachments" : true,
+        "attachmentLabel" : "Upload File",
+        "buttonAlignment" : "center",
+        "buttonBgColor" : "",
+        "buttonBgHoverColor" : "",
+        "buttonBorderColor" : "",
+        "buttonMaxWidth" : "",
+        "buttonRadius" : 0,
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "",
+        "callToAction" : false,
+        "callToActionButtonText" : "",
+        "callToActionText" : "",
+        "callToActionUrl" : "",
+        "confirmationSubtext" : "We’ll get back to you soon.",
+        "confirmationText" : "Your case was created.",
+        "guestQuickActionName" : "Select or configure a global action",
+        "headerSubtitle" : "Tell us how we can help.",
+        "headerTitle" : "Contact Customer Support",
+        "isMicrobatch" : false,
+        "quickActionName" : "NewCommunityCase",
+        "requestSummaryText" : "Case summary"
+      },
+      "componentName" : "forceCommunity:contactSupportForm",
+      "id" : "015c118e-9352-4505-a2bd-e682a91b8a40",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "4590d404-a60f-4926-ac0c-647fa5342483",
     "regionName" : "content",
     "type" : "region"
