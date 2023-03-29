@@ -11,7 +11,7 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "checkoutFlowName" : "sfdc_checkout__CheckoutTemplate"
+        "checkoutFlowName" : "Checkout_Flow"
       },
       "componentName" : "forceCommunity:checkoutFlow",
       "id" : "bd5f5437-d297-45c8-b63f-19fa1beee0fe",
