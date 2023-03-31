@@ -19582,7 +19582,7 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Prank__c.External_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -19609,7 +19609,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Prankster__c.External_ID__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
