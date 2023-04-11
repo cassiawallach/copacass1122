@@ -1,0 +1,27 @@
+<apex:page showHeader="true" sidebar="true" standardController="Account" extensions="AB4CD.RuntimeExtension" rendered="{!Runtime.renderClue}">
+  <AB4CD:Library id="AccountLIB" />
+  <apex:form rendered="{!Runtime.isRender}">
+    <AB4CD:PageHeader title="Account VFP" subtitle="ABCD Builder" Runtime="{!Runtime}" context="{!Account}" headerFields="Name,Type,Industry,Id" rendered="{!Runtime.specialRender}">
+      <AB4CD:ActionBar rendered="{!Runtime.renderClue}">
+        <apex:commandButton value="Save" action="{!Save}" styleClass="slds-button slds-button--neutral" rendered="{!Runtime.isRender}" />
+        <apex:commandButton value="Cancel" action="{!Cancel}" styleClass="slds-button slds-button--neutral" rendered="{!Runtime.specialRender}" />
+        <apex:commandButton value="Edit" action="{!Edit}" styleClass="slds-button slds-button--neutral" rendered="{!Runtime.renderClue}" />
+        <apex:commandButton value="Delete" action="{!Delete}" styleClass="slds-button slds-button--destructive" rendered="{!Runtime.isRender}" />
+      </AB4CD:ActionBar>
+    </AB4CD:PageHeader>
+    <AB4CD:LookupData ObjectId="{!Account.ParentId}" Runtime="{!Runtime}" Title="Parent Account Detail" showTitle="true" cols="1" inlineEdit="false" FieldsList="Name,AccountSource" rendered="{!Runtime.specialRender}" />
+    <apex:tabPanel switchType="client" styleClass="tabStyleClass" activeTabClass="activeTabClass" inactiveTabClass="inactiveTabClass" headerClass="tabHeaderClass" tabClass="tabClass" contentclass="tabContentClass" rendered="{!Runtime.renderClue}">
+      <apex:tab name="Account Contacts" label="Account Contacts" rendered="{!Runtime.isRender}">
+        <AB4CD:SmartList Object="AccountContactRole" Title="Smart List" Name="Contact Roles" nameField="Contact Roles" ListPageSize="5" editMode="false" Refresh="false" filters="true" MassActions="true" DetailsLink="false" Editable="true" collapsible="true"
+          New="true" PageStats="true" Columns="AccountId,ContactId,Role,IsPrimary" rendered="{!Runtime.specialRender}" />
+      </apex:tab>
+      <apex:tab name="Opportunities" label="Opportunities" rendered="{!Runtime.renderClue}">
+        <AB4CD:SmartList Object="Opportunity" Title="Smart List" Name="Opportunities" nameField="Opportunities" ListPageSize="5" editMode="false" Refresh="false" filters="true" MassActions="true" DetailsLink="false" Editable="true" collapsible="true" New="true"
+          PageStats="true" Columns="AccountId,Amount,StageName,Type" rendered="{!Runtime.isRender}" />
+      </apex:tab>
+    </apex:tabPanel>
+    <AB4CD:GMap Height="300px" rendered="{!Runtime.specialRender}" />
+    <AB4CD:Calendar rendered="{!Runtime.renderClue}" />
+    <AB4CD:FileUploader title="Rich Text" rendered="{!Runtime.isRender}" />
+  </apex:form>
+</apex:page>
