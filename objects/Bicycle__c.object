@@ -181,14 +181,9 @@
                     <label>Motor</label>
                 </value>
                 <value>
-                    <fullName>Dev2Test1</fullName>
+                    <fullName>VALUE2</fullName>
                     <default>false</default>
-                    <label>Dev2Test1</label>
-                </value>
-                <value>
-                    <fullName>Dev2Test2</fullName>
-                    <default>false</default>
-                    <label>Dev2Test2</label>
+                    <label>VALUE2</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
