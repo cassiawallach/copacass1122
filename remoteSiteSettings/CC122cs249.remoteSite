@@ -2,5 +2,5 @@
 <RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
     <disableProtocolSecurity>false</disableProtocolSecurity>
     <isActive>true</isActive>
-    <url>https://copa-cass-11-22--dev1--omnistudio.cs249.visual.force.com</url>
+    <url>https://copa-cass-11-22--{!Environment.EV: Envionment}--omnistudio.cs247.visual.force.com</url>
 </RemoteSiteSetting>
