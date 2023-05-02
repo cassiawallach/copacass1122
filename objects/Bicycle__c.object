@@ -180,6 +180,11 @@
                     <default>false</default>
                     <label>Motor</label>
                 </value>
+                <value>
+                    <fullName>VALUE2</fullName>
+                    <default>false</default>
+                    <label>VALUE2</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -195,7 +200,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Bicycles</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
